@@ -20,7 +20,7 @@ I'm Rohit Ghumare, Student at 👨‍💻 Datta Meghe College of Engineering Pur
 - 💬 Ping Me about #Cloud, #DevOps, #MLOps, #Deep Learning, #Machine Learning, #Data Science, #Computer Vision, #Profile Building #CampusOps and anything you like... I'll try my best to help you.😊❤
 ---
 <!--
-**sakshamtaneja21/rohitg00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**rohitg00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
 
