@@ -9,14 +9,14 @@ I'm Rohit Ghumare, Student at 👨‍💻 Datta Meghe College of Engineering Pur
 - 🤠 Founder at [Trainings&Internships](https://www.linkedin.com/company/31274568/)
 - 🏄‍ Actively contributing to various organisations and Open-Source Projects.
 - 😄 I usually be a part of hackathons as a Mentor, Participants and a Organiser.
-- 🔭 I am currently a LinuxWorldIndia Brand Ambassador, [Co-Learning Lounge Community Contributor **Projects**](https://github.com/colearninglounge/co-learning-lounge), [Crio.do Student Developer](https://criodo.github.io/Crio-Launch-Feb-2020-ghumare64/), Data Science Mentor, Technical AI Writer, Google Developer Groups Member and been a part of many communites and Founder of Big initiaives.
-- 🌱 i love speak at public events and been a speaker at many events. I organise Workshops, Webinars etc to help student Community
+- 🔭 I am currently a LinuxWorldIndia Brand Ambassador, [Co-Learning Lounge Community Contributor **Projects**](https://github.com/colearninglounge/co-learning-lounge), [Crio.do Student Developer](https://criodo.github.io/Crio-Launch-Feb-2020-ghumare64/), Data Science Mentor, Technical AI Writer, Google Developer Groups Member and been a part of many communites and Founder of Big initiatives.
+- 🌱 I love speak at public events and been a speaker at many events. I organise Workshops, Webinars etc to help student Community.
 - 👯 And Many more...
 
 # Hello World!! 🤔
 - 💬 Ask me about anything and everything! 
 - 📫 How to reach me: message me at [Whatsapp](https://wa.me/918286933169)
-- ⚡ Fun fact: I love having new connections, Helping students and professionals for their extravalent doubts, Provides free resources and opportunities to Students and working professionals in need! 
+- ⚡ Fun fact: I love having new connections, Helping students and professionals for their extravalent doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and eating Food! 
 - 💬 Ping Me about #Cloud, #DevOps, #MLOps, #Deep Learning, #Machine Learning, #Data Science, #Computer Vision, #Profile Building #CampusOps and anything you like... I'll try my best to help you.😊❤
 ---
 <!--
