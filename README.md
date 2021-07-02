@@ -19,6 +19,15 @@ I'm Rohit Ghumare, Student at 👨‍💻 Datta Meghe College of Engineering Pur
 - ⚡ Fun fact: I love having new connections, Helping students and professionals for their extravalent doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and eating Food! 
 - 💬 Ping Me about #Cloud, #DevOps, #MLOps, #Deep Learning, #Machine Learning, #Data Science, #Computer Vision, #Profile Building #CampusOps and anything you like... I'll try my best to help you.😊❤
 ---
+
+<p align='center'>
+  <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=rohitg00&show_icons=true&count_private=true&theme=dark" width="350"></a>
+</p>
+
+<p align='center'>
+  Do you like my open source projects? <a href='https://stars.github.com/nominate/'>Nominate me to Github Stars ⭐</a>
+</p>
+
 <!--
 **rohitg00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
