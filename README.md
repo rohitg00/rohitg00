@@ -3,7 +3,7 @@
 [![Gmail Badge](https://img.shields.io/badge/-GMail-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ghumare64@gmail.com)](mailto:ghumare64@gmail.com)
 ---
 ## Hi there 👋,           
-I'm Rohit Ghumare, Student at 👨‍💻 Datta Meghe College of Engineering Pursuing BE-CSE. I am a Data Science Enthusiast, Future Cloud Evangalist☁ and DevOps Specialist and love to integrate all these technologies to create highly-skilled tech product. Automation is a future and I'm contributing to the future by automating ML and DL models to make easy the hard work at jobs of Data Scientist.🙏
+I'm Rohit Ghumare, Software Engineer - Speech at Reverie Language Technologies. Gradudate fromt 👨‍💻 Datta Meghe College of Engineering Pursuing BE-CSE. I am a Data Science Enthusiast, Future Cloud Evangalist☁ and DevOps Specialist and love to integrate all these technologies to create highly-skilled tech product. Automation is a future and I'm contributing to the future by automating ML and DL models to make easy the hard work at jobs of Data Scientist.🙏
 
 ## 🧐 About
 - 🤠 Founder at [Trainings&Internships](https://www.linkedin.com/company/31274568/)
