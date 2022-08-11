@@ -6,7 +6,7 @@
 I'm Rohit Ghumare, Developer Advocate at solo.io, Ex-Software Engineer at Reverie Language Technologies. I am a MLOps & DevOps Community Evangelist, CoudOps☁ Specialist and love to integrate these technologies to create projects and document it. Automation is a future and I'm contributing to the future by MLOps to make jobs of Data Scientist easy.🙏
 
 ## 🧐 About
-- 🤠 Developer Advocate 🥑 at solo.io, Founder at [Trainings&Internships](https://www.linkedin.com/company/31274568/)
+- 🤠 Developer Advocate 🥑 at [solo.io](https://solo.io), Founder at [Trainings&Internships](https://www.linkedin.com/company/31274568/)
 - 🏄‍ Actively contributing to various organisations and Open-Source Projects.
 - 😄 I usually be a part of hackathons as a Mentor, Participants and a Organiser.
 - 🔭 I previously experienced some challenging positions i.e. DevOps Cloud Engineeer @H-Bots Robotics Pvt Ltd., LinuxWorldIndia Dev advcoate, [Crio.do Student Developer](https://criodo.github.io/Crio-Launch-Feb-2020-ghumare64/), Data Science Mentor, Technical AI Writer.
