@@ -3,7 +3,7 @@
 [![Gmail Badge](https://img.shields.io/badge/-GMail-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ghumare64@gmail.com)](mailto:ghumare64@gmail.com)
 ---
 ## Hi there 👋,           
-I'm Rohit Ghumare, Developer Advocate at solo.io, Ex-Software Engineer at Reverie Language Technologies. I am a MLOps & DevOps Community Evangelist, CoudOps☁ Specialist and love to integrate these technologies to create projects and document it. Automation is a future and I'm contributing to the future by MLOps to make jobs of Data Scientist easy.🙏
+I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Community Evangelist, CoudOps☁ Specialist.
 
 ## 🧐 About
 - 🤠 Developer Advocate 🥑 at [solo.io](https://solo.io), Founder at [Trainings&Internships](https://www.linkedin.com/company/31274568/)
