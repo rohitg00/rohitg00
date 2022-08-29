@@ -21,8 +21,9 @@ I'm Rohit Ghumare, Developer Advocate at solo.io, Ex-Software Engineer at Reveri
 ---
 
 <h2>Latest Tweets</h2>
-<p align='center'><a href="https://twitter.com/rohitg00"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=ghumare64&layout=wide" alt="github-readme-twitter"></a></p>
+<p align='center'><a href="https://twitter.com/ghumare64"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=ghumare64&layout=wide" alt="github-readme-twitter"></a></p>
 
+<h2>Github Stats</h2>
 <p align='center'>
   <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=rohitg00&show_icons=true&count_private=true&theme=dark" width="350"></a>
 </p>
