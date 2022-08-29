@@ -21,7 +21,7 @@ I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Communit
 ---
 
 <h2>Latest Tweets 🧵</h2>
-<p align='center'><a href="https://twitter.com/ghumare64"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=ghumare64&layout=wide" alt="github-readme-twitter"></a></p>
+<p align='center'><a href="https://twitter.com/ghumare64"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=ghumare64&layout=wide" width="350"  alt="github-readme-twitter"></a></p>
 
 <h2>Github Stats 🐙🐱</h2>
 <p align='center'>
