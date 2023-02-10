@@ -11,10 +11,9 @@
 I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Community Evangelist, CoudOps☁ Specialist.
 
 ## 🧐 About
-- 🤠 Developer Advocate 🥑 at [solo.io](https://solo.io), Founder at [Trainings&Internships](https://www.linkedin.com/company/31274568/)
+- 🤠 Developer Advocate 🥑 at [solo.io](https://solo.io), Founder at [DevOps Community](https://devopscommunity.in)
 - 🏄‍ Actively contributing to various organisations and Open-Source Projects.
-- 😄 I usually be a part of hackathons as a Mentor, Participants and a Organiser.
-- 🔭 I previously experienced some challenging positions i.e. DevOps Cloud Engineeer @H-Bots Robotics Pvt Ltd., LinuxWorldIndia Dev advcoate, [Crio.do Student Developer](https://criodo.github.io/Crio-Launch-Feb-2020-ghumare64/), Data Science Mentor, Technical AI Writer.
+- 😄 I usually be a part of hackathons as a Mentor, Judge and a Organiser.
 - 🌱 I love speak at public events and been a speaker at many events. I organise Workshops, Webinars etc to help student Community.
 - 👯 And Many more...
 
