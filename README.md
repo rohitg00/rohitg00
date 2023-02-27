@@ -17,7 +17,7 @@ I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Communit
 - 🌱 I love to speak at public events and been a speaker at many events. I organise Workshops, Webinars etc to help student Community.
 - 👯 And Many more...
 
-# How much I spend for Community (Per/Month in USD)
+# 🙇🏻 How much I spend for Community (Per/Month in USD)
 
 | Description          | Paid (Per/Month) |
 |----------------------|------------------|
@@ -27,7 +27,7 @@ I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Communit
 | Streamyard           | 26               |
 | Total                | 75               |
 
-# Help me build community of millions to educate them at free of cost.
+# 🤝 Help me build community of millions to educate them at free of cost.
 ### Please sponsor for the support cause  [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/rohitg00)
 
 # Hello World!! 🤔
