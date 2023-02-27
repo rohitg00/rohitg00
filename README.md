@@ -28,7 +28,7 @@ I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Communit
 | Total                | 75               |
 
 # Help me build community of millions to educate them at free of cost.
-Please sponsor for the support cause [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/rohitg00)
+## Please sponsor for the support cause  [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/rohitg00)
 
 # Hello World!! 🤔
 - 💬 Ask me about anything and everything! 
