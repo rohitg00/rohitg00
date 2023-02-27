@@ -11,11 +11,21 @@
 I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Community Evangelist, CoudOps☁ Specialist.
 
 ## 🧐 About
-- 🤠 Developer Advocate 🥑 at [solo.io](https://solo.io), Founder at [DevOps Community](https://devopscommunity.in)
+- 🤠 Platform Advocate 🥑 at [solo.io](https://solo.io), Founder at [DevOps Community](https://devopscommunity.in)
 - 🏄‍ Actively contributing to various organisations and Open-Source Projects.
 - 😄 I usually be a part of hackathons as a Mentor, Judge and a Organiser.
-- 🌱 I love speak at public events and been a speaker at many events. I organise Workshops, Webinars etc to help student Community.
+- 🌱 I love to speak at public events and been a speaker at many events. I organise Workshops, Webinars etc to help student Community.
 - 👯 And Many more...
+
+# How much I spend for Community (Per/Month in USD)
+
+| Description          | Paid (Per/Month) |
+|----------------------|------------------|
+| Domains              | 9                |
+| Website hosting      | 40               |
+| Sponsorship Received | 0                |
+| Streamyard           | 26               |
+| Total                | 75               |
 
 # Hello World!! 🤔
 - 💬 Ask me about anything and everything! 
