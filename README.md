@@ -8,7 +8,6 @@
 [![Gmail Badge](https://img.shields.io/badge/-GMail-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ghumare64@gmail.com)](mailto:ghumare64@gmail.com)
 ---
 ## Hi there 👋,           
-I'm Rohit Ghumare, Developer Advocate at solo.io. I am a MLOps & DevOps Community Evangelist, CoudOps☁ Specialist.
 
 ## 🧐 About
 - 🤠 Platform Advocate 🥑 at [solo.io](https://solo.io), Founder at [DevOps Community](https://devopscommunity.in)
