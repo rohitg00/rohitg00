@@ -10,10 +10,10 @@
 ## Hi there 👋,           
 
 ## 🧐 About
-- 🤠 Platform Advocate 🥑 at [solo.io](https://solo.io), Founder at [DevOps Community](https://devopscommunity.in)
-- 🏄‍ Actively contributing to various organisations and Open-Source Projects.
-- 😄 I usually be a part of hackathons as a Mentor, Judge and a Organiser.
-- 🌱 I love to speak at public events and been a speaker at many events. I organise Workshops, Webinars etc to help student Community.
+- 🤠 Developer Advocate 🥑, Google Developer Expert - Google Cloud, Founder at [DevOps Community](https://devopscommunity.in)
+- 🏄‍ Actively contributing to various organizations and open-source projects.
+- 😄 I usually participate in hackathons as a Mentor, Judge, and Organiser.
+- 🌱 I love to speak at public events and have been a speaker at many events. I organize Workshops, Webinars, etc, to help the Community.
 - 👯 And Many more...
 
 # 🙇🏻 How much I spend for Community (Per/Month in USD)
@@ -26,7 +26,7 @@
 | Streamyard           | 26               |
 | Total                | 75               |
 
-# 🤝 Help me build community of millions to educate them at free of cost.
+# 🤝 Help me build a community of millions to educate them free of cost.
 ### Please sponsor for the support cause  [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/rohitg00)
 
 # Hello World!! 🤔
@@ -44,7 +44,7 @@
 </p>
 
 <p align='center'>
-  Do you like my open source projects? <a href='https://stars.github.com/nominate/'>Nominate me to Github Stars ⭐</a>
+  Do you like my open-source projects? <a href='https://stars.github.com/nominate/'>Nominate me to GitHub Stars ⭐</a>
 </p>
 
 <!--
