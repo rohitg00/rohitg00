@@ -10,10 +10,10 @@
 ## Hi there 👋,           
 
 ## 🧐 About
-- 🤠 Developer Advocate 🥑, Google Developer Expert - Google Cloud, Founder at [DevOps Community](https://devopscommunity.in)
+- 🤠 Developer Advocate 🥑 [@cerbos](cerbos.dev), Google Developer Expert - Google Cloud, Founder at [DevOps Community](https://devopscommunity.in)
 - 🏄‍ Actively contributing to various organizations and open-source projects.
 - 😄 I usually participate in hackathons as a Mentor, Judge, and Organiser.
-- 🌱 I love to speak at public events and have been a speaker at many events. I organize Workshops, Webinars, etc, to help the Community.
+- 🌱 I love to speak at public events and have been a speaker at many International Conferences. I organize Workshops, Webinars, etc, to help the Community.
 - 👯 And Many more...
 
 # 🙇🏻 How much I spend for Community (Per/Month in USD)
@@ -21,6 +21,7 @@
 | Description          | Paid (Per/Month) |
 |----------------------|------------------|
 | Domains              | 9                |
+| ChatGPT              | 23               |
 | Website hosting      | 40               |
 | Sponsorship Received | 0                |
 | Streamyard           | 26               |
@@ -32,8 +33,7 @@
 # Hello World!! 🤔
 - 💬 Ask me about anything and everything! 
 - 📫 How to reach me: message me at [Whatsapp](https://wa.me/918286933169)
-- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> Fun fact: I love having new connections, Helping students and professionals for their extravalent doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and eating Food! 
-- 💬 Ping Me about #Cloud, #DevOps, #MLOps, #Deep Learning, #Machine Learning, #Data Science, #Computer Vision, #Profile Building #CampusOps and anything you like... I'll try my best to help you.😊❤
+- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> Fun fact: I love having new connections, Helping students and professionals with their extravagant doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and to eat Food!
 ---
 
 <h2>Github Stats 🐙🐱</h2>
