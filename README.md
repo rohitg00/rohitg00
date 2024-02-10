@@ -15,6 +15,8 @@
 - 😄 I usually participate in hackathons as a Mentor, Judge, and Organiser.
 - 🌱 I love to speak at public events and have been a speaker at many International Conferences. I organize Workshops, Webinars, etc, to help the Community.
 - 👯 And Many more...
+- 
+<a href="https://app.daily.dev/ghumare64"><img src="https://api.daily.dev/devcards/219c6000ac524b478f609e0f429d4c56.png?r=y2z" width="400" alt="ROHIT GHUMARE's Dev Card"/></a>
 
 # 🙇🏻 How much I spend for Community (Per/Month in USD)
 
