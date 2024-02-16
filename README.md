@@ -37,7 +37,7 @@
 - 📫 How to reach me: message me at [Whatsapp](https://wa.me/918286933169)
 - <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Fun fact: I love having new connections, Helping students and professionals with their extravagant doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and to eat Food!
 ---
-- Share this profile with your friends to help them access awesome free learning resources.. <img src="https://aniwatch.to/images/share-icon.gif" align="right" width="100">
+- Share this profile with your friends to help them access awesome free learning resources.. <img src="https://aniwatch.to/images/share-icon.gif" width="100">
 
 
 <h2>Github Stats 🐙🐱</h2>
