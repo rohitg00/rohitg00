@@ -35,9 +35,9 @@
 # Hello World!! 🤔
 - 💬 Ask me about anything and everything! 
 - 📫 How to reach me: message me at [Whatsapp](https://wa.me/918286933169)
-- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> Fun fact: I love having new connections, Helping students and professionals with their extravagant doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and to eat Food!
+- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="20"> Fun fact: I love having new connections, Helping students and professionals with their extravagant doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and to eat Food!
 ---
-
+- <img src="https://aniwatch.to/images/share-icon.gif" align="centre">
 <h2>Github Stats 🐙🐱</h2>
 <p align='center'>
   <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=rohitg00&show_icons=true&count_private=true&theme=dark" width="350"></a>
