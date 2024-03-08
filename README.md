@@ -19,7 +19,6 @@
 <a href="https://app.daily.dev/ghumare64"><img src="https://api.daily.dev/devcards/v2/fv3fmC7qRlPTHzFCRti3i.png?type=default&r=h21" align="right" width="400" alt="ROHIT GHUMARE's Dev Card"/></a>
 
 # 🙇🏻 How much I spend for Community (Per Month in USD)
-
 | Description          | Paid (Per Month) |
 |----------------------|------------------|
 | Domains              | 9                |
