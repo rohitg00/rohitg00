@@ -20,12 +20,12 @@
 # 🙇🏻 How much I spend for Community (Per Month in USD)
 | Description          | Paid (Per Month) |
 |----------------------|------------------|
-| Domains              | 9                |
-| ChatGPT              | 23               |
+| Domains              | 40               |
+| AI Apps              | 60               |
 | Website hosting      | 40               |
 | Sponsorship Received | 0                |
 | Streamyard           | 26               |
-| Total                | 75               |
+| Total                | 166              |
 
 # 🤝 Help me build a community of millions to educate them free of cost.
 ### Please sponsor for the support cause  [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/rohitg00)
