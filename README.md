@@ -28,13 +28,6 @@
 # 🤝 Help me build a community of millions to educate them free of cost.
 ### Please sponsor for the support cause  [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/rohitg00)
 
-# Hello World!! 🤔
-- 💬 Ask me about anything and everything! 
-- 📫 How to reach me: message me at [Whatsapp](https://wa.me/918286933169)
-- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Fun fact: I love having new connections, Helping students and professionals with their extravagant doubts, Provides free resources and opportunities to Students and working professionals in need, and also I love to Travel and to eat Food!
-- <img src="https://aniwatch.to/images/share-icon.gif" width="40" > Share this profile with your friends to help them access awesome free learning resources
----
-
 
 <h2>Github Stats 🐙🐱</h2>
 <p align='center'>
