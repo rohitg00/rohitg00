@@ -26,8 +26,12 @@
 | Total                | 360              |
 
 # 🤝 Help me build a community of millions to educate them free of cost.
-### Please sponsor for the support cause  [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/rohitg00)
 
+<p align="center">
+  <a href="https://github.com/sponsors/rohitg00">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?logo=github&style=for-the-badge" alt="Sponsor rohitg00" />
+  </a>
+</p>
 
 <h2>Github Stats 🐙🐱</h2>
 <p align='center'>
