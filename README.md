@@ -5,10 +5,8 @@
 [![Medium Badge](https://img.shields.io/badge/-@ghumare64-03a57a?style=social&labelColor=black&logo=Medium&link=https://medium.com/@ghumare64/)](https://medium.com/@ghumare64/)
 [![Gmail Badge](https://img.shields.io/badge/-GMail-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ghumare64@gmail.com)](mailto:ghumare64@gmail.com)
 ---
-## Hi there 👋,           
-
-## 🧐 About
-- 🤠 Founder [CreateMVP](https://createmvps.app) 🥑 [DevRel As Service](https://devrelasservice.com), Google Developer Expert - Google Cloud, Founder at [DevOps Community](https://devopscommunity.in)
+## Hi there 👋,
+- 🤠 Founder [CreateMVP](https://createmvps.app) 🥑 [DevRel As Service](https://devrelasservice.com), Head of DevRel & Maintainer of [Motia](https://github.com/motiadev/motia), 100K+ [DevOps Community](https://devopscommunity.in)
 
 # 🤝 Help me build a community of millions to educate them free of cost.
 
