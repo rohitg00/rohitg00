@@ -9,21 +9,6 @@
 
 ## 🧐 About
 - 🤠 Founder [CreateMVP](https://createmvps.app) 🥑 [DevRel As Service](https://devrelasservice.com), Google Developer Expert - Google Cloud, Founder at [DevOps Community](https://devopscommunity.in)
-- 🏄‍ Actively contributing to various organizations and open-source projects.
-- 😄 I usually participate in hackathons as a Mentor, Judge, and Organiser.
-- 🌱 I love to speak at public events and have been a speaker at many International Conferences. I organize Workshops, Webinars, etc, to help the Community.
-- 👯 And Many more...
-
-
-# 🙇🏻 How much I spend for Community (Per Month in USD)
-| Description          | Paid (Per Month) |
-|----------------------|------------------|
-| Domains              | 160              |
-| AI Apps              | 120              |
-| Website hosting      | 40               |
-| Sponsorship Received | 0                |
-| recording            | 40               |
-| Total                | 360              |
 
 # 🤝 Help me build a community of millions to educate them free of cost.
 
