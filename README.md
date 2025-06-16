@@ -16,13 +16,6 @@
   </a>
 </p>
 
-<h2>Github Stats 🐙🐱</h2>
-<p align='center'>
-  <a href="#"><img src="https://github-readme-stats.vercel.app/api?username=rohitg00&show_icons=true&count_private=true&theme=dark" width="350"></a>
-<!--   <img src="https://codestats-readme.vercel.app/api?username=ghumare64&show_icons&theme=nightowl" alt="ghumare64's code::stats stats">
- -->
-</p>
-
 <p align='center'>
   Do you like my open-source projects? <a href='https://stars.github.com/nominate/'>Nominate me to GitHub Stars ⭐</a>
 </p>
