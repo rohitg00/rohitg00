@@ -1,6 +1,5 @@
 # Rohit Ghumare
 [![Twitter: ghumare64](https://img.shields.io/twitter/follow/ghumare64?style=social)](https://twitter.com/ghumare64)
-![GitHub followers](https://img.shields.io/github/followers/rohitg00?label=Follow&style=social)
 [![Linkedin: rohit-ghumare](https://img.shields.io/badge/-rohitghumare-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rohit-ghumare/)](https://www.linkedin.com/in/rohit-ghumare/) 
 [![Medium Badge](https://img.shields.io/badge/-@ghumare64-03a57a?style=social&labelColor=black&logo=Medium&link=https://medium.com/@ghumare64/)](https://medium.com/@ghumare64/)
 [![Gmail Badge](https://img.shields.io/badge/-GMail-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ghumare64@gmail.com)](mailto:ghumare64@gmail.com)
