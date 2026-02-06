@@ -1,27 +1,35 @@
-# Rohit Ghumare
-[![Twitter: ghumare64](https://img.shields.io/twitter/follow/ghumare64?style=social)](https://twitter.com/ghumare64)
-[![LinkedIn: rohit-ghumare](https://img.shields.io/badge/Follow%20on-LinkedIn-blue?logo=linkedin&style=social)](https://www.linkedin.com/in/rohit-ghumare/)
-[![Medium Badge](https://img.shields.io/badge/-@ghumare64-03a57a?style=social&labelColor=black&logo=Medium&link=https://medium.com/@ghumare64/)](https://medium.com/@ghumare64/)
-[![Gmail Badge](https://img.shields.io/badge/-GMail-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ghumare64@gmail.com)](mailto:ghumare64@gmail.com)
----
-## Hi there 👋,
-- 🤠 Founder [CreateMVP](https://createmvps.app) 🥑 [DevRel As Service](https://devrelasservice.com), Head of DevRel & Maintainer of [Motia](https://github.com/motiadev/motia), 100K+ [DevOps Community](https://devopscommunity.in)
+# Hi, I'm Rohit 👋
 
-# 🤝 Help me build a community of millions to educate them free of cost.
+[![Twitter](https://img.shields.io/twitter/follow/ghumare64?style=social)](https://twitter.com/ghumare64) [![LinkedIn](https://img.shields.io/badge/-rohit--ghumare-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-ghumare/) [![Medium](https://img.shields.io/badge/-@ghumare64-000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@ghumare64/) [![Email](https://img.shields.io/badge/-ghumare64@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ghumare64@gmail.com)
 
-<p align="center">
-  <a href="https://github.com/sponsors/rohitg00">
-    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?logo=github&style=for-the-badge" alt="Sponsor rohitg00" />
-  </a>
-</p>
+📍 London, UK | 🥑 DevRel & Product Evangelist | ☸️ CNCF Ambassador | 🐳 Docker Captain | ☁️ GDE Google Cloud
 
-<p align='center'>
-  Do you like my open-source projects? <a href='https://stars.github.com/nominate/'>Nominate me to GitHub Stars ⭐</a>
-</p>
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![MCP](https://img.shields.io/badge/-MCP-6B4FBB?style=flat-square) ![Claude](https://img.shields.io/badge/-Claude-D4A574?style=flat-square&logo=anthropic&logoColor=white) ![DevOps](https://img.shields.io/badge/-DevOps-0A0A0A?style=flat-square)
 
-<!--
-**rohitg00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & Maintainer at [Motia](https://github.com/motiadev/motia). Founder of [CreateMVP](https://createmvps.app) and [DevRel as Service](https://devrelasservice.com).
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=rohitg00&theme=tokyonight)](https://git.io/streak-stats)
+🌐 [learndevrel.com](https://learndevrel.com) - DevRel education platform with guides, frameworks, and blog posts.
 
--->
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rohitg00) [![Nominate to GitHub Stars](https://img.shields.io/badge/Nominate_to_GitHub_Stars-⭐-yellow?style=flat-square)](https://stars.github.com/nominate/)
+
+## 🔗 Current Projects
+
+- ☸️ [kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server) - MCP server for Kubernetes with 270+ tools, 8 interactive UI dashboards
+- 🧰 [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) - Curated list of DevOps-focused MCP servers
+- 🤖 [awesome-ai-apps](https://github.com/rohitg00/awesome-ai-apps) - Curated collection of AI agents & LLM apps across multiple frameworks
+- ⚡ [CreateMVP](https://github.com/rohitg00/CreateMVP) - Create MVPs with AI in seconds
+- 🔌 [skillkit](https://github.com/rohitg00/skillkit) - Universal CLI for AI agent skills across 32 coding agents ([agenstskills.com](https://agenstskills.com))
+- 🧪 [pro-workflow](https://github.com/rohitg00/pro-workflow) - Battle-tested Claude Code workflows: self-correcting memory, parallel worktrees, wrap-up rituals
+- 🛠️ [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - 135 agents, 120 plugins, 35 skills, 42 commands for Claude Code
+- 🎬 [manim-video-generator](https://github.com/rohitg00/manim-video-generator) - Generate math animations from natural language using GPT + Manim
+- 📁 [s3-file-share-for-free](https://github.com/rohitg00/s3-file-share-for-free) - Share files via any cloud storage with a clean UI
+- 🕐 [time-traveller](https://github.com/rohitg00/time-traveller) - Experience any location across time with AI-powered visualization
+- 🥑 [devrelguide](https://github.com/rohitg00/devrelguide) - learndevrel.com - DevRel education platform
+
+## 📚 Community Resources
+
+- 📋 [devops-interview-questions](https://github.com/rohitg00/devops-interview-questions) - Central hub for DevOps interview questions (1.7K+ stars)
+- 📖 [DevOps_Books](https://github.com/rohitg00/DevOps_Books) - Open-source DevOps book collection (1.6K+ stars)
+- 👥 [DevOpsCommunity](https://github.com/rohitg00/DevOpsCommunity) - 100K+ member DevOps/SRE learning community
+- 📄 [one_pager_resume_template](https://github.com/rohitg00/one_pager_resume_template) - LaTeX resume template for software engineers
+- ✍️ [technical-writing-websites](https://github.com/rohitg00/technical-writing-websites) - Paid technical writing opportunities
