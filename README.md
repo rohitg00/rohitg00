@@ -14,13 +14,13 @@ Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & 
 
 ## 🔗 Current Projects
 
-- 💬 [openclawd](https://github.com/rohitg00/openclawd) - Desktop chat app with 20+ LLM providers and MCP integrations
+- 💬 [openclawd](https://github.com/rohitg00/openclawd) - Desktop chat app with 20+ LLM providers and MCP integrations ([openclawd.sh](https://openclawd.sh)
 - 🧪 [pro-workflow](https://github.com/rohitg00/pro-workflow) - Battle-tested Claude Code workflows: self-correcting memory, parallel worktrees, wrap-up rituals
 - 🔌 [skillkit](https://github.com/rohitg00/skillkit) - Universal CLI for AI agent skills across 32 coding agents ([agenstskills.com](https://agenstskills.com))
 - 🛠️ [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - 135 agents, 120 plugins, 35 skills, 42 commands for Claude Code
-- 🥑 [devrelguide](https://github.com/rohitg00/devrelguide) - learndevrel.com - DevRel education platform
+- 🥑 [devrelguide](https://github.com/rohitg00/devrelguide) - DevRel education platform ([learndevrel.com](https://learndevrel.com))
 - ☸️ [kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server) - MCP server for Kubernetes with 270+ tools, 8 interactive UI dashboards
-- 🎬 [manim-video-generator](https://github.com/rohitg00/manim-video-generator) - Generate math animations from natural language using GPT + Manim
+- 🎬 [manim-video-generator](https://github.com/rohitg00/manim-video-generator) - Generate math animations from natural language using GPT + Manim ([text2video.dev](text2video.dev))
 - 🕐 [time-traveller](https://github.com/rohitg00/time-traveller) - Experience any location across time with AI-powered visualization
 - 🧰 [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) - Curated list of DevOps-focused MCP servers
 - 🤖 [awesome-ai-apps](https://github.com/rohitg00/awesome-ai-apps) - Curated collection of AI agents & LLM apps across multiple frameworks
