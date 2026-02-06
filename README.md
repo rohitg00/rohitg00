@@ -14,7 +14,7 @@ Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & 
 
 ## 🔗 Current Projects
 
-- 💬 [openclawd](https://github.com/rohitg00/openclawd) - Desktop chat app with 20+ LLM providers and MCP integrations ([openclawd.sh](https://openclawd.sh)
+- 💬 [openclawd](https://github.com/rohitg00/openclawd) - Desktop chat app with 20+ LLM providers and MCP integrations ([openclawd.sh](https://openclawd.sh))
 - 🧪 [pro-workflow](https://github.com/rohitg00/pro-workflow) - Battle-tested Claude Code workflows: self-correcting memory, parallel worktrees, wrap-up rituals
 - 🔌 [skillkit](https://github.com/rohitg00/skillkit) - Universal CLI for AI agent skills across 32 coding agents ([agenstskills.com](https://agenstskills.com))
 - 🛠️ [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - 135 agents, 120 plugins, 35 skills, 42 commands for Claude Code
