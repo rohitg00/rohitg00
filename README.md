@@ -14,26 +14,26 @@ Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & 
 
 ## 🔗 Current Projects
 
+- 💬 [openclawd](https://github.com/rohitg00/openclawd) - Desktop chat app with 20+ LLM providers and MCP integrations
+- 🧪 [pro-workflow](https://github.com/rohitg00/pro-workflow) - Battle-tested Claude Code workflows: self-correcting memory, parallel worktrees, wrap-up rituals
+- 🔌 [skillkit](https://github.com/rohitg00/skillkit) - Universal CLI for AI agent skills across 32 coding agents ([agenstskills.com](https://agenstskills.com))
+- 🛠️ [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - 135 agents, 120 plugins, 35 skills, 42 commands for Claude Code
+- 🥑 [devrelguide](https://github.com/rohitg00/devrelguide) - learndevrel.com - DevRel education platform
 - ☸️ [kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server) - MCP server for Kubernetes with 270+ tools, 8 interactive UI dashboards
+- 🎬 [manim-video-generator](https://github.com/rohitg00/manim-video-generator) - Generate math animations from natural language using GPT + Manim
+- 🕐 [time-traveller](https://github.com/rohitg00/time-traveller) - Experience any location across time with AI-powered visualization
 - 🧰 [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) - Curated list of DevOps-focused MCP servers
 - 🤖 [awesome-ai-apps](https://github.com/rohitg00/awesome-ai-apps) - Curated collection of AI agents & LLM apps across multiple frameworks
 - ⚡ [CreateMVP](https://github.com/rohitg00/CreateMVP) - Create MVPs with AI in seconds
-- 🔌 [skillkit](https://github.com/rohitg00/skillkit) - Universal CLI for AI agent skills across 32 coding agents ([agenstskills.com](https://agenstskills.com))
-- 🧪 [pro-workflow](https://github.com/rohitg00/pro-workflow) - Battle-tested Claude Code workflows: self-correcting memory, parallel worktrees, wrap-up rituals
-- 🛠️ [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - 135 agents, 120 plugins, 35 skills, 42 commands for Claude Code
-- 🎬 [manim-video-generator](https://github.com/rohitg00/manim-video-generator) - Generate math animations from natural language using GPT + Manim
 - 📁 [s3-file-share-for-free](https://github.com/rohitg00/s3-file-share-for-free) - Share files via any cloud storage with a clean UI
-- 🕐 [time-traveller](https://github.com/rohitg00/time-traveller) - Experience any location across time with AI-powered visualization
-- 🥑 [devrelguide](https://github.com/rohitg00/devrelguide) - learndevrel.com - DevRel education platform
 - 🤖 [awesome-ai-agents](https://github.com/rohitg00/awesome-ai-agents) - Awesome resources to learn and use AI agents
-- 💬 [openclawd](https://github.com/rohitg00/openclawd) - Desktop chat app with 20+ LLM providers and MCP integrations
-- 🖥️ [ai_computer_use](https://github.com/rohitg00/ai_computer_use) - Claude-powered control for Mac and iOS devices via Anthropic API
-- 🎨 [ai-design-team](https://github.com/rohitg00/ai-design-team) - AI design team using Gemini Flash 2.0 multimodal AI
-- 🍳 [ai-food-recipe-assistant](https://github.com/rohitg00/ai-food-recipe-assistant) - AI-powered recipe generator with images using FastAPI + GPT
-- 🐦 [devops-twitter-bot](https://github.com/rohitg00/devops-twitter-bot) - Twitter bot for DevOps Community
-- 🖼️ [host-your-gif](https://github.com/rohitg00/host-your-gif) - Secure GIF hosting platform with privacy controls
 - 🔴 [redis-valkey-oss](https://github.com/rohitg00/redis-valkey-oss) - Performance benchmarking between Valkey and Redis OSS
+- 🎨 [ai-design-team](https://github.com/rohitg00/ai-design-team) - AI design team using Gemini Flash 2.0 multimodal AI
 - 🔤 [threetechwords](https://github.com/rohitg00/threetechwords) - Three tech words game
+- 🖼️ [host-your-gif](https://github.com/rohitg00/host-your-gif) - Secure GIF hosting platform with privacy controls
+- 🍳 [ai-food-recipe-assistant](https://github.com/rohitg00/ai-food-recipe-assistant) - AI-powered recipe generator with images using FastAPI + GPT
+- 🖥️ [ai_computer_use](https://github.com/rohitg00/ai_computer_use) - Claude-powered control for Mac and iOS devices via Anthropic API
+- 🐦 [devops-twitter-bot](https://github.com/rohitg00/devops-twitter-bot) - Twitter bot for DevOps Community
 
 ## 📚 Community Resources
 
