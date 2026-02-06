@@ -25,6 +25,15 @@ Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & 
 - 📁 [s3-file-share-for-free](https://github.com/rohitg00/s3-file-share-for-free) - Share files via any cloud storage with a clean UI
 - 🕐 [time-traveller](https://github.com/rohitg00/time-traveller) - Experience any location across time with AI-powered visualization
 - 🥑 [devrelguide](https://github.com/rohitg00/devrelguide) - learndevrel.com - DevRel education platform
+- 🤖 [awesome-ai-agents](https://github.com/rohitg00/awesome-ai-agents) - Awesome resources to learn and use AI agents
+- 💬 [openclawd](https://github.com/rohitg00/openclawd) - Desktop chat app with 20+ LLM providers and MCP integrations
+- 🖥️ [ai_computer_use](https://github.com/rohitg00/ai_computer_use) - Claude-powered control for Mac and iOS devices via Anthropic API
+- 🎨 [ai-design-team](https://github.com/rohitg00/ai-design-team) - AI design team using Gemini Flash 2.0 multimodal AI
+- 🍳 [ai-food-recipe-assistant](https://github.com/rohitg00/ai-food-recipe-assistant) - AI-powered recipe generator with images using FastAPI + GPT
+- 🐦 [devops-twitter-bot](https://github.com/rohitg00/devops-twitter-bot) - Twitter bot for DevOps Community
+- 🖼️ [host-your-gif](https://github.com/rohitg00/host-your-gif) - Secure GIF hosting platform with privacy controls
+- 🔴 [redis-valkey-oss](https://github.com/rohitg00/redis-valkey-oss) - Performance benchmarking between Valkey and Redis OSS
+- 🔤 [threetechwords](https://github.com/rohitg00/threetechwords) - Three tech words game
 
 ## 📚 Community Resources
 
@@ -32,4 +41,15 @@ Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & 
 - 📖 [DevOps_Books](https://github.com/rohitg00/DevOps_Books) - Open-source DevOps book collection (1.6K+ stars)
 - 👥 [DevOpsCommunity](https://github.com/rohitg00/DevOpsCommunity) - 100K+ member DevOps/SRE learning community
 - 📄 [one_pager_resume_template](https://github.com/rohitg00/one_pager_resume_template) - LaTeX resume template for software engineers
-- ✍️ [technical-writing-websites](https://github.com/rohitg00/technical-writing-websites) - Paid technical writing opportunities
+- 📝 [devrel-whitepaper](https://github.com/rohitg00/devrel-whitepaper) - Developer Relations: Bridging the Gap Between Developers and Business
+- 👥 [devreler](https://github.com/rohitg00/devreler) - DevRel community resources
+
+## ☸️ DevOps & Infrastructure
+
+- 🏗️ [EKS-Code](https://github.com/rohitg00/EKS-Code) - Amazon EKS infrastructure as code
+- 🌍 [Terraform-Build-AWS](https://github.com/rohitg00/Terraform-Build-AWS) - Terraform automation for AWS Cloud services
+- 🐳 [jenkube](https://github.com/rohitg00/jenkube) - Jenkins on Kubernetes
+- 📦 [ecs-cluster](https://github.com/rohitg00/ecs-cluster) - AWS ECS cluster setup
+- ☁️ [eks-efs-demo](https://github.com/rohitg00/eks-efs-demo) - EKS with EFS integration demo
+- 🤖 [rasa-x-infra-terraform](https://github.com/rohitg00/rasa-x-infra-terraform) - One-click RASA X deployment on AWS with Terraform
+- 🔐 [fastapi-cerbos](https://github.com/rohitg00/fastapi-cerbos) - FastAPI with Cerbos authorization
