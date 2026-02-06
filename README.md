@@ -20,7 +20,7 @@ Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & 
 - 🛠️ [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) - 135 agents, 120 plugins, 35 skills, 42 commands for Claude Code
 - 🥑 [devrelguide](https://github.com/rohitg00/devrelguide) - DevRel education platform ([learndevrel.com](https://learndevrel.com))
 - ☸️ [kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server) - MCP server for Kubernetes with 270+ tools, 8 interactive UI dashboards
-- 🎬 [manim-video-generator](https://github.com/rohitg00/manim-video-generator) - Generate math animations from natural language using GPT + Manim ([text2video.dev](text2video.dev))
+- 🎬 [manim-video-generator](https://github.com/rohitg00/manim-video-generator) - Generate math animations from natural language using GPT + Manim ([text2video.dev](https://text2video.dev))
 - 🕐 [time-traveller](https://github.com/rohitg00/time-traveller) - Experience any location across time with AI-powered visualization
 - 🧰 [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) - Curated list of DevOps-focused MCP servers
 - 🤖 [awesome-ai-apps](https://github.com/rohitg00/awesome-ai-apps) - Curated collection of AI agents & LLM apps across multiple frameworks
