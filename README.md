@@ -14,7 +14,7 @@ Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & 
 
 ## 🔗 AI & Developer Tools
 
-- 🧰 [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) - Curated list of DevOps-focused MCP servers ([createmvps.app/mcp-rules](https://createmvps.app/mcp-rules)) ![](https://img.shields.io/github/stars/rohitg00/awesome-devops-mcp-servers?style=flat&color=222&logo=github&label=)
+- 🧰 [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) - Curated list of DevOps-focused MCP servers ![](https://img.shields.io/github/stars/rohitg00/awesome-devops-mcp-servers?style=flat&color=222&logo=github&label=)
 - 🧪 [pro-workflow](https://github.com/rohitg00/pro-workflow) - Battle-tested Claude Code workflows: self-correcting memory, parallel worktrees, wrap-up rituals ![](https://img.shields.io/github/stars/rohitg00/pro-workflow?style=flat&color=222&logo=github&label=)
 - ☸️ [kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server) - MCP server for Kubernetes with 270+ tools, 8 interactive UI dashboards ![](https://img.shields.io/github/stars/rohitg00/kubectl-mcp-server?style=flat&color=222&logo=github&label=)
 - 🤖 [awesome-ai-apps](https://github.com/rohitg00/awesome-ai-apps) - Curated collection of AI agents & LLM apps across multiple frameworks ![](https://img.shields.io/github/stars/rohitg00/awesome-ai-apps?style=flat&color=222&logo=github&label=)
