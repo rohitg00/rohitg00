@@ -6,8 +6,9 @@
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![MCP](https://img.shields.io/badge/-MCP-6B4FBB?style=flat-square) ![Claude](https://img.shields.io/badge/-Claude-D4A574?style=flat-square&logo=anthropic&logoColor=white) ![DevOps](https://img.shields.io/badge/-DevOps-0A0A0A?style=flat-square)
 
-Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & Maintainer at [iii `prev. motia.dev`](https://github.com/motiadev/motia). Founder of [CreateMVP](https://createmvps.app) and [DevRel as Service](https://devrelasservice.com).
+Building AI-powered developer tools and DevOps infrastructure. Head of DevRel & Maintainer at [iii `prev (motia.dev)`](https://github.com/motiadev/motia). Founder of [CreateMVP](https://createmvps.app) and [DevRel as Service](https://devrelasservice.com).
 
+🌐 [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) - AI-native AI Learning course.
 🌐 [learndevrel.com](https://learndevrel.com) - DevRel education platform with guides, frameworks, and blog posts.
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rohitg00) [![Nominate to GitHub Stars](https://img.shields.io/badge/Nominate_to_GitHub_Stars-⭐-yellow?style=flat-square)](https://stars.github.com/nominate/)
