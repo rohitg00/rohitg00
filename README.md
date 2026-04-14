@@ -32,7 +32,7 @@ Head of DevRel and core maintainer. iii is a three-primitives engine (Worker/Fun
 
 | Project | What it does |
 |---|---|
-| [iii-engine](https://github.com/iii-hq/iii-engine) | Core engine. 18% overhead vs raw function calls. BullMQ has 973%. |
+| [iii-engine](https://github.com/iii-hq/iii) | Core engine. 18% overhead vs raw function calls. BullMQ has 973%. |
 | [iii-sandbox](https://github.com/iii-hq/sandbox) | Docker sandbox for AI agents: full lifecycle, exec, snapshots, networking, Firecracker support |
 | [agentos](https://github.com/iii-hq/agentos) | AI agent operating system: 60+ tools, 2,727 tests, 25 LLM providers, knowledge graph, swarms |
 
