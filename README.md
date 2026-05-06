@@ -26,14 +26,13 @@ Building the stack for AI agents that remember, coordinate, and operate autonomo
 | [rimuru](https://github.com/rohitg00/rimuru) | AI agent cost monitor: 521 local models, 19 API models, Rust TUI + web UI | ![](https://img.shields.io/github/stars/rohitg00/rimuru?style=flat&color=222&logo=github&label=) |
 | [tailclaude](https://github.com/rohitg00/tailclaude) | Claude Code web UI served over Tailscale, powered by iii-engine | ![](https://img.shields.io/github/stars/rohitg00/tailclaude?style=flat&color=222&logo=github&label=) |
 
-## iii Engine (motia.dev)
+## iii Engine (iii.dev)
 
 Head of DevRel and core maintainer. iii is a three-primitives engine (Worker/Function/Trigger) that replaces 50+ backend tools. Rust core with TypeScript, Python, and Rust SDKs.
 
 | Project | What it does |
 |---|---|
 | [iii-engine](https://github.com/iii-hq/iii) | Core engine. 18% overhead vs raw function calls. BullMQ has 973%. |
-| [iii-sandbox](https://github.com/iii-hq/sandbox) | Docker sandbox for AI agents: full lifecycle, exec, snapshots, networking, Firecracker support |
 | [agentos](https://github.com/iii-hq/agentos) | AI agent operating system: 60+ tools, 2,727 tests, 25 LLM providers, knowledge graph, swarms |
 
 ## Developer Tools
