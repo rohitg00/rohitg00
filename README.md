@@ -2,7 +2,7 @@
 
 [![Twitter](https://img.shields.io/twitter/follow/ghumare64?style=social)](https://twitter.com/ghumare64) [![LinkedIn](https://img.shields.io/badge/-rohit--ghumare-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-ghumare/) [![Medium](https://img.shields.io/badge/-@ghumare64-000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@ghumare64/) [![Email](https://img.shields.io/badge/-ghumare64@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ghumare64@gmail.com)
 
-London, UK. Head of DevRel at [iii](https://github.com/iii-hq). CNCF Ambassador. Docker Captain. Google Developer Expert (Cloud).
+London, UK. Head of DevRel at [iii](https://github.com/iii-hq/iii). CNCF Ambassador. Docker Captain. Google Developer Expert (Cloud).
 
 I build AI agent infrastructure and developer tools. 15K+ GitHub stars across 270+ repos. 100K+ member [DevOps community](https://devopscommunity.in).
 
