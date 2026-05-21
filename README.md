@@ -10,4 +10,3 @@ I build AI agent infrastructure and developer tools. 15K+ GitHub stars across 27
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rohitg00) [![Nominate to GitHub Stars](https://img.shields.io/badge/Nominate_to_GitHub_Stars-yellow?style=flat-square)](https://stars.github.com/nominate/)
 
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) | [learndevrel.com](https://learndevrel.com) | [createmvps.app](https://createmvps.app) | [agenstskills.com](https://agenstskills.com)
