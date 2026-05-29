@@ -4,7 +4,7 @@
 
 London, UK. CNCF Ambassador. Docker Captain. Google Developer Expert (Cloud).
 
-I build AI agent infrastructure and developer tools. 15K+ GitHub stars across 270+ repos. 100K+ member [DevOps community](https://devopscommunity.in).
+I build AI agent infrastructure and developer tools. 50K+ GitHub stars across 270+ repos. 100K+ member [DevOps community](https://devopscommunity.in).
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![MCP](https://img.shields.io/badge/-MCP-6B4FBB?style=flat-square)
 
