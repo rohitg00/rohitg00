@@ -1,6 +1,6 @@
 # Hi, I'm Rohit
 
-[![Twitter](https://img.shields.io/twitter/follow/ghumare64?style=social)](https://twitter.com/ghumare64) [![LinkedIn](https://img.shields.io/badge/-rohit--ghumare-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-ghumare/) [![Medium](https://img.shields.io/badge/-@ghumare64-000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@ghumare64/)
+[![Twitter](https://img.shields.io/twitter/follow/ghumare64?style=social)](https://twitter.com/ghumare64) [![LinkedIn](https://img.shields.io/badge/-rohit--ghumare-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-ghumare/)
 
 London, UK. CNCF Ambassador. Docker Captain. Google Developer Expert (Cloud).
 
