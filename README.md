@@ -5,6 +5,13 @@
 
 [Website](https://rohitghumare.com) · [Blog](https://rohitghumare.com/blog) · [LinkedIn](https://www.linkedin.com/in/rohit-ghumare/) · [X](https://twitter.com/ghumare64) · [Sponsor](https://github.com/sponsors/rohitg00)
 
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/public-builder-work-mobile.png" />
+  <img src="./assets/public-builder-work.png" alt="Tech stack: Python, TypeScript, Rust, Kubernetes, MCP. Top five repositories with language breakdowns and recent public contributions grouped by repository, including merged PR counts and code changes." width="100%" />
+</picture>
+
+[GitRanks creator ranking](https://gitranks.com/profile/rohitg00/ranks) · [All repositories](https://github.com/rohitg00?tab=repositories) · [All merged contributions](https://github.com/search?q=author%3Arohitg00+is%3Apr+is%3Amerged+is%3Apublic&type=pullrequests)
+
 [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) · [agentmemory](https://github.com/rohitg00/agentmemory) · [pro-workflow](https://github.com/rohitg00/pro-workflow)
 
 <sub>Public statistics refresh automatically. <a href="./RANKING.md">Sources and methodology</a>.</sub>

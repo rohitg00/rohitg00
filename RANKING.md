@@ -6,15 +6,17 @@ The profile card separates direct world positions from a transparent activity sc
 
 Follower rank is calculated as one plus the number of public GitHub user accounts with more followers. Top project rank is one plus the number of public, non-fork repositories with more stars than the profile's most-starred original repository. Both counts come from GitHub Search at refresh time.
 
-## Creator profile geography benchmarks
+## GitRanks creator rank
 
-The World, India, USA, UK, and China comparisons use the Stars leaderboards from the open-source [GitRanks UI](https://github.com/gitranks/gitranks-ui). These are score insertion benchmarks, not the official GitRanks positions of this account. The profile score sums stars on public, non-fork, non-archived repositories; GitRanks profiles may use a different repository inclusion policy.
+The creator panel uses the position, ranked-profile count, top percentage, monthly movement, and indexed star total published on [Rohit's GitRanks ranking page](https://gitranks.com/profile/rohitg00/ranks). It does not infer the account's rank by inserting a different star total into a leaderboard.
 
-Every position uses Rohit's same current owned-star score. It is one plus the number of profiles above that score on the corresponding GitRanks Stars leaderboard. Country values are comparison benchmarks, not claims that the profile resides in every country. They are explicitly not follower ranks.
+GitRanks indexes profiles on its own schedule, so its star total can differ from the live GitHub total. The panel labels its indexed stars separately. Its date records when the source was read, not when GitRanks last indexed GitHub. The collector reads the public page through Jina Reader and parses the creator card from its server-rendered data. If the upstream page changes or cannot be read, it retains the prior verified result with a cached label and its original date. Without a prior result, it shows unavailable values.
 
-The updater reads the first public leaderboard pages through Jina Reader, requesting an uncached response. Positions are reported only when the returned ranks start at one, are continuous, and include the score boundary. Scores below the fetched page have no verified position. Upstream leaderboards may lag GitHub.
+## Tech stack, repositories, and contributions
 
-Each successful comparison records its measurement time. If a refresh fails, the card labels the previous result as cached and displays its original date and score. Without a prior result, it shows unavailable comparisons.
+Tech stack labels are maintained in `config/profile.json`. The top five original public repositories are ranked by current GitHub stars. Fork counts, last push dates, and language shares are fetched through GitHub CLI. Language percentages use GitHub's reported code sizes; smaller languages are grouped as Other in the bar legend.
+
+Recent contributions show five other public repositories with the latest merge dates found in the merged-PR search. For each selected repository, a separate search counts this calendar year's merged public pull requests by Rohit and sums their additions and deletions. Counts are yearly totals, not counts of raw activity events. A search returns at most 1,000 PRs; when line totals cannot be collected completely, those totals are unavailable. Repository discovery considers up to 1,000 recently updated merged PRs plus priority-ecosystem searches. Stars and forks describe the contributed repository, not stars earned by a contribution.
 
 ## Builder Index
 
@@ -44,13 +46,13 @@ GitHub returns at most 100 repositories for each contribution category. The card
 
 ## Freshness
 
-The repository workflow checks at minutes 17 and 47 of every hour once merged into the default branch and enabled. It also refreshes when generator code or configuration changes, and supports a manual Actions run. Each run installs locked dependencies, runs tests, collects public data using `gh api`, rebuilds both banners, and commits only generated profile files with `git`. It uses the repository's built-in `GITHUB_TOKEN` through `GH_TOKEN`; no personal token is required for the public data. Forks and non-default branches cannot run the publishing job.
+The repository workflow checks at minutes 17 and 47 of every hour once merged into the default branch and enabled. It also refreshes when generator code or configuration changes, and supports a manual Actions run. Each run installs locked dependencies, runs tests, collects public data using `gh api`, rebuilds the profile and work panels, and commits only generated profile files with `git`. It uses the repository's built-in `GITHUB_TOKEN` through `GH_TOKEN`; no personal token is required for the public data. Forks and non-default branches cannot run the publishing job.
 
 GitHub Actions schedules and GitHub's image cache can delay visible updates.
 
 Growth compares with the most recent saved snapshot from an earlier UTC day. The comparison date is shown next to the change. The 365-day activity window rolls forward, so its counts may decrease even when new activity occurs.
 
-The README selects a separate compact PNG below 600px. Both PNGs are generated from the same snapshot with `npm run render`. SVG intermediates are generated locally and are not committed. The README displays these images directly, so its design matches the generated banner. Refreshes update the images and data without rewriting the README.
+The README selects a separate compact PNG below 600px. Desktop and mobile PNGs for both panels are generated from the same snapshot with `npm run render`. SVG intermediates are generated locally and are not committed. The README displays these images directly, so its design matches the generated banner. Refreshes update the images and data without rewriting the README.
 
 ## Refresh locally
 

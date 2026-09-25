@@ -1,5 +1,5 @@
 node_modules/
 .env
 preview/
-assets/public-builder-rank*.svg
+assets/public-builder-*.svg
 .gstack/

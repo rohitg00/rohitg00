@@ -1,9 +1,9 @@
 import { readFileSync } from 'node:fs';
 import opentype from 'opentype.js';
 
-const INK = '#1a1a1a';
-const BLUE = '#3553ff';
-const PAPER = '#fafaf5';
+export const INK = '#1a1a1a';
+export const BLUE = '#3553ff';
+export const PAPER = '#fafaf5';
 const fontBytes = readFileSync(new URL('../../assets/fonts/VT323-Regular.ttf', import.meta.url));
 const displayFont = opentype.parse(fontBytes.buffer.slice(fontBytes.byteOffset, fontBytes.byteOffset + fontBytes.byteLength));
 
@@ -12,7 +12,7 @@ export function escapeXml(value) {
     .replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&apos;');
 }
 
-function number(value) {
+export function number(value) {
   return Number.isFinite(value) ? new Intl.NumberFormat('en').format(value) : 'N/A';
 }
 
@@ -20,17 +20,17 @@ function rank(value) {
   return Number.isFinite(value) && value > 0 ? `#${number(value)}` : 'N/A';
 }
 
-function date(value) {
+export function date(value) {
   return value ? new Intl.DateTimeFormat('en-GB', {
     day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC',
   }).format(new Date(value)) : 'Unavailable';
 }
 
-function text(x, y, value, className = '', extra = '') {
+export function text(x, y, value, className = '', extra = '') {
   return `<text x="${x}" y="${y}" class="${className}" ${extra}>${escapeXml(value)}</text>`;
 }
 
-function display(x, y, value, size, color = BLUE, extra = '', maxWidth = Infinity) {
+export function display(x, y, value, size, color = BLUE, extra = '', maxWidth = Infinity) {
   size = Math.min(size, maxWidth / Math.max(1, displayFont.getAdvanceWidth(String(value), 1)));
 
   const fields = { M: ['x', 'y'], L: ['x', 'y'], Q: ['x1', 'y1', 'x', 'y'], C: ['x1', 'y1', 'x2', 'y2', 'x', 'y'], Z: [] };
@@ -40,7 +40,7 @@ function display(x, y, value, size, color = BLUE, extra = '', maxWidth = Infinit
   return `<g role="img" aria-label="${escapeXml(value)}"><title>${escapeXml(value)}</title><path d="${path}" fill="${color}" ${extra}/></g>`;
 }
 
-function rule(y, width, inset) {
+export function rule(y, width, inset) {
   return `<line x1="${inset}" y1="${y}" x2="${width - inset}" y2="${y}" stroke="${INK}" stroke-width=".8" opacity=".55" />`;
 }
 
@@ -113,21 +113,29 @@ function organizationMarks(snapshot, compact) {
   }).join('');
 }
 
-function benchmarks(snapshot, compact) {
-  const benchmark = snapshot.ranking.creatorBenchmarks;
-  const sourceLabel = benchmark?.status === 'cached'
-    ? `CACHED · ${date(benchmark.measuredAt)}`
-    : benchmark?.measuredAt ? `GITRANKS · ${date(benchmark.measuredAt)}` : 'GITRANKS UNAVAILABLE';
-  return text(compact ? 28 : 40, compact ? 972 : 665, 'FIG_003 / CREATOR SCORE COMPARISON', 'label')
-    + text(compact ? 28 : 1160, compact ? 999 : 665, sourceLabel, 'note', compact ? '' : 'text-anchor="end"')
-    + ['world', 'india', 'usa', 'uk', 'china'].map((key, i) => {
-      const x = compact ? 28 + i * 112 : 40 + i * 224;
-      const item = benchmark?.positions?.[key];
-      return display(x, compact ? 1050 : 711, rank(item?.position), compact ? 51 : 61, BLUE, '', compact ? 96 : 190)
-        + text(x, compact ? 1080 : 734, (item?.label ?? ['World', 'India', 'USA', 'UK', 'China'][i]).toUpperCase(), 'body');
-    }).join('')
-    + text(compact ? 28 : 40, compact ? 1112 : 755, compact ? `${number(benchmark?.measuredValue)}-star score across leaderboards.` : `${number(benchmark?.measuredValue)}-star score across leaderboards. Country comparisons do not imply residency.`, 'note')
-    + (compact ? text(28, 1136, 'Country comparisons do not imply residency.', 'note') : '');
+function creatorRanking(snapshot, compact) {
+  const ranking = snapshot.ranking.gitRanksCreator;
+  const source = ranking?.status === 'cached' ? 'CACHED' : 'GITRANKS';
+  const monthly = Number.isFinite(ranking?.monthlyChange) ? `${ranking.monthlyChange > 0 ? '+' : ''}${number(ranking.monthlyChange)}` : 'N/A';
+  const position = rank(ranking?.position);
+  const cohort = ranking?.rankedProfiles ? `of ${ranking.rankedProfiles} ranked profiles` : 'Rank unavailable';
+  const percentile = Number.isFinite(ranking?.topPercent) ? `TOP ${ranking.topPercent}%` : 'Percentile unavailable';
+  const sourceLabel = ranking?.measuredAt ? `${source} · ${date(ranking.measuredAt)}` : 'GITRANKS UNAVAILABLE';
+  const heading = text(compact ? 28 : 40, compact ? 972 : 665, 'FIG_003 / GITRANKS CREATOR RANK', 'label')
+    + text(compact ? 28 : 1160, compact ? 999 : 665, sourceLabel, 'note', compact ? '' : 'text-anchor="end"');
+  if (compact) return heading
+    + display(28, 1067, position, 80, BLUE, '', 145)
+    + text(195, 1039, cohort, 'note') + text(195, 1068, percentile, 'body blue')
+    + display(28, 1127, monthly, 49, BLUE, '', 95) + text(130, 1118, 'THIS MONTH', 'micro')
+    + display(348, 1127, number(ranking?.stars), 45, INK, '', 220)
+    + text(348, 1148, 'GITRANKS INDEXED STARS', 'micro');
+  return heading
+    + display(40, 716, position, 67, BLUE, '', 142)
+    + text(204, 701, cohort, 'body') + text(204, 729, percentile, 'body blue')
+    + display(590, 716, monthly, 61, BLUE, '', 180) + text(590, 738, 'THIS MONTH', 'micro')
+    + display(870, 716, number(ranking?.stars), 61, INK, '', 290)
+    + text(870, 738, 'GITRANKS INDEXED STARS', 'micro')
+    + text(40, 756, 'GitRanks updates separately from the live GitHub totals above.', 'note');
 }
 
 function projects(snapshot, compact) {
@@ -195,7 +203,7 @@ export function renderPublicBuilderSvg(snapshot, history = [], { compact = false
   }).join('') + (compact ? text(28, 865, 'PUBLIC ACTIVITY / LAST 365 DAYS', 'micro') : text(40, 626, starChange, 'small blue'));
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title description">
   <title id="title">${escapeXml(snapshot.profile.name)} public GitHub profile</title>
-  <desc id="description">${escapeXml(`${number(snapshot.metrics.ownedStars)} original public repository stars, ${number(snapshot.profile.followers)} followers, world follower rank ${rank(followerRank)}. Updated ${updated}. Public data only. Creator score comparisons are benchmarks, not residency claims.`)}</desc>
+  <desc id="description">${escapeXml(`${number(snapshot.metrics.ownedStars)} original public repository stars, ${number(snapshot.profile.followers)} followers, world follower rank ${rank(followerRank)}. Updated ${updated}. Public data only. GitRanks creator ranks use its own indexed star total.`)}</desc>
   <defs>
     <pattern id="paper" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="${INK}" opacity=".10" /></pattern>
     <pattern id="grain" width="37" height="29" patternUnits="userSpaceOnUse"><circle cx="7" cy="11" r=".4" fill="${INK}" opacity=".1"/><circle cx="24" cy="21" r=".35" fill="${INK}" opacity=".1"/></pattern>
@@ -228,7 +236,7 @@ ${mobileProfile}
   ${rule(compact ? 846 : 538, width, inset)}
   ${metrics}
   ${rule(compact ? 942 : 641, width, inset)}
-  ${benchmarks(snapshot, compact)}
+  ${creatorRanking(snapshot, compact)}
   ${rule(compact ? 1157 : 769, width, inset)}
   ${text(inset, compact ? 1190 : 792, 'SELECTED OPEN SOURCE', 'label')}
   ${projects(snapshot, compact)}

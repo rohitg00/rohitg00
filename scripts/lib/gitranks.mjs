@@ -1,85 +1,52 @@
-const READER_ROOT = 'https://r.jina.ai/http://gitranks.com';
+const CREATOR_DESCRIPTION = 'Counts stars on repositories owned by the profile.';
 
-export function parseLeaderboardRows(markdown) {
-  return String(markdown ?? '')
-    .split('\n')
-    .map((line) => line.trim())
-    .filter((line) => /^\|\s*\d+/.test(line))
-    .map((line) => {
-      const cells = line
-        .split('|')
-        .slice(1, -1)
-        .map((cell) => cell.trim());
-      const rank = Number.parseInt(cells[0].replace(/[^\d].*$/, ''), 10);
-      const score = Number.parseInt(cells.at(-1).replaceAll(',', ''), 10);
-      return Number.isFinite(rank) && Number.isFinite(score) ? { rank, score } : null;
-    })
-    .filter(Boolean);
+function renderedText(node) {
+  if (typeof node === 'string') return node.startsWith('$') ? '' : node;
+  if (typeof node === 'number') return String(node);
+  if (!Array.isArray(node)) return '';
+  if (node[0] === '$' && node.length === 4) return renderedText(node[3]?.children);
+  return node.map(renderedText).join(' ');
 }
 
-export function benchmarkPosition(rows, score) {
-  if (!rows.length) return null;
-  if (rows.some((row, index) => row.rank !== index + 1)) return null;
-  const profilesAhead = rows.filter((row) => row.score > score).length;
-  if (profilesAhead === rows.length) return null;
-  return profilesAhead + 1;
+export function parseGitRanksCreator(html) {
+  const chunks = [...html.matchAll(/self\.__next_f\.push\((\[1,"(?:\\.|[^"\\])*"\])\)/g)]
+    .map(match => JSON.parse(match[1])[1]).join('');
+  const cards = chunks.split('\n').filter(line => line.includes(CREATOR_DESCRIPTION));
+  for (const card of cards) {
+    const tree = JSON.parse(card.slice(card.indexOf(':') + 1));
+    const content = renderedText(tree).replace(/\s+/g, ' ');
+    const position = content.match(/Position:\s*([\d,]+)\s*\/\s*([\d.]+[MK]?)/);
+    const percentile = content.match(/Top\s*([\d.]+)\s*% of all ranked profiles/);
+    const movement = content.match(/This month change:\s*([↑↓])\s*([\d,]+)/);
+    const stars = content.match(/Total\s*star\s*s:\s*([\d,]+)/);
+    if (!position || !percentile || !stars) continue;
+    const result = {
+      position: Number(position[1].replaceAll(',', '')),
+      rankedProfiles: position[2],
+      topPercent: Number(percentile[1]),
+      monthlyChange: movement ? Number(movement[2].replaceAll(',', '')) * (movement[1] === '↓' ? -1 : 1) : null,
+      stars: Number(stars[1].replaceAll(',', '')),
+    };
+    if (result.position > 0 && result.topPercent > 0 && result.topPercent <= 100 && result.stars >= 0) return result;
+  }
+  throw new Error('GitRanks creator ranking could not be verified.');
 }
 
-async function fetchLeaderboard(path) {
-  const response = await fetch(`${READER_ROOT}${path}`, {
-    headers: { Accept: 'text/plain', 'User-Agent': 'rohitg00-profile-rank', 'X-No-Cache': 'true' },
+export async function fetchGitRanksCreator(username, now = new Date()) {
+  const source = `https://gitranks.com/profile/${encodeURIComponent(username)}/ranks`;
+  const response = await fetch(`https://r.jina.ai/${source}`, {
+    headers: { 'X-No-Cache': 'true', 'X-Respond-With': 'html', 'User-Agent': 'rohitg00-profile-rank' },
     signal: AbortSignal.timeout(45_000),
   });
-  if (!response.ok) {
-    throw new Error(`GitRanks leaderboard fetch failed with ${response.status} for ${path}`);
-  }
-  const rows = parseLeaderboardRows(await response.text());
-  if (!rows.length) throw new Error(`No leaderboard rows found for ${path}`);
-  return rows;
+  if (!response.ok) throw new Error(`GitRanks profile fetch failed with ${response.status}.`);
+  return { ...parseGitRanksCreator(await response.text()), source, measuredAt: now.toISOString(), status: 'fresh' };
 }
 
-export async function fetchCreatorBenchmarks(score, countries, now = new Date()) {
-  const targets = [
-    { key: 'world', label: 'World', path: '/by/stars/1' },
-    ...countries.map((country) => ({
-      key: country.key,
-      label: country.label,
-      path: `/country/${encodeURIComponent(country.path)}/stars/1`,
-    })),
-  ];
-  const results = await Promise.all(
-    targets.map(async (target) => {
-      const rows = await fetchLeaderboard(target.path);
-      return [
-        target.key,
-        {
-          label: target.label,
-          position: benchmarkPosition(rows, score),
-          comparedProfiles: rows.length,
-        },
-      ];
-    }),
-  );
-
-  return {
-    status: 'fresh',
-    measuredValue: score,
-    metric: 'stars on original public repositories',
-    source: 'GitRanks Stars leaderboards via Jina Reader',
-    method: 'one plus the number of leaderboard profiles with a higher creator score',
-    interpretation: 'The same public creator score is benchmarked against each leaderboard; country values do not claim residency.',
-    measuredAt: now.toISOString(),
-    positions: Object.fromEntries(results),
-  };
-}
-
-export async function refreshCreatorBenchmarks(score, countries, previous, now = new Date(), fetcher = fetchCreatorBenchmarks) {
+export async function refreshGitRanksCreator(username, previous, now = new Date(), fetcher = fetchGitRanksCreator) {
   try {
-    return await fetcher(score, countries, now);
+    return await fetcher(username, now);
   } catch (error) {
-    console.warn(`Creator benchmark refresh skipped: ${error.message}`);
-    return previous
-      ? { ...previous, status: 'cached' }
-      : { status: 'unavailable', measuredAt: null, measuredValue: null, positions: {} };
+    console.warn(`GitRanks creator refresh skipped: ${error.message}`);
+    return previous ? { ...previous, status: 'cached' } : { status: 'unavailable', measuredAt: null };
   }
 }

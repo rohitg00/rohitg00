@@ -6,6 +6,9 @@ import {
   aggregateMergedContributionOrganizations,
   composeEcosystemOrganizations,
   sumPublicContributions,
+  languageShares,
+  recentContributionRepositories,
+  summarizeRepositoryContributions,
 } from '../scripts/lib/github.mjs';
 
 const contributionFixture = JSON.parse(
@@ -111,4 +114,54 @@ test('ecosystem marks collapse duplicate logos and include public affiliations',
   );
 
   assert.deepEqual(marks.map(({ login }) => login), ['iii-hq', 'GoogleCloudPlatform']);
+});
+
+function mergedContribution(name, at, visibility = 'PUBLIC') {
+  return {
+    mergedAt: at, additions: 12, deletions: 3,
+    repository: {
+      nameWithOwner: name, visibility, owner: { login: name.split('/')[0] },
+      url: `https://github.com/${name}`, stargazerCount: 100, forkCount: 10,
+      primaryLanguage: { name: 'Rust', color: '#dea584' },
+    },
+  };
+}
+
+test('recent contributions deduplicate repositories and reject private, own, unmerged and past-year work', () => {
+  const rows = [
+    mergedContribution('public/older', '2026-01-02T00:00:00Z'),
+    mergedContribution('public/newer', '2026-09-24T00:00:00Z'),
+    mergedContribution('public/newer', '2026-09-25T00:00:00Z'),
+    mergedContribution('rohitg00/own', '2026-09-25T01:00:00Z'),
+    mergedContribution('hidden/repo', '2026-09-25T02:00:00Z', 'PRIVATE'),
+    mergedContribution('unknown/repo', '2026-09-25T02:00:00Z', null),
+    mergedContribution('public/lastyear', '2025-12-30T00:00:00Z'),
+    mergedContribution('public/open', null),
+  ];
+  assert.deepEqual(recentContributionRepositories(rows, 'rohitg00', 5, 2026).map(repo => repo.nameWithOwner), ['public/newer', 'public/older']);
+});
+
+test('contribution counts use the full search count while incomplete line totals remain unavailable', () => {
+  const nodes = [mergedContribution('public/repo', '2026-09-20T00:00:00Z'), mergedContribution('public/repo', '2026-09-25T00:00:00Z')];
+  const complete = summarizeRepositoryContributions(nodes[0].repository, { nodes, totalCount: 2 }, 2026);
+  assert.equal(complete.additions, 24);
+  assert.equal(complete.deletions, 6);
+  assert.equal(complete.lastMergedAt, '2026-09-25T00:00:00Z');
+  const partial = summarizeRepositoryContributions(nodes[0].repository, { nodes, totalCount: 1020 }, 2026);
+  assert.equal(partial.mergedPullRequests, 1020);
+  assert.equal(partial.additions, null);
+  assert.equal(partial.deletions, null);
+  const privateNode = mergedContribution('hidden/repo', '2026-09-25T00:00:00Z', 'PRIVATE');
+  assert.equal(summarizeRepositoryContributions(privateNode.repository, { nodes: [privateNode], totalCount: 1 }, 2026), null);
+});
+
+test('language shares use repository code size, preserve colors and handle empty repositories', () => {
+  assert.deepEqual(languageShares({ totalSize: 1000, edges: [
+    { size: 600, node: { name: 'TypeScript', color: '#3178c6' } },
+    { size: 400, node: { name: 'Shell', color: null } },
+  ] }), [
+    { name: 'TypeScript', color: '#3178c6', percentage: 60 },
+    { name: 'Shell', color: '#777777', percentage: 40 },
+  ]);
+  assert.deepEqual(languageShares({ totalSize: 0, edges: [] }), []);
 });

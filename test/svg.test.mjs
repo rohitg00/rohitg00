@@ -3,6 +3,7 @@ import test from 'node:test';
 
 import { finalizeSnapshot } from '../scripts/lib/model.mjs';
 import { escapeXml, renderPublicBuilderSvg } from '../scripts/lib/svg.mjs';
+import { renderPublicWorkSvg } from '../scripts/lib/work-svg.mjs';
 
 const snapshot = finalizeSnapshot(
   {
@@ -57,12 +58,12 @@ test('SVG renders public signals without invalid numeric values', () => {
   assert.doesNotMatch(svg, /undefined|NaN|<private/);
 });
 
-test('cached comparisons show their own date and growth uses a previous day', () => {
+test('cached creator ranks show their own date and growth uses a previous day', () => {
   const cached = {
     ...snapshot,
     ranking: {
       ...snapshot.ranking,
-      creatorBenchmarks: { status: 'cached', measuredAt: '2026-08-01T00:00:00Z', positions: {} },
+      gitRanksCreator: { status: 'cached', measuredAt: '2026-08-01T00:00:00Z', position: 80, stars: 103211, topPercent: .01, rankedProfiles: '1.6M', monthlyChange: 14 },
     },
   };
   for (const compact of [false, true]) {
@@ -73,5 +74,15 @@ test('cached comparisons show their own date and growth uses a previous day', ()
     assert.match(svg, /CACHED · 01 Aug 2026/);
     assert.match(svg, /\+1,000 since 23 Aug/);
     assert.doesNotMatch(svg, /LIVE|undefined|NaN/);
+  }
+});
+
+test('work panels handle missing language and contribution data without invalid output', () => {
+  for (const compact of [false, true]) {
+    const svg = renderPublicWorkSvg({ ...snapshot, techStack: ['Python', 'Rust'] }, { compact });
+    assert.match(svg, /TECH STACK/);
+    assert.match(svg, /No language breakdown reported/);
+    assert.match(svg, /No merged contributions found/);
+    assert.doesNotMatch(svg, /undefined|NaN/);
   }
 });

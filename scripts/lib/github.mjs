@@ -30,16 +30,21 @@ const CONTRIBUTIONS_QUERY = `
 const MERGED_PULL_REQUESTS_QUERY = `
   query MergedPullRequestOrganizations($query: String!, $after: String) {
     search(query: $query, type: ISSUE, first: 100, after: $after) {
+      issueCount
       pageInfo { hasNextPage endCursor }
       nodes {
         ... on PullRequest {
           id
           mergedAt
+          additions
+          deletions
           repository {
             nameWithOwner
             url
             visibility
             stargazerCount
+            forkCount
+            primaryLanguage { name color }
             owner { __typename login avatarUrl url }
           }
         }
@@ -47,6 +52,58 @@ const MERGED_PULL_REQUESTS_QUERY = `
     }
   }
 `;
+
+const LANGUAGES_QUERY = `
+  query RepositoryLanguages($owner: String!, $name: String!) {
+    repository(owner: $owner, name: $name) {
+      languages(first: 100, orderBy: { field: SIZE, direction: DESC }) {
+        totalSize
+        edges { size node { name color } }
+      }
+    }
+  }
+`;
+
+export function languageShares(languages) {
+  if (!languages?.totalSize) return [];
+  return languages.edges.map(({ size, node }) => ({
+    name: node.name,
+    color: node.color ?? '#777777',
+    percentage: Math.round(size / languages.totalSize * 1000) / 10,
+  }));
+}
+
+export function recentContributionRepositories(nodes, username, limit, year) {
+  const repositories = new Map();
+  for (const node of [...nodes].sort((a, b) => Date.parse(b.mergedAt) - Date.parse(a.mergedAt))) {
+    const repository = node.repository;
+    if (!node.mergedAt || node.mergedAt.slice(0, 4) !== String(year)
+      || repository?.visibility !== 'PUBLIC'
+      || repository.owner?.login.toLowerCase() === username.toLowerCase()) continue;
+    if (!repositories.has(repository.nameWithOwner)) repositories.set(repository.nameWithOwner, repository);
+  }
+  return [...repositories.values()].slice(0, limit);
+}
+
+export function summarizeRepositoryContributions(repository, result, year) {
+  const nodes = result.nodes.filter(node => node.mergedAt?.slice(0, 4) === String(year)
+    && node.repository?.visibility === 'PUBLIC'
+    && node.repository.nameWithOwner === repository.nameWithOwner);
+  if (!nodes.length) return null;
+  const complete = nodes.length === result.totalCount;
+  return {
+    nameWithOwner: repository.nameWithOwner,
+    url: repository.url,
+    stars: repository.stargazerCount,
+    forks: repository.forkCount,
+    language: repository.primaryLanguage,
+    year,
+    mergedPullRequests: result.totalCount,
+    lastMergedAt: nodes.map(node => node.mergedAt).sort().at(-1),
+    additions: complete ? nodes.reduce((total, node) => total + node.additions, 0) : null,
+    deletions: complete ? nodes.reduce((total, node) => total + node.deletions, 0) : null,
+  };
+}
 
 export function resolveGitHubToken(environment = process.env) {
   const token = environment.GH_TOKEN || environment.GITHUB_TOKEN;
@@ -69,7 +126,13 @@ async function githubRequest(path, token) {
 }
 
 async function githubGraphql(query, variables, token) {
-  const body = await githubApi('graphql', token, { query, variables });
+  let body;
+  try {
+    body = await githubApi('graphql', token, { query, variables });
+  } catch (error) {
+    const operation = query.match(/query\s+(\w+)/)?.[1] ?? 'unknown';
+    throw new Error(`${error.message} Operation: ${operation}.`, { cause: error });
+  }
   if (body.errors?.length) {
     throw new Error(`GitHub GraphQL error: ${body.errors.map(error => error.message).join('; ')}`);
   }
@@ -222,6 +285,7 @@ async function fetchFeaturedAffiliations(config, token) {
 
 async function searchMergedPullRequests(query, token, maxPages) {
   const nodes = [];
+  let totalCount = 0;
   let after = null;
 
   for (let page = 0; page < maxPages; page += 1) {
@@ -230,15 +294,16 @@ async function searchMergedPullRequests(query, token, maxPages) {
       { query, after },
       token,
     );
+    totalCount = data.search.issueCount;
     nodes.push(...data.search.nodes.filter(Boolean));
     if (!data.search.pageInfo.hasNextPage) break;
     after = data.search.pageInfo.endCursor;
   }
 
-  return nodes;
+  return { nodes, totalCount };
 }
 
-async function fetchMergedContributionOrganizations(config, token) {
+async function fetchPublicContributionDetails(config, token, now) {
   const priorityLogins = config.contributedOrganizationPriority ?? [];
   const globalQuery = `is:pr is:merged is:public author:${config.username} archived:false sort:updated-desc`;
   const targetedQueries = priorityLogins.map(
@@ -256,7 +321,7 @@ async function fetchMergedContributionOrganizations(config, token) {
   ]);
   const nodes = [...new Map(
     searches
-      .flat()
+      .flatMap(search => search.nodes)
       .filter(Boolean)
       .map((node) => [node.id ?? `${node.repository?.nameWithOwner}:${node.mergedAt}`, node]),
   ).values()];
@@ -280,11 +345,17 @@ async function fetchMergedContributionOrganizations(config, token) {
     ),
     fetchFeaturedAffiliations(config, token),
   ]);
-  return composeEcosystemOrganizations(
-    contributed,
-    affiliations,
-    config.contributedOrganizations ?? 7,
-  );
+  const year = now.getUTCFullYear();
+  const recentRepositories = recentContributionRepositories(nodes, config.username, config.recentContributionRepositories, year);
+  const recentContributions = await Promise.all(recentRepositories.map(async repository => {
+    const query = `is:pr is:merged is:public author:${config.username} repo:${repository.nameWithOwner} merged:${year}-01-01..${isoDate(now)}`;
+    const result = await searchMergedPullRequests(query, token, 10);
+    return summarizeRepositoryContributions(repository, result, year);
+  }));
+  return {
+    ecosystemOrganizations: composeEcosystemOrganizations(contributed, affiliations, config.contributedOrganizations ?? 7),
+    recentContributions: recentContributions.filter(Boolean).sort((a, b) => Date.parse(b.lastMergedAt) - Date.parse(a.lastMergedAt)),
+  };
 }
 
 async function searchPosition(query, token) {
@@ -302,7 +373,7 @@ function isoDate(date) {
 
 export async function fetchPublicGitHubProfile(config, token, now = new Date()) {
   const windowStart = new Date(now.getTime() - config.activityWindowDays * 24 * 60 * 60 * 1000);
-  const [profile, repositories, contributionData, ecosystemOrganizations] = await Promise.all([
+  const [profile, repositories, contributionData, contributionDetails] = await Promise.all([
     githubRequest(`/users/${encodeURIComponent(config.username)}`, token),
     paginate(`/users/${encodeURIComponent(config.username)}/repos?type=owner&sort=updated&direction=desc`, token),
     githubGraphql(
@@ -314,7 +385,7 @@ export async function fetchPublicGitHubProfile(config, token, now = new Date()) 
       },
       token,
     ),
-    fetchMergedContributionOrganizations(config, token),
+    fetchPublicContributionDetails(config, token, now),
   ]);
 
   if (!contributionData.user) {
@@ -322,19 +393,26 @@ export async function fetchPublicGitHubProfile(config, token, now = new Date()) 
   }
 
   const originalRepositories = repositories.filter((repository) => !repository.private && !repository.fork && !repository.archived);
-  const topRepositories = [...originalRepositories]
+  const selectedRepositories = [...originalRepositories]
     .sort(
       (a, b) =>
         b.stargazers_count - a.stargazers_count ||
         Date.parse(b.pushed_at ?? b.updated_at) - Date.parse(a.pushed_at ?? a.updated_at),
     )
-    .slice(0, config.topRepositories)
-    .map((repository) => ({
+    .slice(0, config.topRepositories);
+  const topRepositories = await Promise.all(selectedRepositories.map(async repository => {
+    const data = await githubGraphql(LANGUAGES_QUERY, { owner: config.username, name: repository.name }, token);
+    return {
       name: repository.name,
       nameWithOwner: repository.full_name,
       url: repository.html_url,
       stars: repository.stargazers_count,
-    }));
+      forks: repository.forks_count,
+      updatedAt: repository.pushed_at ?? repository.updated_at,
+      createdAt: repository.created_at,
+      languages: languageShares(data.repository?.languages),
+    };
+  }));
 
   const contributions = contributionData.user.contributionsCollection;
   const followerPosition = await searchPosition(
@@ -381,6 +459,7 @@ export async function fetchPublicGitHubProfile(config, token, now = new Date()) 
       },
     },
     topRepositories,
-    ecosystemOrganizations,
+    ...contributionDetails,
+    techStack: config.techStack,
   };
 }

@@ -1,40 +1,44 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { benchmarkPosition, parseLeaderboardRows, refreshCreatorBenchmarks } from '../scripts/lib/gitranks.mjs';
+import { parseGitRanksCreator, refreshGitRanksCreator } from '../scripts/lib/gitranks.mjs';
 
-test('GitRanks markdown rows retain rank and creator score only', () => {
-  const rows = parseLeaderboardRows(`
-| Rank | Login | Location | Stars |
-| --- | --- | --- | --- |
-| 1 | [builder](https://gitranks.com/profile/builder) | India | 104,399 |
-| 2↑1 | [creator](https://gitranks.com/profile/creator) | India | 83,870 |
-`);
+function streamedCard({ change = '↑14', stars = '103,211', description = 'Counts stars on repositories owned by the profile.' } = {}) {
+  const tree = ['$', 'div', null, { 'data-slot': 'card', children: [
+    ['Position: ', '80', ['$', 'span', null, { children: ['/', ['$', '$L8', null, { href: '/by/stars/1', children: '1.6M' }]] }]],
+    ['Top ', .01, '% of all ranked profiles'],
+    ['$', 'span', null, { children: ['This month change: ', ['$', 'span', null, { children: change }]] }],
+    ['Total ', 'star', 's: ', stars],
+    description,
+  ] }];
+  const record = `52:${JSON.stringify(tree)}\n`;
+  return `<script>self.__next_f.push(${JSON.stringify([1, record.slice(0, 100)])})</script><script>self.__next_f.push(${JSON.stringify([1, record.slice(100)])})</script>`;
+}
 
-  assert.deepEqual(rows, [
-    { rank: 1, score: 104399 },
-    { rank: 2, score: 83870 },
-  ]);
+test('GitRanks parser reads its reported creator rank, cohort, percentile, movement and stars', () => {
+  const unrelated = streamedCard({ stars: '439,300', description: 'Counts stars on repos owned by others.' });
+  assert.deepEqual(parseGitRanksCreator(unrelated + streamedCard()), {
+    position: 80, rankedProfiles: '1.6M', topPercent: .01, monthlyChange: 14, stars: 103211,
+  });
 });
 
-test('benchmark ranks require a continuous first page and an observed score boundary', () => {
-  const rows = [{ rank: 1, score: 500 }, { rank: 2, score: 300 }];
-  assert.equal(benchmarkPosition(rows, 300), 2);
-  assert.equal(benchmarkPosition(rows, 501), 1);
-  assert.equal(benchmarkPosition(rows, 299), null);
-  assert.equal(benchmarkPosition([{ rank: 2, score: 300 }], 500), null);
-  assert.equal(benchmarkPosition([], 500), null);
+test('GitRanks movements retain direction and missing movements remain unknown', () => {
+  assert.equal(parseGitRanksCreator(streamedCard({ change: '↓1,002' })).monthlyChange, -1002);
+  assert.equal(parseGitRanksCreator(streamedCard({ change: '' })).monthlyChange, null);
 });
 
-test('failed benchmark refresh retains the old score and date with a cached label', async () => {
-  const previous = { measuredAt: '2026-08-29T08:43:46.542Z', measuredValue: 98124, positions: { world: { position: 88 } } };
-  const fail = async () => { throw new Error('Leaderboard unavailable'); };
-  const cached = await refreshCreatorBenchmarks(106043, [], previous, new Date(), fail);
-  assert.equal(cached.status, 'cached');
-  assert.equal(cached.measuredAt, previous.measuredAt);
-  assert.equal(cached.measuredValue, 98124);
-  assert.deepEqual(cached.positions, previous.positions);
-  const unavailable = await refreshCreatorBenchmarks(106043, [], null, new Date(), fail);
+test('incomplete or unrelated rankings cannot substitute for creator data', () => {
+  assert.throws(() => parseGitRanksCreator(streamedCard({ stars: '' })), /could not be verified/);
+  assert.throws(() => parseGitRanksCreator(streamedCard({ description: 'Follower rank' })), /could not be verified/);
+  assert.throws(() => parseGitRanksCreator('<html>Service unavailable</html>'), /could not be verified/);
+});
+
+test('failed GitRanks refresh keeps the original measurement date and reports cached or unavailable', async () => {
+  const previous = { position: 80, stars: 103211, measuredAt: '2026-09-25T13:00:00Z' };
+  const fail = async () => { throw new Error('Profile unavailable'); };
+  const cached = await refreshGitRanksCreator('rohitg00', previous, new Date(), fail);
+  assert.deepEqual(cached, { ...previous, status: 'cached' });
+  const unavailable = await refreshGitRanksCreator('rohitg00', null, new Date(), fail);
   assert.equal(unavailable.status, 'unavailable');
-  assert.deepEqual(unavailable.positions, {});
+  assert.equal(unavailable.position, undefined);
 });

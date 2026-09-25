@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 106082,
+    "ownedStars": 106093,
     "commits": 6464,
-    "pullRequests": 1577,
+    "pullRequests": 1578,
     "issues": 261,
     "reviews": 93,
     "windowDays": 365,
@@ -24,47 +24,21 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 403,
-      "measuredValue": 57114,
+      "position": 404,
+      "measuredValue": 57124,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
     },
-    "creatorBenchmarks": {
-      "status": "fresh",
-      "measuredValue": 106082,
-      "metric": "stars on original public repositories",
-      "source": "GitRanks Stars leaderboards via Jina Reader",
-      "method": "one plus the number of leaderboard profiles with a higher creator score",
-      "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-09-25T12:45:53.466Z",
-      "positions": {
-        "world": {
-          "label": "World",
-          "position": 75,
-          "comparedProfiles": 100
-        },
-        "india": {
-          "label": "India",
-          "position": 1,
-          "comparedProfiles": 100
-        },
-        "usa": {
-          "label": "USA",
-          "position": 22,
-          "comparedProfiles": 100
-        },
-        "uk": {
-          "label": "UK",
-          "position": 3,
-          "comparedProfiles": 100
-        },
-        "china": {
-          "label": "China",
-          "position": 12,
-          "comparedProfiles": 100
-        }
-      }
+    "gitRanksCreator": {
+      "position": 80,
+      "rankedProfiles": "1.6M",
+      "topPercent": 0.01,
+      "monthlyChange": 14,
+      "stars": 103211,
+      "source": "https://gitranks.com/profile/rohitg00/ranks",
+      "measuredAt": "2026-09-25T13:11:20.422Z",
+      "status": "fresh"
     }
   },
   "topRepositories": [
@@ -72,19 +46,175 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 57114
+      "stars": 57124,
+      "forks": 9986,
+      "updatedAt": "2026-09-25T05:16:13Z",
+      "createdAt": "2026-03-18T18:38:02Z",
+      "languages": [
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "percentage": 54.9
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 31.7
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "percentage": 6
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "percentage": 4.2
+        },
+        {
+          "name": "Julia",
+          "color": "#a270ba",
+          "percentage": 1.4
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "percentage": 1
+        },
+        {
+          "name": "Rust",
+          "color": "#dea584",
+          "percentage": 0.8
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 0.1
+        },
+        {
+          "name": "TeX",
+          "color": "#3D6117",
+          "percentage": 0
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "percentage": 0
+        },
+        {
+          "name": "Lua",
+          "color": "#000080",
+          "percentage": 0
+        }
+      ]
     },
     {
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 28838
+      "stars": 28838,
+      "forks": 2508,
+      "updatedAt": "2026-09-25T05:10:22Z",
+      "createdAt": "2026-02-25T07:32:52Z",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "percentage": 88.1
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "percentage": 6.9
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 2.5
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "percentage": 1.2
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 0.7
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "percentage": 0.5
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "percentage": 0.2
+        }
+      ]
     },
     {
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2879
+      "stars": 2879,
+      "forks": 290,
+      "updatedAt": "2026-09-24T06:22:08Z",
+      "createdAt": "2026-02-01T19:47:29Z",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 66.9
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "percentage": 31.9
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 1.2
+        }
+      ]
+    },
+    {
+      "name": "awesome-claude-code-toolkit",
+      "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
+      "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+      "stars": 2642,
+      "forks": 980,
+      "updatedAt": "2026-05-12T07:18:34Z",
+      "createdAt": "2026-02-04T21:09:33Z",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 51.1
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "percentage": 39.4
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 9.5
+        }
+      ]
+    },
+    {
+      "name": "DevOps_Books",
+      "nameWithOwner": "rohitg00/DevOps_Books",
+      "url": "https://github.com/rohitg00/DevOps_Books",
+      "stars": 2064,
+      "forks": 1191,
+      "updatedAt": "2025-05-29T16:02:36Z",
+      "createdAt": "2022-05-24T10:22:56Z",
+      "languages": []
     }
   ],
   "ecosystemOrganizations": [
@@ -93,12 +223,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17303,
+      "ecosystemStars": 17304,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17303,
+          "stars": 17304,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -110,12 +240,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 3,
-      "ecosystemStars": 10174,
+      "ecosystemStars": 10173,
       "repositoryCount": 2,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 9997,
+          "stars": 9996,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -183,12 +313,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 266,
-      "ecosystemStars": 18941,
+      "ecosystemStars": 18942,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18805,
+          "stars": 18806,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -213,6 +343,90 @@
       "avatarDataUri": "data:image/png;base64,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",
       "relationship": "Google Developer Expert (Cloud & GenAI)"
     }
+  ],
+  "recentContributions": [
+    {
+      "nameWithOwner": "iii-hq/workers",
+      "url": "https://github.com/iii-hq/workers",
+      "stars": 112,
+      "forks": 25,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "year": 2026,
+      "mergedPullRequests": 198,
+      "lastMergedAt": "2026-09-06T18:30:07Z",
+      "additions": 511783,
+      "deletions": 21103
+    },
+    {
+      "nameWithOwner": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "stars": 18806,
+      "forks": 1267,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "year": 2026,
+      "mergedPullRequests": 91,
+      "lastMergedAt": "2026-09-04T15:44:08Z",
+      "additions": 64643,
+      "deletions": 73504
+    },
+    {
+      "nameWithOwner": "ccplugins/awesome-claude-code-plugins",
+      "url": "https://github.com/ccplugins/awesome-claude-code-plugins",
+      "stars": 951,
+      "forks": 537,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "year": 2026,
+      "mergedPullRequests": 1,
+      "lastMergedAt": "2026-08-12T12:21:24Z",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "nameWithOwner": "iii-experimental/openwiki",
+      "url": "https://github.com/iii-experimental/openwiki",
+      "stars": 6,
+      "forks": 1,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "year": 2026,
+      "mergedPullRequests": 9,
+      "lastMergedAt": "2026-07-31T12:33:14Z",
+      "additions": 4232,
+      "deletions": 753
+    },
+    {
+      "nameWithOwner": "iii-experimental/desktop",
+      "url": "https://github.com/iii-experimental/desktop",
+      "stars": 6,
+      "forks": 0,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "year": 2026,
+      "mergedPullRequests": 1,
+      "lastMergedAt": "2026-07-02T12:30:14Z",
+      "additions": 6148,
+      "deletions": 7098
+    }
+  ],
+  "techStack": [
+    "Python",
+    "TypeScript",
+    "Rust",
+    "Kubernetes",
+    "MCP"
   ],
   "builderIndex": {
     "score": 97.6,
@@ -261,6 +475,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "83f287dcc4e109071ad6fdcab94ce70087b7d02dbbc632e9d3808e7d563c8064",
-  "generatedAt": "2026-09-25T12:45:53.466Z"
+  "fingerprint": "e070c1ae1228fca0dc81c8c404153bd931414fe072714f43140b20e8c9b9356d",
+  "generatedAt": "2026-09-25T13:11:20.422Z"
 }

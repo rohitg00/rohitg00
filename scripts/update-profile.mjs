@@ -3,7 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { fetchPublicGitHubProfile, resolveGitHubToken } from './lib/github.mjs';
-import { refreshCreatorBenchmarks } from './lib/gitranks.mjs';
+import { refreshGitRanksCreator } from './lib/gitranks.mjs';
 import { finalizeSnapshot } from './lib/model.mjs';
 import { writeProfileAssets } from './lib/assets.mjs';
 
@@ -27,12 +27,7 @@ function historyEntry(snapshot) {
     builderIndex: snapshot.builderIndex.score,
     followerRank: snapshot.ranking.followerWorld.position,
     topProjectRank: snapshot.ranking.topProjectWorld.position,
-    creatorWorldRank: snapshot.ranking.creatorBenchmarks?.positions.world?.position ?? null,
-    creatorCountryRanks: Object.fromEntries(
-      Object.entries(snapshot.ranking.creatorBenchmarks?.positions ?? {})
-        .filter(([key]) => key !== 'world')
-        .map(([key, value]) => [key, value.position]),
-    ),
+    gitRanksCreatorRank: snapshot.ranking.gitRanksCreator?.position ?? null,
     followers: snapshot.profile.followers,
     ownedStars: snapshot.metrics.ownedStars,
     commits: snapshot.metrics.commits,
@@ -67,10 +62,9 @@ async function main() {
   const token = resolveGitHubToken();
   const now = new Date();
   const publicProfile = await fetchPublicGitHubProfile(config, token, now);
-  publicProfile.ranking.creatorBenchmarks = await refreshCreatorBenchmarks(
-    publicProfile.metrics.ownedStars,
-    config.creatorBenchmarkCountries,
-    previousSnapshot?.ranking.creatorBenchmarks,
+  publicProfile.ranking.gitRanksCreator = await refreshGitRanksCreator(
+    config.username,
+    previousSnapshot?.ranking.gitRanksCreator,
     now,
   );
   const snapshot = finalizeSnapshot(publicProfile, previousSnapshot, now);
@@ -91,7 +85,7 @@ async function main() {
       builderIndex: snapshot.builderIndex.score,
       followerRank: snapshot.ranking.followerWorld.position,
       topProjectRank: snapshot.ranking.topProjectWorld.position,
-      creatorBenchmarks: snapshot.ranking.creatorBenchmarks?.positions ?? null,
+      gitRanksCreator: snapshot.ranking.gitRanksCreator,
       publicSignals: {
         commits: snapshot.metrics.commits,
         pullRequests: snapshot.metrics.pullRequests,

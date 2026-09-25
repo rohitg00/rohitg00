@@ -3,14 +3,20 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 import { renderPublicBuilderSvg } from './svg.mjs';
+import { renderPublicWorkSvg } from './work-svg.mjs';
 
 export async function writeProfileAssets(root, snapshot, history) {
   await mkdir(resolve(root, 'assets'), { recursive: true });
   for (const compact of [false, true]) {
-    const name = `public-builder-rank${compact ? '-mobile' : ''}`;
-    const svgPath = resolve(root, 'assets', `${name}.svg`);
-    const pngPath = resolve(root, 'assets', `${name}.png`);
-    await writeFile(svgPath, `${renderPublicBuilderSvg(snapshot, history, { compact })}\n`);
-    execFileSync('rsvg-convert', [svgPath, '-o', pngPath], { stdio: 'inherit' });
+    const sections = [
+      ['public-builder-rank', renderPublicBuilderSvg(snapshot, history, { compact })],
+      ['public-builder-work', renderPublicWorkSvg(snapshot, { compact })],
+    ];
+    for (const [base, svg] of sections) {
+      const name = `${base}${compact ? '-mobile' : ''}`;
+      const svgPath = resolve(root, 'assets', `${name}.svg`);
+      await writeFile(svgPath, `${svg}\n`);
+      execFileSync('rsvg-convert', [svgPath, '-o', resolve(root, 'assets', `${name}.png`)], { stdio: 'inherit' });
+    }
   }
 }
