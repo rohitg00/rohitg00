@@ -13,7 +13,12 @@ export function parseGitRanksCreator(html) {
     .map(match => JSON.parse(match[1])[1]).join('');
   const cards = chunks.split('\n').filter(line => line.includes(CREATOR_DESCRIPTION));
   for (const card of cards) {
-    const tree = JSON.parse(card.slice(card.indexOf(':') + 1));
+    let tree;
+    try {
+      tree = JSON.parse(card.slice(card.indexOf(':') + 1));
+    } catch {
+      continue;
+    }
     const content = renderedText(tree).replace(/\s+/g, ' ');
     const position = content.match(/Position:\s*([\d,]+)\s*\/\s*([\d.]+[MK]?)/);
     const percentile = content.match(/Top\s*([\d.]+)\s*% of all ranked profiles/);
@@ -47,6 +52,10 @@ export async function refreshGitRanksCreator(username, previous, now = new Date(
     return await fetcher(username, now);
   } catch (error) {
     console.warn(`GitRanks creator refresh skipped: ${error.message}`);
-    return previous ? { ...previous, status: 'cached' } : { status: 'unavailable', measuredAt: null };
+    if (Number.isFinite(previous?.position) && previous.position > 0
+      && typeof previous.measuredAt === 'string' && Number.isFinite(Date.parse(previous.measuredAt))) {
+      return { ...previous, status: 'cached' };
+    }
+    return { status: 'unavailable', measuredAt: null };
   }
 }

@@ -62,14 +62,18 @@ export function renderPublicWorkSvg(snapshot, { compact = false, theme = 'light'
   const column = compact ? 544 : 520;
   const repositories = (snapshot.topRepositories ?? []).slice(0, 5);
   const contributions = (snapshot.recentContributions ?? []).slice(0, 5);
-  const projectsY = compact ? 276 : 196;
-  const contributionsHeading = compact ? projectsY + repositories.length * 200 + 62 : 148;
-  const contributionsY = compact ? contributionsHeading + 58 : 196;
+  const technologies = snapshot.techStack ?? [];
+  const chipsPerRow = compact ? 3 : 5;
+  const extraRows = Math.max(0, Math.ceil(technologies.length / chipsPerRow) - (compact ? 2 : 1));
+  const sectionOffset = extraRows * 61;
+  const projectsY = (compact ? 276 : 196) + sectionOffset;
+  const contributionsHeading = compact ? projectsY + repositories.length * 200 + 62 : 148 + sectionOffset;
+  const contributionsY = compact ? contributionsHeading + 58 : projectsY;
   const bottom = Math.max(projectsY + repositories.length * 200, contributionsY + Math.max(1, contributions.length) * 200) + 28;
   const height = bottom + 76;
-  const techStack = (snapshot.techStack ?? []).map((name, index) => {
-    const x = inset + (compact ? index % 3 * 188 : index * 228);
-    const y = compact ? 58 + Math.floor(index / 3) * 61 : 58;
+  const techStack = technologies.map((name, index) => {
+    const x = inset + index % chipsPerRow * (compact ? 188 : 228);
+    const y = 58 + Math.floor(index / chipsPerRow) * 61;
     const chipWidth = compact ? 168 : 208;
     return `<rect x="${x}" y="${y}" width="${chipWidth}" height="44" fill="${PAPER}" stroke="${BLUE}" stroke-width=".8" />`
       + display(x + 13, y + 31, name, compact ? 30 : 33, BLUE, '', chipWidth - 26);
@@ -77,7 +81,7 @@ export function renderPublicWorkSvg(snapshot, { compact = false, theme = 'light'
   const right = compact ? inset : 640;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="work-title work-description">
   <title id="work-title">Tech stack, top repositories, and selected contributions</title>
-  <desc id="work-description">${escapeXml(`Rohit's tech stack: ${(snapshot.techStack ?? []).join(', ')}. Five top original repositories with language breakdowns. Selected public repositories show Rohit's all-time merged pull request counts and summed PR diffs. Stars and forks describe each repository. Refreshed ${date(snapshot.generatedAt)}.`)}</desc>
+  <desc id="work-description">${escapeXml(`Rohit's tech stack: ${technologies.join(', ')}. Five top original repositories with language breakdowns. Selected public repositories show Rohit's all-time merged pull request counts and summed PR diffs. Stars and forks describe each repository. Refreshed ${date(snapshot.generatedAt)}.`)}</desc>
   <defs>
     <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="${INK}" opacity=".1" /></pattern>
     <style>
@@ -92,11 +96,11 @@ export function renderPublicWorkSvg(snapshot, { compact = false, theme = 'light'
   <rect width="${width}" height="${height}" fill="url(#dots)" />
   ${text(inset, 32, 'FIG_004 / TECH STACK', 'label blue')}
   ${techStack}
-  ${rule(compact ? 184 : 122, width, inset, INK)}
-  ${text(inset, compact ? 228 : 148, 'FIG_005 / TOP 5 REPOSITORIES', 'label')}
-  ${text(inset, compact ? 255 : 175, 'Original public projects · languages by code size', 'note')}
+  ${rule((compact ? 184 : 122) + sectionOffset, width, inset, INK)}
+  ${text(inset, (compact ? 228 : 148) + sectionOffset, 'FIG_005 / TOP 5 REPOSITORIES', 'label')}
+  ${text(inset, (compact ? 255 : 175) + sectionOffset, 'Original public projects · languages by code size', 'note')}
   ${repositories.map((repository, index) => projectRow(repository, inset, projectsY + index * 200, column, compact, palette)).join('')}
-  ${compact ? rule(contributionsHeading - 33, width, inset, INK) : `<path d="M600 144V${bottom - 28}" stroke="${BLUE}" stroke-dasharray="3 5" opacity=".25" />`}
+  ${compact ? rule(contributionsHeading - 33, width, inset, INK) : `<path d="M600 ${144 + sectionOffset}V${bottom - 28}" stroke="${BLUE}" stroke-dasharray="3 5" opacity=".25" />`}
   ${text(right, contributionsHeading, 'FIG_006 / SELECTED CONTRIBUTIONS', 'label')}
   ${text(right, contributionsHeading + 27, 'Merged PRs to other public repositories', 'note')}
   ${contributions.length ? contributions.map((contribution, index) => contributionRow(contribution, right, contributionsY + index * 200, column, compact, palette)).join('') : text(right, contributionsY + 40, 'No public merged contributions found.', 'note')}

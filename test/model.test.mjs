@@ -53,3 +53,33 @@ test('unchanged public data preserves its generation timestamp', () => {
   assert.equal(second.fingerprint, first.fingerprint);
   assert.equal(second.generatedAt, first.generatedAt);
 });
+
+test('creator measurement timestamps are retained without changing the content fingerprint', () => {
+  const creator = {
+    position: 80, rankedProfiles: '1.6M', topPercent: .01, monthlyChange: 14,
+    stars: 103211, status: 'fresh', source: 'https://gitranks.com/profile/rohitg00/ranks',
+    measuredAt: '2026-09-25T13:00:00Z',
+  };
+  const raw = { ...rawSnapshot, ranking: { ...rawSnapshot.ranking, gitRanksCreator: creator } };
+  const first = finalizeSnapshot(raw, null, new Date('2026-09-25T13:00:00Z'));
+  const refreshedCreator = { ...creator, measuredAt: '2026-09-25T13:30:00Z' };
+  const refreshed = { ...raw, ranking: { ...raw.ranking, gitRanksCreator: refreshedCreator } };
+  const before = structuredClone(refreshed);
+  const second = finalizeSnapshot(refreshed, first, new Date('2026-09-25T13:30:00Z'));
+
+  assert.equal(second.fingerprint, first.fingerprint);
+  assert.equal(second.generatedAt, first.generatedAt);
+  assert.deepEqual(second.ranking.gitRanksCreator, refreshedCreator);
+  assert.deepEqual(refreshed, before);
+  assert.deepEqual(first.ranking.gitRanksCreator, creator);
+
+  for (const change of [
+    { position: 79 }, { rankedProfiles: '1.7M' }, { topPercent: .02 }, { monthlyChange: 15 },
+    { stars: 103212 }, { status: 'cached' }, { source: 'https://gitranks.com/new-source' },
+  ]) {
+    const changed = finalizeSnapshot({ ...raw, ranking: { ...raw.ranking, gitRanksCreator: { ...creator, ...change } } }, first);
+    assert.notEqual(changed.fingerprint, first.fingerprint);
+  }
+  const otherMeasurement = finalizeSnapshot({ ...raw, measuredAt: creator.measuredAt }, first);
+  assert.notEqual(otherMeasurement.fingerprint, first.fingerprint);
+});

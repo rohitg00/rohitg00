@@ -27,6 +27,13 @@ test('GitRanks movements retain direction and missing movements remain unknown',
   assert.equal(parseGitRanksCreator(streamedCard({ change: '' })).monthlyChange, null);
 });
 
+test('malformed creator rows do not hide a subsequent valid card', () => {
+  const record = '51:not JSON: Counts stars on repositories owned by the profile.\n';
+  const malformed = `<script>self.__next_f.push(${JSON.stringify([1, record])})</script>`;
+  assert.deepEqual(parseGitRanksCreator(malformed + streamedCard()), parseGitRanksCreator(streamedCard()));
+  assert.throws(() => parseGitRanksCreator(malformed), /could not be verified/);
+});
+
 test('incomplete or unrelated rankings cannot substitute for creator data', () => {
   assert.throws(() => parseGitRanksCreator(streamedCard({ stars: '' })), /could not be verified/);
   assert.throws(() => parseGitRanksCreator(streamedCard({ description: 'Follower rank' })), /could not be verified/);
@@ -41,4 +48,20 @@ test('failed GitRanks refresh keeps the original measurement date and reports ca
   const unavailable = await refreshGitRanksCreator('rohitg00', null, new Date(), fail);
   assert.equal(unavailable.status, 'unavailable');
   assert.equal(unavailable.position, undefined);
+});
+
+test('failed refreshes cannot turn missing or unverified measurements into cached rankings', async () => {
+  const fail = async () => { throw new Error('Profile unavailable'); };
+  for (const previous of [
+    { status: 'unavailable', measuredAt: null },
+    { position: null, measuredAt: '2026-09-25T13:00:00Z' },
+    { position: Infinity, measuredAt: '2026-09-25T13:00:00Z' },
+    { position: 0, measuredAt: '2026-09-25T13:00:00Z' },
+    { position: 80, measuredAt: null },
+    { position: 80, measuredAt: 'invalid' },
+  ]) {
+    assert.deepEqual(await refreshGitRanksCreator('rohitg00', previous, new Date(), fail), {
+      status: 'unavailable', measuredAt: null,
+    });
+  }
 });

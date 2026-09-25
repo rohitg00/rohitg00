@@ -140,3 +140,24 @@ test('continuous profile keeps section typography isolated and has one footer', 
     }
   }
 });
+
+test('extra tech-stack chips fit inside the canvas and above the following sections', () => {
+  for (const count of [5, 6, 7, 11, 16]) {
+    for (const compact of [false, true]) {
+      for (const theme of ['light', 'dark']) {
+        const techStack = Array.from({ length: count }, (_, index) => `Tech ${index + 1}`);
+        const svg = renderPublicWorkSvg({ ...snapshot, techStack }, { compact, theme });
+        const [, width, height] = svg.match(/viewBox="0 0 (\d+) (\d+)"/).map(Number);
+        const chips = [...svg.matchAll(/<rect x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="44"/g)];
+        const ruleY = Number(svg.match(/<line[^>]*y1="([\d.]+)"[^>]*stroke-width="\.8"/)[1]);
+        const headingY = Number(svg.match(/<text[^>]*y="([\d.]+)"[^>]*>FIG_005/)[1]);
+        assert.equal(chips.length, count);
+        assert.ok(ruleY < headingY && headingY < height);
+        for (const [, x, y, chipWidth] of chips) {
+          assert.ok(Number(x) >= 0 && Number(x) + Number(chipWidth) <= width);
+          assert.ok(Number(y) >= 0 && Number(y) + 44 < ruleY);
+        }
+      }
+    }
+  }
+});

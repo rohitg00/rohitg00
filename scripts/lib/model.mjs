@@ -96,7 +96,9 @@ export function finalizeSnapshot(rawSnapshot, previousSnapshot, now = new Date()
       policy: 'Every contribution row must belong to a repository whose GitHub visibility is PUBLIC.',
     },
   };
-  const contentFingerprint = fingerprint(candidate);
+  const fingerprintCandidate = structuredClone(candidate);
+  delete fingerprintCandidate.ranking?.gitRanksCreator?.measuredAt;
+  const contentFingerprint = fingerprint(fingerprintCandidate);
   const unchanged = previousSnapshot?.fingerprint === contentFingerprint;
 
   return {
