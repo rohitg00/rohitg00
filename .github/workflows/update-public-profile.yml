@@ -1,0 +1,63 @@
+name: Update public profile
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - scripts/**
+      - config/**
+      - assets/fonts/**
+      - package*.json
+      - .github/workflows/update-public-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-public-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'rohitg00/rohitg00' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Test generator
+        run: npm test
+
+      - name: Install SVG renderer
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends librsvg2-bin
+
+      - name: Refresh public statistics and banners
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh --version
+          npm run update
+
+      - name: Commit changed public profile data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/public-builder-rank.svg assets/public-builder-rank.png assets/public-builder-rank-mobile.svg assets/public-builder-rank-mobile.png data/public-profile.json data/public-profile-history.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: refresh public profile stats"
+          git push

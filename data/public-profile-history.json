@@ -1,0 +1,59 @@
+[
+  {
+    "date": "2026-08-24",
+    "builderIndex": 97.4,
+    "followerRank": 731,
+    "topProjectRank": 515,
+    "creatorWorldRank": 93,
+    "creatorCountryRanks": {
+      "india": 2,
+      "usa": 23,
+      "uk": 3,
+      "china": 12
+    },
+    "followers": 5959,
+    "ownedStars": 95049,
+    "commits": 6498,
+    "pullRequests": 1551,
+    "issues": 260,
+    "reviews": 92
+  },
+  {
+    "date": "2026-08-29",
+    "builderIndex": 97.5,
+    "followerRank": 718,
+    "topProjectRank": 470,
+    "creatorWorldRank": 88,
+    "creatorCountryRanks": {
+      "india": 2,
+      "usa": 23,
+      "uk": 3,
+      "china": 12
+    },
+    "followers": 6050,
+    "ownedStars": 98124,
+    "commits": 6511,
+    "pullRequests": 1573,
+    "issues": 260,
+    "reviews": 91
+  },
+  {
+    "date": "2026-09-25",
+    "builderIndex": 97.6,
+    "followerRank": 675,
+    "topProjectRank": 403,
+    "creatorWorldRank": 75,
+    "creatorCountryRanks": {
+      "india": 1,
+      "usa": 22,
+      "uk": 3,
+      "china": 12
+    },
+    "followers": 6423,
+    "ownedStars": 106064,
+    "commits": 6464,
+    "pullRequests": 1576,
+    "issues": 261,
+    "reviews": 93
+  }
+]

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rohit Ghumare / public profile</title>
+  <style>
+    @font-face { font-family: VT323; src: url('../assets/fonts/VT323-Regular.ttf') format('truetype'); font-display: swap; }
+    :root { color-scheme: light; --bg: #fafaf5; --ink: #1a1a1a; --muted: #4a4a4a; --line: #b8b6ad; --blue: #3553ff; --dot: #1a1a1a14; }
+    :root[data-theme="dark"] { color-scheme: dark; --bg: #0a0d1a; --ink: #e8e6dc; --muted: #a8a6a0; --line: #555a70; --blue: #6b8eff; --dot: #e8e6dc14; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 32px 24px 64px; background-color: var(--bg); background-image: radial-gradient(var(--dot) 1px, transparent 1px); background-size: 16px 16px; color: var(--ink); font-family: Georgia, serif; }
+    main { max-width: 1200px; margin: auto; }
+    header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 22px; }
+    h1 { font: 32px VT323, monospace; color: var(--blue); text-transform: uppercase; margin: 0 0 5px; }
+    header p { color: var(--muted); font: 12px monospace; margin: 0; }
+    .controls { display: flex; gap: 14px; flex-wrap: wrap; }
+    .group { display: flex; border: 1px solid var(--blue); overflow: hidden; }
+    button { font: 12px monospace; padding: 10px 14px; border: 0; background: var(--bg); color: var(--ink); cursor: pointer; }
+    button[aria-pressed="true"] { background: var(--blue); color: var(--bg); }
+    button:focus-visible, a:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+    picture, .banner { display: block; width: 100%; }
+    .banner { height: auto; border: 1px solid var(--line); }
+    .links { display: flex; flex-wrap: wrap; gap: 20px; font: 13px monospace; margin: 20px 0 36px; }
+    a { color: var(--blue); text-underline-offset: 4px; }
+    .details { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; }
+    h2 { font: 32px VT323, monospace; text-transform: uppercase; color: var(--blue); margin: 0 0 18px; }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 15px; }
+    th { font: 12px monospace; text-transform: uppercase; color: var(--muted); }
+    th, td { padding: 14px 0; border-bottom: 1px solid var(--line); }
+    th:not(:first-child), td:not(:first-child) { text-align: right; padding-left: 12px; font-variant-numeric: tabular-nums; }
+    td:first-child { overflow-wrap: anywhere; }
+    .status { color: var(--muted); font-size: 13px; line-height: 1.7; }
+    @media (max-width: 600px) { body { padding: 20px 12px 40px; } header { padding: 0 6px; } .controls { width: 100%; justify-content: space-between; gap: 8px; } table { font-size: 13px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div><h1>Rohit / Public builder profile</h1><p id="updated">Local draft</p></div>
+    <div class="controls">
+      <div class="group" aria-label="Banner version">
+        <button type="button" data-version="updated" aria-pressed="true">Reworked</button>
+        <button type="button" data-version="original" aria-pressed="false">Original</button>
+      </div>
+      <div class="group" aria-label="Preview background">
+        <button type="button" data-theme="light" aria-pressed="true">Light</button>
+        <button type="button" data-theme="dark" aria-pressed="false">Dark</button>
+      </div>
+    </div>
+  </header>
+  <picture>
+    <source id="compact" media="(max-width: 600px)" srcset="../assets/public-builder-rank-mobile.png?v=blueprint-spacing" />
+    <img class="banner" id="banner" src="../assets/public-builder-rank.png?v=blueprint-spacing" alt="Rohit Ghumare's public GitHub profile: repository stars, followers, ranks, activity, selected projects and ecosystem roles." />
+  </picture>
+  <div class="links">
+    <a href="../assets/public-builder-rank.png">Full-size banner</a>
+    <a href="../assets/public-builder-rank-mobile.png">Mobile banner</a>
+    <a href="../RANKING.md">Methodology</a>
+    <a href="https://github.com/rohitg00">GitHub profile</a>
+  </div>
+  <section class="details" aria-labelledby="projects-title">
+    <h2 id="projects-title">Top public repositories</h2>
+    <table><thead><tr><th scope="col">Repository</th><th scope="col">Stars</th><th scope="col">Forks</th></tr></thead><tbody id="repositories"></tbody></table>
+    <p class="status" id="source">Public GitHub data. Measurements are saved snapshots.</p>
+  </section>
+</main>
+<script>
+  const banner = document.querySelector('#banner');
+  const compact = document.querySelector('#compact');
+  let version = 'updated';
+  let revision = 'blueprint-spacing';
+  function updateBanner() {
+    compact.srcset = version === 'original' ? './previous-banner.png' : `../assets/public-builder-rank-mobile.png?v=${revision}`;
+    banner.src = version === 'original' ? './previous-banner.png' : `../assets/public-builder-rank.png?v=${revision}`;
+  }
+  document.querySelectorAll('[data-version]').forEach(button => button.addEventListener('click', () => {
+    version = button.dataset.version;
+    updateBanner();
+    document.querySelectorAll('[data-version]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  }));
+  document.querySelectorAll('button[data-theme]').forEach(button => button.addEventListener('click', () => {
+    document.documentElement.dataset.theme = button.dataset.theme;
+    document.querySelectorAll('button[data-theme]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  }));
+  async function refreshSnapshot() {
+  try {
+    const response = await fetch('../data/public-profile.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error('Snapshot unavailable');
+    const snapshot = await response.json();
+    if (revision !== snapshot.fingerprint) {
+      revision = snapshot.fingerprint;
+      updateBanner();
+    }
+    document.querySelector('#updated').textContent = `Measured ${new Date(snapshot.generatedAt).toLocaleString('en-GB', { timeZone: 'UTC' })} UTC`;
+    document.querySelector('#repositories').replaceChildren();
+    snapshot.topRepositories.forEach(repository => {
+      const row = document.createElement('tr');
+      const name = document.createElement('td');
+      const link = document.createElement('a');
+      link.href = repository.url;
+      link.textContent = repository.name;
+      name.append(link);
+      row.append(name);
+      for (const value of [repository.stars, repository.forks]) {
+        const cell = document.createElement('td');
+        cell.textContent = value.toLocaleString('en');
+        row.append(cell);
+      }
+      document.querySelector('#repositories').append(row);
+    });
+    document.querySelector('#source').textContent = `Public GitHub activity from ${snapshot.metrics.windowStart} to ${snapshot.metrics.windowEnd}. Country benchmarks compare the same star score with each leaderboard; they do not imply residency. Private contributions are excluded.`;
+  } catch {
+    document.querySelector('#updated').textContent = 'Saved banner preview';
+    document.querySelector('#source').textContent = 'The detailed snapshot could not be loaded. The banner retains its measurement date.';
+  }
+  }
+  refreshSnapshot();
+  setInterval(refreshSnapshot, 30_000);
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "username": "rohitg00",
+  "activityWindowDays": 365,
+  "recentActivityLimit": 5,
+  "topRepositories": 5,
+  "topOrganizations": 5,
+  "topLanguages": 4,
+  "contributedOrganizations": 7,
+  "mergedPullRequestSearchPages": 10,
+  "contributedOrganizationPrioritySearchPages": 2,
+  "contributedOrganizationPriority": [
+    "microsoft",
+    "cncf",
+    "docker",
+    "kubernetes",
+    "modelcontextprotocol"
+  ],
+  "featuredAffiliations": [
+    {
+      "login": "GoogleCloudPlatform",
+      "label": "Google Cloud",
+      "relationship": "Google Developer Expert (Cloud & GenAI)"
+    }
+  ],
+  "creatorBenchmarkCountries": [
+    {
+      "key": "india",
+      "label": "India",
+      "path": "India"
+    },
+    {
+      "key": "usa",
+      "label": "USA",
+      "path": "United States"
+    },
+    {
+      "key": "uk",
+      "label": "UK",
+      "path": "United Kingdom"
+    },
+    {
+      "key": "china",
+      "label": "China",
+      "path": "China"
+    }
+  ]
+}

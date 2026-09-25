@@ -1,0 +1,28 @@
+[
+  {
+    "repository": {
+      "nameWithOwner": "public-org/public-project",
+      "url": "https://github.com/public-org/public-project",
+      "visibility": "PUBLIC",
+      "isFork": false,
+      "isArchived": false,
+      "stargazerCount": 1200,
+      "owner": { "__typename": "Organization", "login": "public-org" },
+      "primaryLanguage": { "name": "TypeScript", "color": "#3178c6" }
+    },
+    "contributions": { "totalCount": 8 }
+  },
+  {
+    "repository": {
+      "nameWithOwner": "private-org/private-project",
+      "url": "https://github.com/private-org/private-project",
+      "visibility": "PRIVATE",
+      "isFork": false,
+      "isArchived": false,
+      "stargazerCount": 0,
+      "owner": { "__typename": "Organization", "login": "private-org" },
+      "primaryLanguage": { "name": "Go", "color": "#00add8" }
+    },
+    "contributions": { "totalCount": 99 }
+  }
+]

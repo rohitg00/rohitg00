@@ -1,0 +1,6 @@
+node_modules/
+.env
+preview/*.png
+!preview/previous-banner.png
+preview/*.log
+.gstack/
