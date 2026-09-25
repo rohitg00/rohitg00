@@ -4,6 +4,7 @@ import test from 'node:test';
 import { finalizeSnapshot } from '../scripts/lib/model.mjs';
 import { escapeXml, renderPublicBuilderSvg } from '../scripts/lib/svg.mjs';
 import { renderPublicWorkSvg } from '../scripts/lib/work-svg.mjs';
+import { THEMES } from '../scripts/lib/theme.mjs';
 
 const snapshot = finalizeSnapshot(
   {
@@ -100,5 +101,25 @@ test('contribution panels identify all-time merged counts and PR diff totals', (
     assert.match(svg, /206 MERGED PRs \/ ALL TIME/);
     assert.match(svg, /SUM OF MERGED PR DIFFS/);
     assert.doesNotMatch(svg, /current calendar year|undefined|NaN/);
+  }
+});
+
+test('dark panels preserve layout and content while changing the palette', () => {
+  for (const compact of [false, true]) {
+    const renderers = [
+      theme => renderPublicBuilderSvg(snapshot, [], { compact, theme }),
+      theme => renderPublicWorkSvg(snapshot, { compact, theme }),
+    ];
+    for (const render of renderers) {
+      const light = render('light');
+      const dark = render('dark');
+      for (const color of [THEMES.dark.ink, THEMES.dark.blue, THEMES.dark.paper]) {
+        assert.ok(dark.includes(color));
+      }
+      assert.deepEqual(dark.match(/<text\b[^>]*>.*?<\/text>/g), light.match(/<text\b[^>]*>.*?<\/text>/g));
+      assert.deepEqual(dark.match(/\bd="[^"]*"/g), light.match(/\bd="[^"]*"/g));
+      assert.equal(dark.match(/viewBox="[^"]*"/)[0], light.match(/viewBox="[^"]*"/)[0]);
+      assert.doesNotMatch(dark, /undefined|NaN/);
+    }
   }
 });

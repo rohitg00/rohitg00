@@ -8,4 +8,4 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const snapshot = JSON.parse(await readFile(resolve(root, 'data/public-profile.json'), 'utf8'));
 const history = JSON.parse(await readFile(resolve(root, 'data/public-profile-history.json'), 'utf8'));
 await writeProfileAssets(root, snapshot, history);
-console.log('Rendered desktop/mobile profile PNGs and local SVG intermediates');
+console.log('Rendered light/dark desktop/mobile profile PNGs and local SVG intermediates');

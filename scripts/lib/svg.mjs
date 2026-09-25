@@ -1,9 +1,9 @@
 import { readFileSync } from 'node:fs';
 import opentype from 'opentype.js';
 
-export const INK = '#1a1a1a';
-export const BLUE = '#3553ff';
-export const PAPER = '#fafaf5';
+import { THEMES } from './theme.mjs';
+
+const { ink: INK, blue: BLUE } = THEMES.light;
 const fontBytes = readFileSync(new URL('../../assets/fonts/VT323-Regular.ttf', import.meta.url));
 const displayFont = opentype.parse(fontBytes.buffer.slice(fontBytes.byteOffset, fontBytes.byteOffset + fontBytes.byteLength));
 
@@ -40,8 +40,8 @@ export function display(x, y, value, size, color = BLUE, extra = '', maxWidth = 
   return `<g role="img" aria-label="${escapeXml(value)}"><title>${escapeXml(value)}</title><path d="${path}" fill="${color}" ${extra}/></g>`;
 }
 
-export function rule(y, width, inset) {
-  return `<line x1="${inset}" y1="${y}" x2="${width - inset}" y2="${y}" stroke="${INK}" stroke-width=".8" opacity=".55" />`;
+export function rule(y, width, inset, color = INK) {
+  return `<line x1="${inset}" y1="${y}" x2="${width - inset}" y2="${y}" stroke="${color}" stroke-width=".8" opacity=".55" />`;
 }
 
 function change(history, snapshot, key, current, rankChange = false) {
@@ -54,7 +54,7 @@ function change(history, snapshot, key, current, rankChange = false) {
   return `${label} since ${date(previous.date).slice(0, 6)}`;
 }
 
-function impactField(x, y, scale = 1) {
+function impactField(x, y, scale, { ink: INK, blue: BLUE }) {
   const dots = Array.from({ length: 550 }, (_, i) => {
     const angle = i * 2.399963;
     const radius = 48 + (i % 37) * 8.2;
@@ -73,7 +73,7 @@ function impactField(x, y, scale = 1) {
   return `<g transform="translate(${x} ${y}) scale(${scale})" aria-hidden="true"><g fill="${BLUE}">${dots}</g>${ripples}<g transform="translate(553 50) scale(.7)" fill="${INK}"><circle cy="-6" r="4"/><path d="M-3 0L4 0L7 24L4 25L2 13L3 33L9 51L5 53L-1 37L-4 54L-8 53L-4 32L-4 13L-7 25L-10 24Z"/></g></g>`;
 }
 
-function radar(values, cx, cy, radius, compact) {
+function radar(values, cx, cy, radius, compact, { ink: INK, blue: BLUE }) {
   const point = (index, scale = 1) => {
     const a = -Math.PI / 2 + index * Math.PI * 2 / 5;
     return [cx + Math.cos(a) * radius * scale, cy + Math.sin(a) * radius * scale];
@@ -95,7 +95,7 @@ function radar(values, cx, cy, radius, compact) {
   return `<g>${grid}${axes}<polygon points="${points(data)}" fill="url(#halftone)" stroke="${BLUE}" stroke-width="2"/><circle cx="${cx}" cy="${cy}" r="2.5" fill="${INK}"/>${labels.map(([x, y, label, align]) => text(x, y, label, 'radar-label', `text-anchor="${align}"`)).join('')}</g>`;
 }
 
-function organizationMarks(snapshot, compact) {
+function organizationMarks(snapshot, compact, { blue: BLUE }) {
   const organizations = (snapshot.ecosystemOrganizations ?? snapshot.contributedOrganizations ?? []).slice(0, 7);
   const names = { microsoft: 'Microsoft', cncf: 'CNCF', docker: 'Docker', kubernetes: 'Kubernetes', modelcontextprotocol: 'MCP', 'iii-hq': 'iii', GoogleCloudPlatform: 'Google Cloud' };
   return organizations.map((organization, index) => {
@@ -108,12 +108,12 @@ function organizationMarks(snapshot, compact) {
       : `${label}: ${organization.relationship}`;
     const mark = organization.avatarDataUri
       ? `<image href="${escapeXml(organization.avatarDataUri)}" x="${x}" y="${y}" width="${size}" height="${size}" preserveAspectRatio="xMidYMid meet" />`
-      : text(x + size / 2, y + size * .66, label.slice(0, 2), 'label', 'text-anchor="middle"');
-    return `<g><title>${escapeXml(title)}</title><rect x="${x - 3}" y="${y - 3}" width="${size + 6}" height="${size + 6}" fill="${PAPER}" stroke="${BLUE}" stroke-width=".8" />${mark}${compact ? '' : text(x + size / 2, y + 55, label.length > 18 ? `${label.slice(0, 17)}…` : label, 'org', 'text-anchor="middle"')}</g>`;
+      : text(x + size / 2, y + size * .66, label.slice(0, 2), 'label', `text-anchor="middle" style="fill:${THEMES.light.ink}"`);
+    return `<g><title>${escapeXml(title)}</title><rect x="${x - 3}" y="${y - 3}" width="${size + 6}" height="${size + 6}" fill="${THEMES.light.paper}" stroke="${BLUE}" stroke-width=".8" />${mark}${compact ? '' : text(x + size / 2, y + 55, label.length > 18 ? `${label.slice(0, 17)}…` : label, 'org', 'text-anchor="middle"')}</g>`;
   }).join('');
 }
 
-function creatorRanking(snapshot, compact) {
+function creatorRanking(snapshot, compact, { ink: INK, blue: BLUE }) {
   const ranking = snapshot.ranking.gitRanksCreator;
   const source = ranking?.status === 'cached' ? 'CACHED' : 'GITRANKS';
   const monthly = Number.isFinite(ranking?.monthlyChange) ? `${ranking.monthlyChange > 0 ? '+' : ''}${number(ranking.monthlyChange)}` : 'N/A';
@@ -138,7 +138,7 @@ function creatorRanking(snapshot, compact) {
     + text(40, 756, 'GitRanks updates separately from the live GitHub totals above.', 'note');
 }
 
-function projects(snapshot, compact) {
+function projects(snapshot, compact, { ink: INK }) {
   return (snapshot.topRepositories ?? []).slice(0, 3).map((repository, i) => {
     const x = compact ? 28 : 40 + i * 384;
     const y = compact ? 1220 + i * 49 : 816;
@@ -148,7 +148,9 @@ function projects(snapshot, compact) {
   }).join('');
 }
 
-export function renderPublicBuilderSvg(snapshot, history = [], { compact = false } = {}) {
+export function renderPublicBuilderSvg(snapshot, history = [], { compact = false, theme = 'light' } = {}) {
+  const palette = THEMES[theme];
+  const { ink: INK, blue: BLUE, paper: PAPER } = palette;
   const width = compact ? 600 : 1200;
   const height = compact ? 1610 : 1048;
   const inset = compact ? 28 : 40;
@@ -158,38 +160,38 @@ export function renderPublicBuilderSvg(snapshot, history = [], { compact = false
   const updated = `${date(snapshot.generatedAt)} · ${snapshot.generatedAt.slice(11, 16)} UTC`;
   const header = text(inset, 32, 'FIG_000 / PUBLIC BUILDER PROFILE', 'label blue')
     + text(width - inset, 32, `@${snapshot.profile.login}`, 'label', 'text-anchor="end"')
-    + rule(49, width, inset)
+    + rule(49, width, inset, INK)
     + display(inset - 1, compact ? 104 : 108, snapshot.profile.name.toUpperCase(), compact ? 71 : 82, BLUE, '', width - inset * 2)
     + text(inset, compact ? 138 : 139, 'Building AI agent infrastructure & developer tools.', 'tagline')
     + text(inset, compact ? 172 : 164, compact ? 'CNCF Ambassador · Docker Captain · Google Developer Expert' : 'CNCF AMBASSADOR · DOCKER CAPTAIN · GOOGLE DEVELOPER EXPERT (CLOUD & GENAI) · PLATFORM ENGINEERING AMBASSADOR', 'roles')
     + (compact ? text(inset, 196, 'Platform Engineering Ambassador', 'roles') : '');
   const hero = compact
     ? `${text(28, 239, 'FIG_001 / WORLD FOLLOWER RANK', 'label')}
-       ${impactField(-4, 449, .79)}
+       ${impactField(-4, 449, .79, palette)}
        ${display(16, 435, rank(followerRank), 304, BLUE, `stroke="${PAPER}" stroke-width="5" paint-order="stroke fill"`, 548)}
        ${text(28, 574, `${number(snapshot.profile.followers)} public followers`, 'hero-detail')}
        ${text(28, 602, rankChange, 'note blue')}`
     : `${text(40, 203, 'FIG_001 / WORLD FOLLOWER RANK', 'label')}
-       ${impactField(20, 430, 1)}
+       ${impactField(20, 430, 1, palette)}
        ${display(28, 420, rank(followerRank), 350, BLUE, `stroke="${PAPER}" stroke-width="7" paint-order="stroke fill"`, 730)}
        ${text(40, 574, `${number(snapshot.profile.followers)} PUBLIC FOLLOWERS`, 'hero-detail')}
        ${text(40, 601, rankChange, 'note blue')}
        <path d="M787 188V596" stroke="${BLUE}" stroke-width=".7" stroke-dasharray="3 5" opacity=".5" />
        ${text(824, 203, 'FIG_002 / BUILDER PROFILE', 'label')}
-       ${radar(snapshot.builderIndex.values, 987, 331, 86, false)}
+       ${radar(snapshot.builderIndex.values, 987, 331, 86, false, palette)}
        ${display(821, 535, snapshot.builderIndex.score.toFixed(1), 77, BLUE, '', 140)}
        ${display(968, 532, '/100', 34, INK)}
        ${text(1044, 514, 'BUILDER INDEX', 'micro')}
        ${text(1044, 535, 'CUSTOM SCORE', 'micro')}
        ${text(1160, 596, 'PUBLIC DATA ONLY', 'micro', 'text-anchor="end"')}`;
-  const mobileProfile = compact ? `${rule(544, width, inset)}
+  const mobileProfile = compact ? `${rule(544, width, inset, INK)}
        ${display(28, 611, number(snapshot.metrics.ownedStars), 74, BLUE, '', 270)}
        ${text(28, 639, 'ORIGINAL REPO STARS', 'body')}
        ${text(28, 665, starChange, 'note blue')}
        ${display(28, 732, number(snapshot.profile.originalRepositoryCount), 72, BLUE, '', 270)}
        ${text(28, 758, 'ORIGINAL REPOSITORIES', 'body')}
        ${text(351, 578, 'FIG_002 / BUILDER', 'micro')}
-       ${radar(snapshot.builderIndex.values, 440, 671, 50, true)}
+       ${radar(snapshot.builderIndex.values, 440, 671, 50, true, palette)}
        ${display(354, 814, snapshot.builderIndex.score.toFixed(1), 63, BLUE, '', 119)}
        ${text(485, 811, '/ 100', 'body')}
        ${text(353, 835, 'CUSTOM SCORE', 'micro')}` : '';
@@ -233,18 +235,18 @@ export function renderPublicBuilderSvg(snapshot, history = [], { compact = false
   ${hero}
   <g transform="translate(0 80)">
 ${mobileProfile}
-  ${rule(compact ? 846 : 538, width, inset)}
+  ${rule(compact ? 846 : 538, width, inset, INK)}
   ${metrics}
-  ${rule(compact ? 942 : 641, width, inset)}
-  ${creatorRanking(snapshot, compact)}
-  ${rule(compact ? 1157 : 769, width, inset)}
+  ${rule(compact ? 942 : 641, width, inset, INK)}
+  ${creatorRanking(snapshot, compact, palette)}
+  ${rule(compact ? 1157 : 769, width, inset, INK)}
   ${text(inset, compact ? 1190 : 792, 'SELECTED OPEN SOURCE', 'label')}
-  ${projects(snapshot, compact)}
-  ${rule(compact ? 1350 : 853, width, inset)}
+  ${projects(snapshot, compact, palette)}
+  ${rule(compact ? 1350 : 853, width, inset, INK)}
   ${text(inset, compact ? 1381 : 883, 'ECOSYSTEM REACH', 'label')}
   ${text(inset, compact ? 1477 : 907, 'PUBLIC CONTRIBUTIONS + ROLES', 'micro')}
-  ${organizationMarks(snapshot, compact)}
-  ${rule(compact ? 1490 : 933, width, inset)}
+  ${organizationMarks(snapshot, compact, palette)}
+  ${rule(compact ? 1490 : 933, width, inset, INK)}
   ${text(inset, compact ? 1514 : 953, 'PUBLIC DATA ONLY', 'small')}
   ${text(width - inset, compact ? 1514 : 953, updated, 'small', 'text-anchor="end"')}
   </g>
