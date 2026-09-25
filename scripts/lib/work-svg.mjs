@@ -40,16 +40,17 @@ function contributionRow(contribution, x, y, width, compact) {
   const language = contribution.language?.name ?? 'Mixed';
   const changeWidth = (width - 30) / 2;
   const delta = Number.isFinite(contribution.additions) && Number.isFinite(contribution.deletions)
-    ? display(left, y + 102, `+${number(contribution.additions)}`, 30, '#167244', '', changeWidth - 18)
-      + display(left + changeWidth, y + 102, `-${number(contribution.deletions)}`, 30, '#af3540', '', changeWidth - 18)
+    ? text(left, y + 86, 'SUM OF MERGED PR DIFFS', 'note')
+      + display(left, y + 117, `+${number(contribution.additions)}`, 30, '#167244', '', changeWidth - 18)
+      + display(left + changeWidth, y + 117, `-${number(contribution.deletions)}`, 30, '#af3540', '', changeWidth - 18)
     : '';
   return `<line x1="${point}" y1="${y + 8}" x2="${point}" y2="${y + 178}" stroke="${BLUE}" opacity=".25" />`
     + `<circle cx="${point}" cy="${y + 20}" r="6" fill="${PAPER}" stroke="${BLUE}" stroke-width="2" />`
     + display(left, y + 29, contribution.nameWithOwner, compact ? 37 : 32, INK, '', width - 30)
-    + text(left, y + 64, `${number(contribution.mergedPullRequests)} MERGED PR${contribution.mergedPullRequests === 1 ? '' : 's'} / ${contribution.year}`, 'stats blue')
+    + text(left, y + 64, `${number(contribution.mergedPullRequests)} MERGED PR${contribution.mergedPullRequests === 1 ? '' : 's'} / ALL TIME`, 'stats blue')
     + delta
-    + text(left, y + 135, `${language} · ${number(contribution.stars)} stars · ${number(contribution.forks)} forks`, 'note')
-    + text(left, y + 165, `Latest merge ${date(contribution.lastMergedAt)}`, 'note');
+    + text(left, y + 143, `${language} · ${number(contribution.stars)} stars · ${number(contribution.forks)} forks`, 'note')
+    + text(left, y + 171, `Latest merge ${date(contribution.lastMergedAt)}`, 'note');
 }
 
 export function renderPublicWorkSvg(snapshot, { compact = false } = {}) {
@@ -73,7 +74,7 @@ export function renderPublicWorkSvg(snapshot, { compact = false } = {}) {
   const right = compact ? inset : 640;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="work-title work-description">
   <title id="work-title">Tech stack, top repositories, and recent contributions</title>
-  <desc id="work-description">${escapeXml(`Rohit's tech stack: ${(snapshot.techStack ?? []).join(', ')}. Five top original repositories with language breakdowns. Recent contributions show public merged pull requests from the current calendar year, grouped by repository. Refreshed ${date(snapshot.generatedAt)}.`)}</desc>
+  <desc id="work-description">${escapeXml(`Rohit's tech stack: ${(snapshot.techStack ?? []).join(', ')}. Five top original repositories with language breakdowns. Recently contributed public repositories show Rohit's all-time merged pull request counts and summed PR diffs. Stars and forks describe each repository. Refreshed ${date(snapshot.generatedAt)}.`)}</desc>
   <defs>
     <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="${INK}" opacity=".1" /></pattern>
     <style>
@@ -95,7 +96,7 @@ export function renderPublicWorkSvg(snapshot, { compact = false } = {}) {
   ${compact ? rule(contributionsHeading - 33, width, inset) : `<path d="M600 144V${bottom - 28}" stroke="${BLUE}" stroke-dasharray="3 5" opacity=".25" />`}
   ${text(right, contributionsHeading, 'FIG_006 / RECENT CONTRIBUTIONS', 'label')}
   ${text(right, contributionsHeading + 27, 'Merged PRs to other public repositories', 'note')}
-  ${contributions.length ? contributions.map((contribution, index) => contributionRow(contribution, right, contributionsY + index * 200, column, compact)).join('') : text(right, contributionsY + 40, 'No merged contributions found for this year.', 'note')}
+  ${contributions.length ? contributions.map((contribution, index) => contributionRow(contribution, right, contributionsY + index * 200, column, compact)).join('') : text(right, contributionsY + 40, 'No public merged contributions found.', 'note')}
   ${rule(bottom, width, inset)}
   ${text(inset, bottom + 28, 'SOURCE / PUBLIC GITHUB DATA', 'note')}
   ${text(compact ? inset : width - inset, bottom + (compact ? 53 : 28), `REFRESHED ${date(snapshot.generatedAt)}`, 'note', compact ? '' : 'text-anchor="end"')}

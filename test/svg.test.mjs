@@ -82,7 +82,23 @@ test('work panels handle missing language and contribution data without invalid 
     const svg = renderPublicWorkSvg({ ...snapshot, techStack: ['Python', 'Rust'] }, { compact });
     assert.match(svg, /TECH STACK/);
     assert.match(svg, /No language breakdown reported/);
-    assert.match(svg, /No merged contributions found/);
+    assert.match(svg, /No public merged contributions found/);
     assert.doesNotMatch(svg, /undefined|NaN/);
+  }
+});
+
+test('contribution panels identify all-time merged counts and PR diff totals', () => {
+  for (const compact of [false, true]) {
+    const svg = renderPublicWorkSvg({
+      ...snapshot,
+      recentContributions: [{
+        nameWithOwner: 'public/repo', scope: 'all-time', mergedPullRequests: 206,
+        additions: 1234, deletions: 56, stars: 100, forks: 10,
+        lastMergedAt: '2026-09-04T00:00:00Z',
+      }],
+    }, { compact });
+    assert.match(svg, /206 MERGED PRs \/ ALL TIME/);
+    assert.match(svg, /SUM OF MERGED PR DIFFS/);
+    assert.doesNotMatch(svg, /current calendar year|undefined|NaN/);
   }
 });

@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 106093,
+    "ownedStars": 106098,
     "commits": 6464,
     "pullRequests": 1578,
     "issues": 261,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 404,
-      "measuredValue": 57124,
+      "position": 403,
+      "measuredValue": 57129,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,7 +37,7 @@
       "monthlyChange": 14,
       "stars": 103211,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-09-25T13:11:20.422Z",
+      "measuredAt": "2026-09-25T13:21:43.717Z",
       "status": "fresh"
     }
   },
@@ -46,8 +46,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 57124,
-      "forks": 9986,
+      "stars": 57129,
+      "forks": 9985,
       "updatedAt": "2026-09-25T05:16:13Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -239,14 +239,19 @@
       "login": "cncf",
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
-      "mergedPullRequests": 3,
-      "ecosystemStars": 10173,
-      "repositoryCount": 2,
+      "mergedPullRequests": 5,
+      "ecosystemStars": 10445,
+      "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
           "stars": 9996,
           "url": "https://github.com/cncf/landscape"
+        },
+        {
+          "nameWithOwner": "cncf/tag-env-sustainability",
+          "stars": 272,
+          "url": "https://github.com/cncf/tag-env-sustainability"
         },
         {
           "nameWithOwner": "cncf/people",
@@ -312,9 +317,9 @@
       "login": "iii-hq",
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
-      "mergedPullRequests": 266,
-      "ecosystemStars": 18942,
-      "repositoryCount": 3,
+      "mergedPullRequests": 413,
+      "ecosystemStars": 18952,
+      "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
@@ -354,7 +359,7 @@
         "name": "Rust",
         "color": "#dea584"
       },
-      "year": 2026,
+      "scope": "all-time",
       "mergedPullRequests": 198,
       "lastMergedAt": "2026-09-06T18:30:07Z",
       "additions": 511783,
@@ -369,11 +374,11 @@
         "name": "Rust",
         "color": "#dea584"
       },
-      "year": 2026,
-      "mergedPullRequests": 91,
+      "scope": "all-time",
+      "mergedPullRequests": 206,
       "lastMergedAt": "2026-09-04T15:44:08Z",
-      "additions": 64643,
-      "deletions": 73504
+      "additions": 162142,
+      "deletions": 109255
     },
     {
       "nameWithOwner": "ccplugins/awesome-claude-code-plugins",
@@ -384,7 +389,7 @@
         "name": "JavaScript",
         "color": "#f1e05a"
       },
-      "year": 2026,
+      "scope": "all-time",
       "mergedPullRequests": 1,
       "lastMergedAt": "2026-08-12T12:21:24Z",
       "additions": 1,
@@ -399,7 +404,7 @@
         "name": "JavaScript",
         "color": "#f1e05a"
       },
-      "year": 2026,
+      "scope": "all-time",
       "mergedPullRequests": 9,
       "lastMergedAt": "2026-07-31T12:33:14Z",
       "additions": 4232,
@@ -414,7 +419,7 @@
         "name": "Rust",
         "color": "#dea584"
       },
-      "year": 2026,
+      "scope": "all-time",
       "mergedPullRequests": 1,
       "lastMergedAt": "2026-07-02T12:30:14Z",
       "additions": 6148,
@@ -475,6 +480,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "e070c1ae1228fca0dc81c8c404153bd931414fe072714f43140b20e8c9b9356d",
-  "generatedAt": "2026-09-25T13:11:20.422Z"
+  "fingerprint": "cc092e2238db396ef9b27bdc0f7df36679c3350c130e84774070734c4ed4a4d7",
+  "generatedAt": "2026-09-25T13:21:43.717Z"
 }

@@ -118,7 +118,7 @@ test('ecosystem marks collapse duplicate logos and include public affiliations',
 
 function mergedContribution(name, at, visibility = 'PUBLIC') {
   return {
-    mergedAt: at, additions: 12, deletions: 3,
+    id: `${name}:${at}`, mergedAt: at, additions: 12, deletions: 3,
     repository: {
       nameWithOwner: name, visibility, owner: { login: name.split('/')[0] },
       url: `https://github.com/${name}`, stargazerCount: 100, forkCount: 10,
@@ -127,7 +127,7 @@ function mergedContribution(name, at, visibility = 'PUBLIC') {
   };
 }
 
-test('recent contributions deduplicate repositories and reject private, own, unmerged and past-year work', () => {
+test('recent contributions span all years and reject private, own and unmerged work', () => {
   const rows = [
     mergedContribution('public/older', '2026-01-02T00:00:00Z'),
     mergedContribution('public/newer', '2026-09-24T00:00:00Z'),
@@ -138,21 +138,35 @@ test('recent contributions deduplicate repositories and reject private, own, unm
     mergedContribution('public/lastyear', '2025-12-30T00:00:00Z'),
     mergedContribution('public/open', null),
   ];
-  assert.deepEqual(recentContributionRepositories(rows, 'rohitg00', 5, 2026).map(repo => repo.nameWithOwner), ['public/newer', 'public/older']);
+  assert.deepEqual(recentContributionRepositories(rows, 'rohitg00', 5).map(repo => repo.nameWithOwner), ['public/newer', 'public/older', 'public/lastyear']);
+  assert.deepEqual(recentContributionRepositories(rows, 'rohitg00', 1).map(repo => repo.nameWithOwner), ['public/newer']);
 });
 
 test('contribution counts use the full search count while incomplete line totals remain unavailable', () => {
-  const nodes = [mergedContribution('public/repo', '2026-09-20T00:00:00Z'), mergedContribution('public/repo', '2026-09-25T00:00:00Z')];
-  const complete = summarizeRepositoryContributions(nodes[0].repository, { nodes, totalCount: 2 }, 2026);
+  const nodes = [mergedContribution('public/repo', '2025-09-20T00:00:00Z'), mergedContribution('public/repo', '2026-09-25T00:00:00Z')];
+  const complete = summarizeRepositoryContributions(nodes[0].repository, { nodes, totalCount: 2 });
+  assert.equal(complete.scope, 'all-time');
+  assert.equal(complete.mergedPullRequests, 2);
   assert.equal(complete.additions, 24);
   assert.equal(complete.deletions, 6);
   assert.equal(complete.lastMergedAt, '2026-09-25T00:00:00Z');
-  const partial = summarizeRepositoryContributions(nodes[0].repository, { nodes, totalCount: 1020 }, 2026);
+  const partial = summarizeRepositoryContributions(nodes[0].repository, { nodes, totalCount: 1020 });
   assert.equal(partial.mergedPullRequests, 1020);
   assert.equal(partial.additions, null);
   assert.equal(partial.deletions, null);
   const privateNode = mergedContribution('hidden/repo', '2026-09-25T00:00:00Z', 'PRIVATE');
-  assert.equal(summarizeRepositoryContributions(privateNode.repository, { nodes: [privateNode], totalCount: 1 }, 2026), null);
+  assert.equal(summarizeRepositoryContributions(privateNode.repository, { nodes: [privateNode], totalCount: 1 }), null);
+});
+
+test('duplicate PRs cannot inflate diff totals or make partial results look complete', () => {
+  const node = mergedContribution('public/repo', '2026-09-25T00:00:00Z');
+  const complete = summarizeRepositoryContributions(node.repository, { nodes: [node, node], totalCount: 1 });
+  assert.equal(complete.additions, 12);
+  assert.equal(complete.deletions, 3);
+  const partial = summarizeRepositoryContributions(node.repository, { nodes: [node, node], totalCount: 2 });
+  assert.equal(partial.mergedPullRequests, 2);
+  assert.equal(partial.additions, null);
+  assert.equal(partial.deletions, null);
 });
 
 test('language shares use repository code size, preserve colors and handle empty repositories', () => {

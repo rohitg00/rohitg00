@@ -73,22 +73,23 @@ export function languageShares(languages) {
   }));
 }
 
-export function recentContributionRepositories(nodes, username, limit, year) {
+export function recentContributionRepositories(nodes, username, limit) {
   const repositories = new Map();
   for (const node of [...nodes].sort((a, b) => Date.parse(b.mergedAt) - Date.parse(a.mergedAt))) {
     const repository = node.repository;
-    if (!node.mergedAt || node.mergedAt.slice(0, 4) !== String(year)
+    if (!node.mergedAt
       || repository?.visibility !== 'PUBLIC'
-      || repository.owner?.login.toLowerCase() === username.toLowerCase()) continue;
+      || repository.owner?.login?.toLowerCase() === username.toLowerCase()) continue;
     if (!repositories.has(repository.nameWithOwner)) repositories.set(repository.nameWithOwner, repository);
   }
   return [...repositories.values()].slice(0, limit);
 }
 
-export function summarizeRepositoryContributions(repository, result, year) {
-  const nodes = result.nodes.filter(node => node.mergedAt?.slice(0, 4) === String(year)
+export function summarizeRepositoryContributions(repository, result) {
+  const publicMerged = result.nodes.filter(node => node.id && node.mergedAt
     && node.repository?.visibility === 'PUBLIC'
     && node.repository.nameWithOwner === repository.nameWithOwner);
+  const nodes = [...new Map(publicMerged.map(node => [node.id, node])).values()];
   if (!nodes.length) return null;
   const complete = nodes.length === result.totalCount;
   return {
@@ -97,7 +98,7 @@ export function summarizeRepositoryContributions(repository, result, year) {
     stars: repository.stargazerCount,
     forks: repository.forkCount,
     language: repository.primaryLanguage,
-    year,
+    scope: 'all-time',
     mergedPullRequests: result.totalCount,
     lastMergedAt: nodes.map(node => node.mergedAt).sort().at(-1),
     additions: complete ? nodes.reduce((total, node) => total + node.additions, 0) : null,
@@ -303,9 +304,9 @@ async function searchMergedPullRequests(query, token, maxPages) {
   return { nodes, totalCount };
 }
 
-async function fetchPublicContributionDetails(config, token, now) {
+async function fetchPublicContributionDetails(config, token) {
   const priorityLogins = config.contributedOrganizationPriority ?? [];
-  const globalQuery = `is:pr is:merged is:public author:${config.username} archived:false sort:updated-desc`;
+  const globalQuery = `is:pr is:merged is:public author:${config.username} -user:${config.username} sort:updated-desc`;
   const targetedQueries = priorityLogins.map(
     (login) => `is:pr is:merged is:public author:${config.username} org:${login} archived:false sort:updated-desc`,
   );
@@ -345,12 +346,11 @@ async function fetchPublicContributionDetails(config, token, now) {
     ),
     fetchFeaturedAffiliations(config, token),
   ]);
-  const year = now.getUTCFullYear();
-  const recentRepositories = recentContributionRepositories(nodes, config.username, config.recentContributionRepositories, year);
+  const recentRepositories = recentContributionRepositories(nodes, config.username, config.recentContributionRepositories);
   const recentContributions = await Promise.all(recentRepositories.map(async repository => {
-    const query = `is:pr is:merged is:public author:${config.username} repo:${repository.nameWithOwner} merged:${year}-01-01..${isoDate(now)}`;
+    const query = `is:pr is:merged is:public author:${config.username} repo:${repository.nameWithOwner} sort:updated-desc`;
     const result = await searchMergedPullRequests(query, token, 10);
-    return summarizeRepositoryContributions(repository, result, year);
+    return summarizeRepositoryContributions(repository, result);
   }));
   return {
     ecosystemOrganizations: composeEcosystemOrganizations(contributed, affiliations, config.contributedOrganizations ?? 7),
@@ -385,7 +385,7 @@ export async function fetchPublicGitHubProfile(config, token, now = new Date()) 
       },
       token,
     ),
-    fetchPublicContributionDetails(config, token, now),
+    fetchPublicContributionDetails(config, token),
   ]);
 
   if (!contributionData.user) {
