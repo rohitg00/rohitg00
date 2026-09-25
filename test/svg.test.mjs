@@ -161,3 +161,19 @@ test('extra tech-stack chips fit inside the canvas and above the following secti
     }
   }
 });
+
+test('all country comparisons show their own score and cached date in both sizes and themes', () => {
+  const positions = Object.fromEntries(['World', 'India', 'USA', 'UK', 'China'].map((label, index) => [label.toLowerCase(), { label, position: index + 1 }]));
+  const data = { ...snapshot, ranking: { ...snapshot.ranking, creatorBenchmarks: {
+    status: 'cached', measuredAt: '2026-08-01T00:00:00Z', measuredValue: 90000, positions,
+  } } };
+  for (const compact of [false, true]) for (const theme of ['light', 'dark']) {
+    const svg = renderProfileSvg(data, [], { compact, theme });
+    for (const label of ['WORLD', 'INDIA', 'USA', 'UK', 'CHINA']) assert.ok(svg.includes(`>${label}</text>`));
+    for (let position = 1; position <= 5; position++) assert.ok(svg.includes(`aria-label="#${position}"`));
+    assert.match(svg, /90,000 OWNED STARS/);
+    assert.match(svg, /CACHED · 01 Aug 2026/);
+    assert.match(svg, /Score comparisons, not residency-based ranks/);
+    assert.doesNotMatch(svg, /undefined|NaN/);
+  }
+});

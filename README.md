@@ -1,13 +1,13 @@
 <a href="./assets/public-builder-profile.png#gh-light-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/public-builder-profile-mobile.png" />
-  <img src="./assets/public-builder-profile.png" alt="Rohit Ghumare. Building AI agent infrastructure and developer tools. Public GitHub statistics, ecosystem roles, tech stack, top repositories, and selected contributions with all-time merged PR counts." width="100%" />
+  <img src="./assets/public-builder-profile.png" alt="Rohit Ghumare. Building AI agent infrastructure and developer tools. Public GitHub statistics, World/India/USA/UK/China star-score comparisons, ecosystem roles, tech stack, top repositories, and selected contributions with all-time merged PR counts." width="100%" />
 </picture>
 </a>
 <a href="./assets/public-builder-profile-dark.png#gh-dark-mode-only">
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/public-builder-profile-mobile-dark.png" />
-  <img src="./assets/public-builder-profile-dark.png" alt="Rohit Ghumare. Building AI agent infrastructure and developer tools. Public GitHub statistics, ecosystem roles, tech stack, top repositories, and selected contributions with all-time merged PR counts." width="100%" />
+  <img src="./assets/public-builder-profile-dark.png" alt="Rohit Ghumare. Building AI agent infrastructure and developer tools. Public GitHub statistics, World/India/USA/UK/China star-score comparisons, ecosystem roles, tech stack, top repositories, and selected contributions with all-time merged PR counts." width="100%" />
 </picture>
 </a>
 

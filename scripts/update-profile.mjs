@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 import { fetchPublicGitHubProfile, resolveGitHubToken } from './lib/github.mjs';
 import { refreshGitRanksCreator } from './lib/gitranks.mjs';
+import { refreshCreatorBenchmarks } from './lib/creator-benchmarks.mjs';
 import { finalizeSnapshot } from './lib/model.mjs';
 import { writeProfileAssets } from './lib/assets.mjs';
 
@@ -28,6 +29,9 @@ function historyEntry(snapshot) {
     followerRank: snapshot.ranking.followerWorld.position,
     topProjectRank: snapshot.ranking.topProjectWorld.position,
     gitRanksCreatorRank: snapshot.ranking.gitRanksCreator?.position ?? null,
+    creatorBenchmarkRanks: Object.fromEntries(
+      Object.entries(snapshot.ranking.creatorBenchmarks?.positions ?? {}).map(([key, value]) => [key, value.position]),
+    ),
     followers: snapshot.profile.followers,
     ownedStars: snapshot.metrics.ownedStars,
     commits: snapshot.metrics.commits,
@@ -62,11 +66,15 @@ async function main() {
   const token = resolveGitHubToken();
   const now = new Date();
   const publicProfile = await fetchPublicGitHubProfile(config, token, now);
-  publicProfile.ranking.gitRanksCreator = await refreshGitRanksCreator(
-    config.username,
-    previousSnapshot?.ranking.gitRanksCreator,
-    now,
-  );
+  [publicProfile.ranking.gitRanksCreator, publicProfile.ranking.creatorBenchmarks] = await Promise.all([
+    refreshGitRanksCreator(config.username, previousSnapshot?.ranking.gitRanksCreator, now),
+    refreshCreatorBenchmarks(
+      publicProfile.metrics.ownedStars,
+      config.creatorBenchmarkCountries,
+      previousSnapshot?.ranking.creatorBenchmarks,
+      now,
+    ),
+  ]);
   const snapshot = finalizeSnapshot(publicProfile, previousSnapshot, now);
   const changed = snapshot.fingerprint !== previousSnapshot?.fingerprint;
   const history = updateHistory(previousHistory, snapshot, changed);
@@ -86,6 +94,7 @@ async function main() {
       followerRank: snapshot.ranking.followerWorld.position,
       topProjectRank: snapshot.ranking.topProjectWorld.position,
       gitRanksCreator: snapshot.ranking.gitRanksCreator,
+      creatorBenchmarks: snapshot.ranking.creatorBenchmarks,
       publicSignals: {
         commits: snapshot.metrics.commits,
         pullRequests: snapshot.metrics.pullRequests,

@@ -148,11 +148,35 @@ function projects(snapshot, compact, { ink: INK }) {
   }).join('');
 }
 
+function countryBenchmarks(snapshot, compact, { ink: INK, blue: BLUE }) {
+  const benchmark = snapshot.ranking.creatorBenchmarks;
+  const inset = compact ? 28 : 40;
+  const width = compact ? 600 : 1200;
+  const positions = Object.values(benchmark?.positions ?? {}).slice(0, 5);
+  const source = benchmark?.status === 'cached' ? 'CACHED' : 'GITRANKS';
+  const measured = benchmark?.measuredAt ? `${source} · ${date(benchmark.measuredAt)}` : 'COMPARISONS UNAVAILABLE';
+  const column = (width - inset * 2) / Math.max(1, positions.length);
+  const ranks = positions.map((entry, index) => {
+    const x = inset + index * column;
+    return text(x, compact ? 123 : 91, entry.label.toUpperCase(), 'label')
+      + display(x, compact ? 184 : 151, rank(entry.position), compact ? 64 : 80, BLUE, '', column - 14);
+  }).join('');
+  return `<g transform="translate(0 ${compact ? 1157 : 769})">`
+    + text(inset, 32, 'COUNTRY RANK COMPARISON', 'label blue')
+    + text(compact ? inset : width - inset, compact ? 58 : 32, measured, 'note', compact ? '' : 'text-anchor="end"')
+    + text(inset, compact ? 86 : 59, `${number(benchmark?.measuredValue)} OWNED STARS / SAME SCORE IN EACH REGION`, 'note')
+    + ranks
+    + text(inset, compact ? 218 : 184, 'Score comparisons, not residency-based ranks.', 'note')
+    + rule(compact ? 240 : 208, width, inset, INK)
+    + '</g>';
+}
+
 export function renderPublicBuilderSvg(snapshot, history = [], { compact = false, theme = 'light' } = {}) {
   const palette = THEMES[theme];
   const { ink: INK, blue: BLUE, paper: PAPER } = palette;
   const width = compact ? 600 : 1200;
-  const height = compact ? 1584 : 1024;
+  const benchmarkHeight = compact ? 240 : 208;
+  const height = (compact ? 1584 : 1024) + benchmarkHeight;
   const inset = compact ? 28 : 40;
   const followerRank = snapshot.ranking.followerWorld.position;
   const starChange = change(history, snapshot, 'ownedStars', snapshot.metrics.ownedStars);
@@ -239,6 +263,8 @@ ${mobileProfile}
   ${rule(compact ? 942 : 641, width, inset, INK)}
   ${creatorRanking(snapshot, compact, palette)}
   ${rule(compact ? 1157 : 769, width, inset, INK)}
+  ${countryBenchmarks(snapshot, compact, palette)}
+  <g transform="translate(0 ${benchmarkHeight})">
   ${text(inset, compact ? 1190 : 792, 'SELECTED OPEN SOURCE', 'label')}
   ${projects(snapshot, compact, palette)}
   ${rule(compact ? 1350 : 853, width, inset, INK)}
@@ -246,6 +272,7 @@ ${mobileProfile}
   ${text(inset, compact ? 1477 : 907, 'PUBLIC CONTRIBUTIONS + ROLES', 'micro')}
   ${organizationMarks(snapshot, compact, palette)}
   ${rule(compact ? 1490 : 933, width, inset, INK)}
+  </g>
   </g>
 </svg>`;
 }

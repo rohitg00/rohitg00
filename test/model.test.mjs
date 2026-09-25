@@ -83,3 +83,19 @@ test('creator measurement timestamps are retained without changing the content f
   const otherMeasurement = finalizeSnapshot({ ...raw, measuredAt: creator.measuredAt }, first);
   assert.notEqual(otherMeasurement.fingerprint, first.fingerprint);
 });
+
+test('country measurement dates do not cause content changes but ranks and cached scores do', () => {
+  const benchmark = { status: 'fresh', measuredAt: '2026-09-25T00:00:00Z', measuredValue: 95000, positions: { india: { label: 'India', position: 1 } } };
+  const raw = { ...rawSnapshot, ranking: { ...rawSnapshot.ranking, creatorBenchmarks: benchmark } };
+  const first = finalizeSnapshot(raw, null);
+  const refreshed = { ...benchmark, measuredAt: '2026-09-26T00:00:00Z' };
+  const second = finalizeSnapshot({ ...raw, ranking: { ...raw.ranking, creatorBenchmarks: refreshed } }, first);
+  assert.equal(first.fingerprint, second.fingerprint);
+  assert.equal(first.generatedAt, second.generatedAt);
+  assert.deepEqual(second.ranking.creatorBenchmarks, refreshed);
+  assert.equal(benchmark.measuredAt, '2026-09-25T00:00:00Z');
+  for (const change of [{ status: 'cached' }, { measuredValue: 98000 }, { positions: { india: { label: 'India', position: 2 } } }]) {
+    const changed = finalizeSnapshot({ ...raw, ranking: { ...raw.ranking, creatorBenchmarks: { ...benchmark, ...change } } }, first);
+    assert.notEqual(changed.fingerprint, first.fingerprint);
+  }
+});

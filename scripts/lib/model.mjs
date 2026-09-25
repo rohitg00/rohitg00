@@ -98,6 +98,7 @@ export function finalizeSnapshot(rawSnapshot, previousSnapshot, now = new Date()
   };
   const fingerprintCandidate = structuredClone(candidate);
   delete fingerprintCandidate.ranking?.gitRanksCreator?.measuredAt;
+  delete fingerprintCandidate.ranking?.creatorBenchmarks?.measuredAt;
   const contentFingerprint = fingerprint(fingerprintCandidate);
   const unchanged = previousSnapshot?.fingerprint === contentFingerprint;
 

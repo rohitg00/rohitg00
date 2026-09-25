@@ -12,6 +12,14 @@ The creator panel uses the position, ranked-profile count, top percentage, month
 
 GitRanks indexes profiles on its own schedule, so its star total can differ from the live GitHub total. The panel labels its indexed stars separately. Its date records when the source was read, not when GitRanks last indexed GitHub. The collector reads the public page through Jina Reader and parses the creator card from its server-rendered data. If the upstream page changes or cannot be read, it retains the prior verified result with a cached label and its original date. Without a prior result, it shows unavailable values.
 
+## Country rank comparisons
+
+The World, India, USA, UK, and China comparisons use the same current owned-star total against the corresponding [GitRanks Stars leaderboards](https://gitranks.com/by/stars/1). Countries are configured in `creatorBenchmarkCountries` in `config/profile.json`.
+
+Each comparison is one plus the number of leaderboard profiles with more stars than Rohit's public, non-fork, non-archived repositories have in total. These are score insertion benchmarks, not official country positions or residency claims. They remain separate from the creator rank reported on Rohit's GitRanks profile, which uses GitRanks' own indexed star total.
+
+The collector requests uncached first pages through Jina Reader. It requires consecutive ranks starting at one, valid numeric scores, and an observed score boundary before publishing a position. Displayed scores can refresh before leaderboard ordering, so every higher score on the fetched page is counted. Upstream indexing can lag GitHub. If any comparison cannot be verified, the previous verified set retains its own star total and measurement date with a cached label; without a verified set, comparisons remain unavailable. Both GitRanks measurement timestamps remain in the snapshot but are excluded from its content fingerprint.
+
 ## Tech stack, repositories, and contributions
 
 Tech stack labels are maintained in `config/profile.json`. The top five original public repositories are ranked by current GitHub stars. Fork counts, last push dates, and language shares are fetched through GitHub CLI. Language percentages use GitHub's reported code sizes; smaller languages are grouped as Other in the bar legend.

@@ -27,6 +27,12 @@
     "modelcontextprotocol/rust-sdk",
     "docker/mcp-registry"
   ],
+  "creatorBenchmarkCountries": [
+    { "key": "india", "label": "India", "path": "India" },
+    { "key": "usa", "label": "USA", "path": "United States" },
+    { "key": "uk", "label": "UK", "path": "United Kingdom" },
+    { "key": "china", "label": "China", "path": "China" }
+  ],
   "techStack": [
     "Python",
     "TypeScript",

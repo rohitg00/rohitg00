@@ -18,7 +18,7 @@ export function renderProfileSvg(snapshot, history = [], options = {}) {
   const height = overview.height + work.height;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${overview.width}" height="${height}" viewBox="0 0 ${overview.width} ${height}" role="img" aria-labelledby="profile-title profile-description">
   <title id="profile-title">${escapeXml(snapshot.profile.name)} public builder profile</title>
-  <desc id="profile-description">Public GitHub statistics, ecosystem roles, tech stack, top repositories, and selected contributions in one continuous blueprint.</desc>
+  <desc id="profile-description">Public GitHub statistics, country rank comparisons, ecosystem roles, tech stack, top repositories, and selected contributions in one continuous blueprint.</desc>
   ${overview.markup}
   ${work.markup}
 </svg>`;
