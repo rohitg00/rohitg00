@@ -54,7 +54,7 @@ GitHub Actions schedules and GitHub's image cache can delay visible updates.
 
 Growth compares with the most recent saved snapshot from an earlier UTC day. The comparison date is shown next to the change. The 365-day activity window rolls forward, so its counts may decrease even when new activity occurs.
 
-The README selects light or dark PNGs using `prefers-color-scheme`, with separate compact layouts below 600px. All eight PNGs (two panels, two widths, two themes) are generated from the same snapshot with `npm run render`. Both themes preserve the blueprint layout, with brighter text, blue accents, and diff colors on the dark background. Logo tiles retain a light surface so original brand marks stay legible. SVG intermediates are generated locally and are not committed. The README displays these images directly, so its design matches the generated banner. Automatic refreshes rebuild every theme and size without rewriting the README.
+The README uses GitHub's `#gh-light-mode-only` and `#gh-dark-mode-only` link markers to follow the selected GitHub theme, including a manual theme choice that differs from the system setting. Each theme has a responsive picture with a compact layout below 600px. All eight PNGs (two panels, two widths, two themes) are generated from the same snapshot with `npm run render`. Both themes preserve the blueprint layout, with brighter text, blue accents, and diff colors on the dark background. Logo tiles retain a light surface so original brand marks stay legible. SVG intermediates are generated locally and are not committed. The README displays these images directly, so its design matches the generated banner. Automatic refreshes rebuild every theme and size without rewriting the README.
 
 ## Refresh locally
 
