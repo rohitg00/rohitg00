@@ -1,6 +1,5 @@
 node_modules/
 .env
-preview/*.png
-!preview/previous-banner.png
-preview/*.log
+preview/
+assets/public-builder-rank*.svg
 .gstack/

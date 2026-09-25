@@ -6,8 +6,6 @@ The profile card separates direct world positions from a transparent activity sc
 
 Follower rank is calculated as one plus the number of public GitHub user accounts with more followers. Top project rank is one plus the number of public, non-fork repositories with more stars than the profile's most-starred original repository. Both counts come from GitHub Search at refresh time.
 
-Creator and contributor badges in the README are external GitRanks reference points. They are not blended into the Builder Index.
-
 ## Creator profile geography benchmarks
 
 The World, India, USA, UK, and China comparisons use the Stars leaderboards from the open-source [GitRanks UI](https://github.com/gitranks/gitranks-ui). These are score insertion benchmarks, not the official GitRanks positions of this account. The profile score sums stars on public, non-fork, non-archived repositories; GitRanks profiles may use a different repository inclusion policy.
@@ -36,7 +34,7 @@ The reference caps are normalization anchors, not claims about the global popula
 
 ## Privacy boundary
 
-The collector uses public profile, repository, event, search, and contribution data. Contribution groups are accepted only when the repository visibility is `PUBLIC`.
+The collector uses public profile, repository, search, and contribution data. Contribution groups are accepted only when the repository visibility is `PUBLIC`.
 
 The generator does not use GitHub's blended contribution totals because an authenticated response can include private activity. It does not store restricted contribution counts, private repository names, private organization names, commit messages, pull request titles, or issue titles.
 
@@ -48,11 +46,11 @@ GitHub returns at most 100 repositories for each contribution category. The card
 
 The repository workflow checks at minutes 17 and 47 of every hour once merged into the default branch and enabled. It also refreshes when generator code or configuration changes, and supports a manual Actions run. Each run installs locked dependencies, runs tests, collects public data using `gh api`, rebuilds both banners, and commits only generated profile files with `git`. It uses the repository's built-in `GITHUB_TOKEN` through `GH_TOKEN`; no personal token is required for the public data. Forks and non-default branches cannot run the publishing job.
 
-This local preview reads saved snapshots every 30 seconds and reloads the banner when its revision changes. GitHub Actions schedules and GitHub's image cache can delay visible updates.
+GitHub Actions schedules and GitHub's image cache can delay visible updates.
 
 Growth compares with the most recent saved snapshot from an earlier UTC day. The comparison date is shown next to the change. The 365-day activity window rolls forward, so its counts may decrease even when new activity occurs.
 
-The README selects a separate compact PNG below 600px. Both PNGs and their SVG sources are generated from the same snapshot with `npm run render`. The preview has before/after and light/dark controls; those controls are not part of the GitHub banner.
+The README selects a separate compact PNG below 600px. Both PNGs are generated from the same snapshot with `npm run render`. SVG intermediates are generated locally and are not committed. The README displays these images directly, so its design matches the generated banner. Refreshes update the images and data without rewriting the README.
 
 ## Refresh locally
 

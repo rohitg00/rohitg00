@@ -1,10 +1,7 @@
 {
   "username": "rohitg00",
   "activityWindowDays": 365,
-  "recentActivityLimit": 5,
-  "topRepositories": 5,
-  "topOrganizations": 5,
-  "topLanguages": 4,
+  "topRepositories": 3,
   "contributedOrganizations": 7,
   "mergedPullRequestSearchPages": 10,
   "contributedOrganizationPrioritySearchPages": 2,

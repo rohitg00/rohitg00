@@ -5,14 +5,12 @@ import { fileURLToPath } from 'node:url';
 import { fetchPublicGitHubProfile, resolveGitHubToken } from './lib/github.mjs';
 import { refreshCreatorBenchmarks } from './lib/gitranks.mjs';
 import { finalizeSnapshot } from './lib/model.mjs';
-import { renderReadme } from './lib/readme.mjs';
 import { writeProfileAssets } from './lib/assets.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const configPath = resolve(root, 'config/profile.json');
 const snapshotPath = resolve(root, 'data/public-profile.json');
 const historyPath = resolve(root, 'data/public-profile-history.json');
-const readmePath = resolve(root, 'README.md');
 
 async function readJson(path, fallback = null) {
   try {
@@ -61,11 +59,10 @@ export function updateHistory(history, snapshot, changed, limit = 365) {
 }
 
 async function main() {
-  const [config, previousSnapshot, previousHistory, readme] = await Promise.all([
+  const [config, previousSnapshot, previousHistory] = await Promise.all([
     readJson(configPath),
     readJson(snapshotPath),
     readJson(historyPath, []),
-    readFile(readmePath, 'utf8'),
   ]);
   const token = resolveGitHubToken();
   const now = new Date();
@@ -79,14 +76,12 @@ async function main() {
   const snapshot = finalizeSnapshot(publicProfile, previousSnapshot, now);
   const changed = snapshot.fingerprint !== previousSnapshot?.fingerprint;
   const history = updateHistory(previousHistory, snapshot, changed);
-  const nextReadme = renderReadme(readme, snapshot);
 
   await mkdir(dirname(snapshotPath), { recursive: true });
   await writeProfileAssets(root, snapshot, history);
   await Promise.all([
     writeFile(snapshotPath, `${JSON.stringify(snapshot, null, 2)}\n`),
     writeFile(historyPath, `${JSON.stringify(history, null, 2)}\n`),
-    writeFile(readmePath, nextReadme),
   ]);
 
   console.log(

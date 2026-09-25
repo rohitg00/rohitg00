@@ -23,9 +23,6 @@ const rawSnapshot = {
     topProjectWorld: { position: 120 },
   },
   topRepositories: [],
-  recentActivity: [],
-  organizations: [],
-  languages: [],
 };
 
 test('logarithmic scoring is bounded and monotonic', () => {

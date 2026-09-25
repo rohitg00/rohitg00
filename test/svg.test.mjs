@@ -31,22 +31,9 @@ const snapshot = finalizeSnapshot(
         language: 'Python',
       },
     ],
-    recentActivity: [
-      {
-        label: 'Pushed 2 commits',
-        repository: 'iii-hq/workers',
-        occurredAt: '2026-08-24T10:00:00Z',
-      },
+    ecosystemOrganizations: [
+      { login: 'iii-hq', mergedPullRequests: 36, relationship: 'merged-public-prs' },
     ],
-    organizations: [
-      {
-        login: 'iii-hq',
-        activity: 42,
-        collaborationActivity: 36,
-        ecosystemStars: 12000,
-      },
-    ],
-    languages: [{ name: 'TypeScript', repositories: 22, stars: 30000 }],
   },
   null,
   new Date('2026-08-24T12:00:00Z'),
