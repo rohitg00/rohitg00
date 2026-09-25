@@ -73,8 +73,8 @@ export function renderPublicWorkSvg(snapshot, { compact = false } = {}) {
   }).join('');
   const right = compact ? inset : 640;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="work-title work-description">
-  <title id="work-title">Tech stack, top repositories, and recent contributions</title>
-  <desc id="work-description">${escapeXml(`Rohit's tech stack: ${(snapshot.techStack ?? []).join(', ')}. Five top original repositories with language breakdowns. Recently contributed public repositories show Rohit's all-time merged pull request counts and summed PR diffs. Stars and forks describe each repository. Refreshed ${date(snapshot.generatedAt)}.`)}</desc>
+  <title id="work-title">Tech stack, top repositories, and selected contributions</title>
+  <desc id="work-description">${escapeXml(`Rohit's tech stack: ${(snapshot.techStack ?? []).join(', ')}. Five top original repositories with language breakdowns. Selected public repositories show Rohit's all-time merged pull request counts and summed PR diffs. Stars and forks describe each repository. Refreshed ${date(snapshot.generatedAt)}.`)}</desc>
   <defs>
     <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="${INK}" opacity=".1" /></pattern>
     <style>
@@ -94,7 +94,7 @@ export function renderPublicWorkSvg(snapshot, { compact = false } = {}) {
   ${text(inset, compact ? 255 : 175, 'Original public projects · languages by code size', 'note')}
   ${repositories.map((repository, index) => projectRow(repository, inset, projectsY + index * 200, column, compact)).join('')}
   ${compact ? rule(contributionsHeading - 33, width, inset) : `<path d="M600 144V${bottom - 28}" stroke="${BLUE}" stroke-dasharray="3 5" opacity=".25" />`}
-  ${text(right, contributionsHeading, 'FIG_006 / RECENT CONTRIBUTIONS', 'label')}
+  ${text(right, contributionsHeading, 'FIG_006 / SELECTED CONTRIBUTIONS', 'label')}
   ${text(right, contributionsHeading + 27, 'Merged PRs to other public repositories', 'note')}
   ${contributions.length ? contributions.map((contribution, index) => contributionRow(contribution, right, contributionsY + index * 200, column, compact)).join('') : text(right, contributionsY + 40, 'No public merged contributions found.', 'note')}
   ${rule(bottom, width, inset)}

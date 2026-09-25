@@ -20,6 +20,13 @@
     }
   ],
   "recentContributionRepositories": 5,
+  "featuredContributionRepositories": [
+    "iii-hq/workers",
+    "iii-hq/iii",
+    "iii-experimental/openwiki",
+    "modelcontextprotocol/rust-sdk",
+    "docker/mcp-registry"
+  ],
   "techStack": [
     "Python",
     "TypeScript",

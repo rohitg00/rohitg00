@@ -7,7 +7,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/public-builder-work-mobile.png" />
-  <img src="./assets/public-builder-work.png" alt="Tech stack: Python, TypeScript, Rust, Kubernetes, MCP. Top five repositories with language breakdowns and recently contributed public repositories with all-time merged PR counts and summed PR diffs." width="100%" />
+  <img src="./assets/public-builder-work.png" alt="Tech stack: Python, TypeScript, Rust, Kubernetes, MCP. Top five repositories with language breakdowns and selected public contributions, including the MCP Rust SDK and Docker MCP registry, with all-time merged PR counts and summed PR diffs." width="100%" />
 </picture>
 
 [All repositories](https://github.com/rohitg00?tab=repositories) · [All merged contributions](https://github.com/search?q=author%3Arohitg00+is%3Apr+is%3Amerged+is%3Apublic+-user%3Arohitg00&type=pullrequests)

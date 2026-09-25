@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 106098,
+    "ownedStars": 106100,
     "commits": 6464,
     "pullRequests": 1578,
     "issues": 261,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 403,
-      "measuredValue": 57129,
+      "measuredValue": 57131,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,7 +37,7 @@
       "monthlyChange": 14,
       "stars": 103211,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-09-25T13:21:43.717Z",
+      "measuredAt": "2026-09-25T13:25:43.133Z",
       "status": "fresh"
     }
   },
@@ -46,7 +46,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 57129,
+      "stars": 57131,
       "forks": 9985,
       "updatedAt": "2026-09-25T05:16:13Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -223,12 +223,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17304,
+      "ecosystemStars": 17305,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17304,
+          "stars": 17305,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -381,21 +381,6 @@
       "deletions": 109255
     },
     {
-      "nameWithOwner": "ccplugins/awesome-claude-code-plugins",
-      "url": "https://github.com/ccplugins/awesome-claude-code-plugins",
-      "stars": 951,
-      "forks": 537,
-      "language": {
-        "name": "JavaScript",
-        "color": "#f1e05a"
-      },
-      "scope": "all-time",
-      "mergedPullRequests": 1,
-      "lastMergedAt": "2026-08-12T12:21:24Z",
-      "additions": 1,
-      "deletions": 0
-    },
-    {
       "nameWithOwner": "iii-experimental/openwiki",
       "url": "https://github.com/iii-experimental/openwiki",
       "stars": 6,
@@ -411,19 +396,34 @@
       "deletions": 753
     },
     {
-      "nameWithOwner": "iii-experimental/desktop",
-      "url": "https://github.com/iii-experimental/desktop",
-      "stars": 6,
-      "forks": 0,
+      "nameWithOwner": "modelcontextprotocol/rust-sdk",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "stars": 3950,
+      "forks": 644,
       "language": {
         "name": "Rust",
         "color": "#dea584"
       },
       "scope": "all-time",
       "mergedPullRequests": 1,
-      "lastMergedAt": "2026-07-02T12:30:14Z",
-      "additions": 6148,
-      "deletions": 7098
+      "lastMergedAt": "2026-06-04T12:43:40Z",
+      "additions": 132,
+      "deletions": 38
+    },
+    {
+      "nameWithOwner": "docker/mcp-registry",
+      "url": "https://github.com/docker/mcp-registry",
+      "stars": 557,
+      "forks": 1538,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "scope": "all-time",
+      "mergedPullRequests": 2,
+      "lastMergedAt": "2026-01-27T19:00:57Z",
+      "additions": 31,
+      "deletions": 1
     }
   ],
   "techStack": [
@@ -480,6 +480,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "cc092e2238db396ef9b27bdc0f7df36679c3350c130e84774070734c4ed4a4d7",
-  "generatedAt": "2026-09-25T13:21:43.717Z"
+  "fingerprint": "aacef1b27d11adc62132967d9dbbcc612b8cc13997272acb02cba5eab935df3a",
+  "generatedAt": "2026-09-25T13:25:43.133Z"
 }

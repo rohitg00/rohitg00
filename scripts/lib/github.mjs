@@ -346,11 +346,13 @@ async function fetchPublicContributionDetails(config, token) {
     ),
     fetchFeaturedAffiliations(config, token),
   ]);
-  const recentRepositories = recentContributionRepositories(nodes, config.username, config.recentContributionRepositories);
-  const recentContributions = await Promise.all(recentRepositories.map(async repository => {
-    const query = `is:pr is:merged is:public author:${config.username} repo:${repository.nameWithOwner} sort:updated-desc`;
+  const contributionNames = config.featuredContributionRepositories
+    ?? recentContributionRepositories(nodes, config.username, config.recentContributionRepositories).map(repository => repository.nameWithOwner);
+  const recentContributions = await Promise.all(contributionNames.slice(0, config.recentContributionRepositories).map(async nameWithOwner => {
+    const query = `is:pr is:merged is:public author:${config.username} repo:${nameWithOwner} sort:updated-desc`;
     const result = await searchMergedPullRequests(query, token, 10);
-    return summarizeRepositoryContributions(repository, result);
+    const [repository] = recentContributionRepositories(result.nodes, config.username, 1);
+    return repository ? summarizeRepositoryContributions(repository, result) : null;
   }));
   return {
     ecosystemOrganizations: composeEcosystemOrganizations(contributed, affiliations, config.contributedOrganizations ?? 7),
