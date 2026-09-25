@@ -152,7 +152,7 @@ export function renderPublicBuilderSvg(snapshot, history = [], { compact = false
   const palette = THEMES[theme];
   const { ink: INK, blue: BLUE, paper: PAPER } = palette;
   const width = compact ? 600 : 1200;
-  const height = compact ? 1610 : 1048;
+  const height = compact ? 1584 : 1024;
   const inset = compact ? 28 : 40;
   const followerRank = snapshot.ranking.followerWorld.position;
   const starChange = change(history, snapshot, 'ownedStars', snapshot.metrics.ownedStars);
@@ -210,7 +210,6 @@ export function renderPublicBuilderSvg(snapshot, history = [], { compact = false
     <pattern id="paper" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="${INK}" opacity=".10" /></pattern>
     <pattern id="grain" width="37" height="29" patternUnits="userSpaceOnUse"><circle cx="7" cy="11" r=".4" fill="${INK}" opacity=".1"/><circle cx="24" cy="21" r=".35" fill="${INK}" opacity=".1"/></pattern>
     <pattern id="halftone" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="1.05" fill="${BLUE}"/><circle cx="3.9" cy="3.9" r=".55" fill="${BLUE}"/></pattern>
-    <pattern id="pixel-rule" width="16" height="6" patternUnits="userSpaceOnUse"><rect width="4" height="3" fill="${BLUE}"/><rect x="8" y="3" width="6" height="3" fill="${BLUE}" opacity=".35"/></pattern>
     <style>
       text { font-family: "SFMono-Regular", "Liberation Mono", Consolas, monospace; fill: ${INK}; }
       .label { font-size: ${compact ? 15 : 12}px; letter-spacing: ${compact ? '.7' : '1.25'}px; font-weight: 600; }
@@ -247,9 +246,6 @@ ${mobileProfile}
   ${text(inset, compact ? 1477 : 907, 'PUBLIC CONTRIBUTIONS + ROLES', 'micro')}
   ${organizationMarks(snapshot, compact, palette)}
   ${rule(compact ? 1490 : 933, width, inset, INK)}
-  ${text(inset, compact ? 1514 : 953, 'PUBLIC DATA ONLY', 'small')}
-  ${text(width - inset, compact ? 1514 : 953, updated, 'small', 'text-anchor="end"')}
   </g>
-  <rect x="0" y="${height - 6}" width="${width}" height="6" fill="url(#pixel-rule)" />
 </svg>`;
 }

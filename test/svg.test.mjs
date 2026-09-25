@@ -4,6 +4,7 @@ import test from 'node:test';
 import { finalizeSnapshot } from '../scripts/lib/model.mjs';
 import { escapeXml, renderPublicBuilderSvg } from '../scripts/lib/svg.mjs';
 import { renderPublicWorkSvg } from '../scripts/lib/work-svg.mjs';
+import { renderProfileSvg } from '../scripts/lib/profile-svg.mjs';
 import { THEMES } from '../scripts/lib/theme.mjs';
 
 const snapshot = finalizeSnapshot(
@@ -120,6 +121,22 @@ test('dark panels preserve layout and content while changing the palette', () =>
       assert.deepEqual(dark.match(/\bd="[^"]*"/g), light.match(/\bd="[^"]*"/g));
       assert.equal(dark.match(/viewBox="[^"]*"/)[0], light.match(/viewBox="[^"]*"/)[0]);
       assert.doesNotMatch(dark, /undefined|NaN/);
+    }
+  }
+});
+
+test('continuous profile keeps section typography isolated and has one footer', () => {
+  for (const compact of [false, true]) {
+    for (const theme of ['light', 'dark']) {
+      const svg = renderProfileSvg(snapshot, [], { compact, theme });
+      assert.match(svg, /#profile-overview \.label \{/);
+      assert.match(svg, /#profile-work \.label \{/);
+      assert.doesNotMatch(svg, /^\s*(?:text|\.label|\.note) \{/m);
+      assert.equal((svg.match(/SOURCE \/ PUBLIC GITHUB DATA/g) ?? []).length, 1);
+      assert.equal((svg.match(/REFRESHED /g) ?? []).length, 1);
+      assert.doesNotMatch(svg, /pixel-rule|undefined|NaN/);
+      assert.match(svg, /ECOSYSTEM REACH/);
+      assert.match(svg, /TECH STACK/);
     }
   }
 });
