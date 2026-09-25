@@ -11,10 +11,8 @@
 </picture>
 </a>
 
-[Website](https://rohitghumare.com) · [Blog](https://rohitghumare.com/blog) · [LinkedIn](https://www.linkedin.com/in/rohit-ghumare/) · [X](https://twitter.com/ghumare64) · [Sponsor](https://github.com/sponsors/rohitg00)
+[Blog](https://rohitghumare.com/blog) · [LinkedIn](https://www.linkedin.com/in/rohit-ghumare/) · [X](https://twitter.com/ghumare64) · [Sponsor](https://github.com/sponsors/rohitg00)
 
 [All repositories](https://github.com/rohitg00?tab=repositories) · [All merged contributions](https://github.com/search?q=author%3Arohitg00+is%3Apr+is%3Amerged+is%3Apublic+-user%3Arohitg00&type=pullrequests)
-
-[AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) · [agentmemory](https://github.com/rohitg00/agentmemory) · [pro-workflow](https://github.com/rohitg00/pro-workflow)
 
 <sub>Public statistics refresh automatically. <a href="./RANKING.md">Sources and methodology</a>.</sub>
