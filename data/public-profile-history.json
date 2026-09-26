@@ -64,16 +64,16 @@
     "topProjectRank": 394,
     "gitRanksCreatorRank": 80,
     "creatorBenchmarkRanks": {
-      "world": 74,
+      "world": 73,
       "india": 1,
       "usa": 22,
-      "uk": 3,
+      "uk": 2,
       "china": 12
     },
-    "followers": 6449,
-    "ownedStars": 106688,
-    "commits": 6478,
-    "pullRequests": 1578,
+    "followers": 6454,
+    "ownedStars": 106847,
+    "commits": 6486,
+    "pullRequests": 1596,
     "issues": 261,
     "reviews": 93
   }
