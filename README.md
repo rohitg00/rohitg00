@@ -1,39 +1,18 @@
-# Hi, I'm Rohit
+<a href="./assets/public-builder-profile.png#gh-light-mode-only">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/public-builder-profile-mobile.png" />
+  <img src="./assets/public-builder-profile.png" alt="Rohit Ghumare. Building AI agent infrastructure and developer tools. Public GitHub statistics, World/India/USA/UK/China star-score comparisons, ecosystem roles, tech stack, top repositories, and selected contributions with all-time merged PR counts." width="100%" />
+</picture>
+</a>
+<a href="./assets/public-builder-profile-dark.png#gh-dark-mode-only">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/public-builder-profile-mobile-dark.png" />
+  <img src="./assets/public-builder-profile-dark.png" alt="Rohit Ghumare. Building AI agent infrastructure and developer tools. Public GitHub statistics, World/India/USA/UK/China star-score comparisons, ecosystem roles, tech stack, top repositories, and selected contributions with all-time merged PR counts." width="100%" />
+</picture>
+</a>
 
-[![Twitter](https://img.shields.io/twitter/follow/ghumare64?style=social)](https://twitter.com/ghumare64)
-[![LinkedIn](https://img.shields.io/badge/-rohit--ghumare-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-ghumare/)
+[Blog](https://rohitghumare.com/blog) · [LinkedIn](https://www.linkedin.com/in/rohit-ghumare/) · [X](https://twitter.com/ghumare64) · [Sponsor](https://github.com/sponsors/rohitg00)
 
-📍 London, UK  
-🌐 CNCF Ambassador · Platform Engineering Ambassador · Docker Captain · Google Developer Expert (Cloud & GenAI)
+[All repositories](https://github.com/rohitg00?tab=repositories) · [All merged contributions](https://github.com/search?q=author%3Arohitg00+is%3Apr+is%3Amerged+is%3Apublic+-user%3Arohitg00&type=pullrequests)
 
----
-
-## 🚀 About Me
-
-I build **AI agent infrastructure** and **developer tools**.
-
-- ⭐ 100K+ GitHub stars  
-- 👥 300K+ community
-
----
-
-## 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![MCP](https://img.shields.io/badge/-MCP-6B4FBB?style=flat-square)
-
----
-
-## ✍️ Currently Writing at 
-
-- [All things AI](https://rohitghumare.com/blog)
-
----
-
-## ❤️ Support
-
-[![Sponsor my work](https://img.shields.io/badge/Sponsor-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rohitg00)
-[![Nominate to GitHub Stars](https://img.shields.io/badge/Nominate_to_GitHub_Stars-yellow?style=flat-square)](https://stars.github.com/nominate/)
+<sub>Public statistics refresh automatically. <a href="./RANKING.md">Sources and methodology</a>.</sub>

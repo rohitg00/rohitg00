@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "login": "rohitg00",
+    "name": "Rohit Ghumare",
+    "followers": 6431,
+    "originalRepositoryCount": 104
+  },
+  "metrics": {
+    "ownedStars": 106333,
+    "commits": 6465,
+    "pullRequests": 1579,
+    "issues": 261,
+    "reviews": 93,
+    "windowDays": 365,
+    "windowStart": "2025-09-25",
+    "windowEnd": "2026-09-25"
+  },
+  "ranking": {
+    "followerWorld": {
+      "position": 674,
+      "measuredValue": 6431,
+      "source": "GitHub Search",
+      "method": "users with more followers plus one"
+    },
+    "topProjectWorld": {
+      "position": 404,
+      "measuredValue": 57349,
+      "repository": "rohitg00/ai-engineering-from-scratch",
+      "source": "GitHub Search",
+      "method": "repositories with more stars plus one"
+    },
+    "gitRanksCreator": {
+      "position": 80,
+      "rankedProfiles": "1.6M",
+      "topPercent": 0.01,
+      "monthlyChange": 14,
+      "stars": 103211,
+      "source": "https://gitranks.com/profile/rohitg00/ranks",
+      "measuredAt": "2026-09-25T19:48:21.404Z",
+      "status": "fresh"
+    },
+    "creatorBenchmarks": {
+      "status": "fresh",
+      "measuredValue": 106333,
+      "metric": "stars on original public repositories",
+      "source": "GitRanks Stars leaderboards via Jina Reader",
+      "method": "one plus the number of leaderboard profiles with a higher creator score",
+      "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
+      "measuredAt": "2026-09-25T19:50:24.226Z",
+      "positions": {
+        "world": {
+          "label": "World",
+          "position": 75,
+          "comparedProfiles": 100,
+          "source": "https://gitranks.com/by/stars/1"
+        },
+        "india": {
+          "label": "India",
+          "position": 1,
+          "comparedProfiles": 100,
+          "source": "https://gitranks.com/country/India/stars/1"
+        },
+        "usa": {
+          "label": "USA",
+          "position": 22,
+          "comparedProfiles": 100,
+          "source": "https://gitranks.com/country/United%20States/stars/1"
+        },
+        "uk": {
+          "label": "UK",
+          "position": 3,
+          "comparedProfiles": 100,
+          "source": "https://gitranks.com/country/United%20Kingdom/stars/1"
+        },
+        "china": {
+          "label": "China",
+          "position": 12,
+          "comparedProfiles": 100,
+          "source": "https://gitranks.com/country/China/stars/1"
+        }
+      }
+    }
+  },
+  "topRepositories": [
+    {
+      "name": "ai-engineering-from-scratch",
+      "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "stars": 57349,
+      "forks": 10009,
+      "updatedAt": "2026-09-25T15:46:33Z",
+      "createdAt": "2026-03-18T18:38:02Z",
+      "languages": [
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "percentage": 55.1
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 31.4
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "percentage": 6
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "percentage": 4.2
+        },
+        {
+          "name": "Julia",
+          "color": "#a270ba",
+          "percentage": 1.4
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "percentage": 1
+        },
+        {
+          "name": "Rust",
+          "color": "#dea584",
+          "percentage": 0.8
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 0.1
+        },
+        {
+          "name": "TeX",
+          "color": "#3D6117",
+          "percentage": 0
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "percentage": 0
+        },
+        {
+          "name": "Lua",
+          "color": "#000080",
+          "percentage": 0
+        }
+      ]
+    },
+    {
+      "name": "agentmemory",
+      "nameWithOwner": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "stars": 28847,
+      "forks": 2510,
+      "updatedAt": "2026-09-25T05:10:22Z",
+      "createdAt": "2026-02-25T07:32:52Z",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "percentage": 88.1
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "percentage": 6.9
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 2.5
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "percentage": 1.2
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 0.7
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "percentage": 0.5
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "percentage": 0.2
+        }
+      ]
+    },
+    {
+      "name": "pro-workflow",
+      "nameWithOwner": "rohitg00/pro-workflow",
+      "url": "https://github.com/rohitg00/pro-workflow",
+      "stars": 2881,
+      "forks": 290,
+      "updatedAt": "2026-09-24T06:22:08Z",
+      "createdAt": "2026-02-01T19:47:29Z",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 66.9
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "percentage": 31.9
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 1.2
+        }
+      ]
+    },
+    {
+      "name": "awesome-claude-code-toolkit",
+      "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
+      "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+      "stars": 2645,
+      "forks": 980,
+      "updatedAt": "2026-05-12T07:18:34Z",
+      "createdAt": "2026-02-04T21:09:33Z",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "percentage": 51.1
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "percentage": 39.4
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "percentage": 9.5
+        }
+      ]
+    },
+    {
+      "name": "DevOps_Books",
+      "nameWithOwner": "rohitg00/DevOps_Books",
+      "url": "https://github.com/rohitg00/DevOps_Books",
+      "stars": 2064,
+      "forks": 1192,
+      "updatedAt": "2025-05-29T16:02:36Z",
+      "createdAt": "2022-05-24T10:22:56Z",
+      "languages": []
+    }
+  ],
+  "ecosystemOrganizations": [
+    {
+      "login": "microsoft",
+      "url": "https://github.com/microsoft",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "mergedPullRequests": 1,
+      "ecosystemStars": 17308,
+      "repositoryCount": 1,
+      "repositories": [
+        {
+          "nameWithOwner": "microsoft/mcp-for-beginners",
+          "stars": 17308,
+          "url": "https://github.com/microsoft/mcp-for-beginners"
+        }
+      ],
+      "relationship": "merged-public-prs",
+      "avatarDataUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABC0lEQVR42u3boYoCURiG4XfEJCIIXsHegNcgyFr3AmxehRbxGuwmi0WsazVP2bhhs5YRTBMENxyFgxfwl3m/9DPlPzwwM+HjgGl2itdw+/poAYPA3XXv8HcDWB7pAp3A3dXqkztAO3s4AC6Bh9gAs+c8BxaBu4fAD0Cr6a+AAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCBAY5JXYzWprorKKZvL4N0VxgBZPc722iW1tFEpmfb3AI9vxsAocPe6mHB+/wZ0iK2oN8D+OY+Cd+8gAfgbFEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEaEryaqwi3aiMSl5Rr0l1VVR+MQaAf2YNIlxfNGW1AAAAAElFTkSuQmCC"
+    },
+    {
+      "login": "cncf",
+      "url": "https://github.com/cncf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
+      "mergedPullRequests": 5,
+      "ecosystemStars": 10444,
+      "repositoryCount": 3,
+      "repositories": [
+        {
+          "nameWithOwner": "cncf/landscape",
+          "stars": 9995,
+          "url": "https://github.com/cncf/landscape"
+        },
+        {
+          "nameWithOwner": "cncf/tag-env-sustainability",
+          "stars": 272,
+          "url": "https://github.com/cncf/tag-env-sustainability"
+        },
+        {
+          "nameWithOwner": "cncf/people",
+          "stars": 177,
+          "url": "https://github.com/cncf/people"
+        }
+      ],
+      "relationship": "merged-public-prs",
+      "avatarDataUri": "data:image/png;base64,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"
+    },
+    {
+      "login": "docker",
+      "url": "https://github.com/docker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
+      "mergedPullRequests": 2,
+      "ecosystemStars": 558,
+      "repositoryCount": 1,
+      "repositories": [
+        {
+          "nameWithOwner": "docker/mcp-registry",
+          "stars": 558,
+          "url": "https://github.com/docker/mcp-registry"
+        }
+      ],
+      "relationship": "merged-public-prs",
+      "avatarDataUri": "data:image/png;base64,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"
+    },
+    {
+      "login": "kubernetes",
+      "url": "https://github.com/kubernetes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
+      "mergedPullRequests": 1,
+      "ecosystemStars": 5395,
+      "repositoryCount": 1,
+      "repositories": [
+        {
+          "nameWithOwner": "kubernetes/website",
+          "stars": 5395,
+          "url": "https://github.com/kubernetes/website"
+        }
+      ],
+      "relationship": "merged-public-prs",
+      "avatarDataUri": "data:image/png;base64,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"
+    },
+    {
+      "login": "modelcontextprotocol",
+      "url": "https://github.com/modelcontextprotocol",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
+      "mergedPullRequests": 1,
+      "ecosystemStars": 3951,
+      "repositoryCount": 1,
+      "repositories": [
+        {
+          "nameWithOwner": "modelcontextprotocol/rust-sdk",
+          "stars": 3951,
+          "url": "https://github.com/modelcontextprotocol/rust-sdk"
+        }
+      ],
+      "relationship": "merged-public-prs",
+      "avatarDataUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAFlElEQVR4nOxaT6gSXxRWe0MaWtofQkkSQiLJxApKJSICCypc9I+yFrWwaKVBEG2KFmbaslqUQRAIQRkFQWFBmyyaQijDNpEIVtQoypvRp47e3+L+uNxGHXXmzns8eN/qvXOuc77v+N0zf5wpAIBqPkMz1wTkYkHAXGNBwFxjahZq1Ov1QqFQq9WWLFlit9vNZjPJowMl8eLFiz179kxN/dOmTZs2JZPJTqdDpIRSAprN5okTJ0Qa53a7v3//Lr+QIgIYhvF6vSO/fLPZ/PXrV5m11MTPxJVKZdeuXV++fEERr9d75MiRtWvXMgyTyWTS6TTP8zBls9k+f/5sMBik1yPU9P/BMMyWLVvQwQ0Gw8OHDwVrcrncunXr0JpLly7JqUhSAMMwTqcTZ//+/fuBK0ulkslkgstMJlOr1ZJclJgAlmU9Hg9iv3jx4kwmgy+o1+v4v/F4HC1+/fq15LpkBDAMg7M3GAw4+0ajcfDgQTh5/v79C4OlUgmtj8fjkksTECDunHa7vX//fpRNJpMoRVEUDF64cEFydbkCxJ3TbrcPHz6MshqNhqZpmOI4Tq1Ww/jFixd//fpVrVZnW4DAOXq9XuAcvPcURaVSKZR99uxZ/0hcsWJFIBB49OhRt9tVXIDAOf29x9mr1WqcfafTwadtP7Zv314sFhUU0D/vcfYcx4n0vt1uB4NBEfYQFosln88rIkB813Ict3PnzmG973a7J0+exImuWbMmHA7fvHnz2rVrfr8fbQx4rfH792/CAkbuWoFz7t27h7M/c+YMzj4SiTQaDfz4Hz9+tNlsaMGxY8dIChg578WdI+h9LBYbWOXHjx+rV69GLfj27RsZARPN+5HOuX79ukitVCqFVkajUQICJpr3I50jYJ9IJIxGo8/nq1QqMNJqtdAl6qFDh+QKkDPvu93uuXPnRJxz9erVganNmzfDoM/nkyVAzrwf2XucvUqlwj/rcrlgcMeOHdIFyJz3uO81Gs2tW7dE2J8/fx6l6vW6VquF8WAwKFEA2Xkvzj4SieDZaDQ67IPjCmg2myK7ttPpHDhwAGc/0a4VZ0/TNGo/RVE/f/6UIuDu3bvDnAMACIfDYzpHfNcKnAPZr1y5EmVHXmkPFfD06dOBzgEAfPjwYXznTNT7bDa7dOlSlN22bdvMzIxEAQCAGzduHD16NJvNCuKnT59GNRKJBM5+IueEQiE8S9M0zt7hcKDbN4kCBqLX661atQrWcLvdPM8j9uPPe8gefbbfOQ6Ho1wuj8NnYgHFYnFg++XsWoFzxuy9RAE0TaNKT548gUH89mqieQ8AePPmjV6vl9B7iQLy+Twqdv/+fRhMp9MoONG8z2azOHuXyzV+7yUKYFl20aJFsN6pU6dgkOf5cDjsdDpv3749Pntpu1auAAAAenCr1WoLhcKwZRPN+0mdI0vAnTt3UGG73T7wTHnlypXxd60E58gS0Gw28aezVqv1wYMHHMfB7KdPn/bt24ezJzLvSQqAT5iXLVuGs6Qoymq1Go1G1b8gNe8JCwAAvH37dvny5SpRCB6dy5n35AUAAMrl8tmzZ3U6XT/1rVu3vnz5El8sc94PA4FfaKrV6vPnz3O53J8/f3Q63fr16/fu3btx40Z8zbt37/x+P8uy8F+Xy/Xq1SvcS9IhvwcjQXbXCqC4AOK7VgBlBRCc98OgoIB8Pq+ccxAUFLB7927lnIOglIDp6WmN5v83STZs2KBE7yGUeluFZdlerwf/9ng8ZCbmQCjUGACAxWJBVS5fvqxQFQUFxGIxvFP4/SdBKCiA5/lQKIQEqNVqJTQofiKLRCL49yDnN+2BmI1LCfx7sFgsZA8+GwJwLwUCAbIHJ/++0DA8fvy4VqsdP3584OW3ZMyeAIUw71+7XBAw15j3Av4LAAD//0rrKR6v5ctvAAAAAElFTkSuQmCC"
+    },
+    {
+      "login": "iii-hq",
+      "url": "https://github.com/iii-hq",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
+      "mergedPullRequests": 413,
+      "ecosystemStars": 18953,
+      "repositoryCount": 5,
+      "repositories": [
+        {
+          "nameWithOwner": "iii-hq/iii",
+          "stars": 18806,
+          "url": "https://github.com/iii-hq/iii"
+        },
+        {
+          "nameWithOwner": "iii-hq/workers",
+          "stars": 113,
+          "url": "https://github.com/iii-hq/workers"
+        },
+        {
+          "nameWithOwner": "iii-hq/spec-forge",
+          "stars": 24,
+          "url": "https://github.com/iii-hq/spec-forge"
+        }
+      ],
+      "relationship": "merged-public-prs",
+      "avatarDataUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAABaklEQVR4nOyYoW7CQBzGt3FyJEWUuiFxDIbhLRDMDYNhhidgincZgjdgjjDLwgNg6CpHmzW0KRVNJ5qduRO7THy55PsF8c/l+yffLzkqTpRleWUzN+gC/4UCaCiAhgJoKICGAmgogMZ6AWGU7nTu0zRVz8fjp8ViUc3b7ftkMtGuL5evg8Ggmufzl9VqpWachvOx2/29kplAEATn5KyeR1Ek5yzL/E9fu57nuZzDMNTGkjQxqmT9FaIAGgqgsV7A7DM6HA4vl0w97/V6cvY873E00q67rivnfv8hjr/VzG29blTpmu9CYKwXMPsP7Pf7oijUc9dttlp31RzH8eFw0K632+367xU/Hv3T6UtTSIhut2vQqTTBcRo1IdTfbDaTmfX6TZupCbHZbGRsOn3WZpqeZ1TJ+itEATQUQEMBNBRAQwE0FEBDATQUQEMBNNYL8GELDQXQUAANBdBQAA0F0FAAjfUCPwEAAP//jD7D1yf5M0oAAAAASUVORK5CYII="
+    },
+    {
+      "login": "GoogleCloudPlatform",
+      "displayName": "Google Cloud",
+      "url": "https://github.com/GoogleCloudPlatform",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2810941?v=4",
+      "avatarDataUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAJmElEQVR4nOxbe1hUZf7/nvecucAww0CA6QgCwYNxCSWLuGjGr+CpgLCgzH4amdn2bFFP7fbkSm33dqvNLrZd0FaqrUgywcAlS0lMBREqVgEDIZaLEswMMrcz57bPQBjgAO85DM7D5ue/Oed7/Zz3Pef7fd93KEEQ4LcM5O4A3I0LBLg7AHfjAgHuDsDdoM67R5ZFXO+pubxBf7FgNmkExo4IT5WdUHnpSf85ncjHd+B8hjPzBNjtFF1Xc7W99nAa0/BdMtfeGgsc5zmROKHW9FALo6rlsXGV8vikMiokrGUmwyNmqg5gfmy+1PbFjvX0/q9XCoNnLpZqhwwNq1am3rhNmZbxIVJrTK6NcgYIYJqOxZi3vvk8U197g0vfMR6eBo/0m1/3vOOul5CX2uwqsy4jgB8wakwFm5+lK3bdB4IwY1OL0Pr+x2v9/Q8rU9OLXWLPFQQwJxojzzz92A7+VE+EK4LCgSIl7R3NIxvzQKG0T8fOtAmwlBTfaX5702ZgGK9pGZIAMii4TvH0azmq+XNPSrUxrTlqfr/gQfMbL25zR/IOHLbo4nI/9axq+5kLkWpDMgGWHZ+stbxfsEmq/nRR7bcUXo1+EvQ2at4fP7Lt7dLzgVLsSCLAVrkn3fzWprcdU0iK/nRRe1ECvBGdDxwaftcazBC8oci222gRvMXaEv0OYFqaFxrz7q4Bu10t1pkr4Hjyr0c/cTb50bgsCJW9vMojg0SAnZRoAgy/z61km49fLUppHNCcuU1UaPgPyD+gk1AqGWFgQM31dIYxJxqXgM3mO5HeEb+koWHvLPkRPJgmz828XFaIG4uo77Wl+KN7pCZPBgXXK6/P3KJIuqaEnKfrcirEssjeUB9PV+3Ltn1ZthZsVu3ILZzkHdhaaX/xqjByd4A36sWJC3sE8Ea9tn/1ipNgtfpgKYw48FT9rLo37yGP62/6GBDCHm6cvt/X/ParL9B7K9bjJj+ClEjy3Y1Zynux4sMlwFSw+Qlr0ftPYQn/AnJByFHNky9mU4EL2sXojUb3nv2r7qmNLbAJ1IQN1HgQBDBb1ikXBvuTU9YHWATwFotSvyrjJ8E0GPDrVQHQRTSQ/lZAagaA/MUOg4AzyoHQXHZQ88TW65BaY8ENfCLUtbEJ+dvpMpoF7NF3fSz5xh9uVOZNJYdFgHXXZ2tMr/210JE0FTII8igDyEIHAanYyRUVuhbCL72UnLtmG3hf0YAbvDMc+pFNyd9O78H9dCtkYCzOU83zVIB1MjksY3Tlnttl4UZQr2sC9cqToIgxTJ38kGJXmND1zsNsbdIPbO3yfwkDNbE4/pwhIZza63iquPI0A9qak8y1U8lNTYC5KUQRU5rkld0OlD+N6/9cDBxM42qXHeGa7n8ZGKOk0vl3/6fc6KOCDlz5PQ3cajs7+ZduUgL43tJr2SOJR2WBfS4qeniZ0PXuI2zNlUfAdPwSsdpeSjBnXyl7CVf+cAuX8/CH1gqDWdBOJDMhAXznlpV8w23lwJlEffawYGtfyNalVsLg92FiVVNjqH8iArCHYmM3n/JAofXbHiM/19l9pwTwfeXL+RMP/QOAk4kNEBtM73z2u/S9YGkJEqPm64UM0fPRPjE6PUYh8s/Fth2DVjhn6p1LwGBDON+waicIdqUYJ5JgPx3Itb/8kFi12AVov1id1l7hqmd2Wj/g+LEN3DgCOIJtXPce8BbRXZUkaJPLyYi/PSZWTeeDTkhxd7SNz9pZa187+toYAviOt9bCYH2yFOOioV26m1q0awWQKtFLWj4qol+q28Iq5gW9iT/bcP1KAE+TfPtzz0g1LAra5HJqUWmWlORhqNQlJK/jmWnw317NPHjW1kglyJ8quok/tnqnSHs8eCd9jfxuKAePkDYQWEowHYsSeotzwNoa7VRDu3wXtejzbKnJO2A0g291K5Pacppf9E0jd2u/SRC1JKZWwqmiB1RBChkwZwlg6zOKQV9xC7YVhe4kitz6/8g35dC5NzmC7/j73Xxr/ivAW3+tIbwTK6jFZZnTSX48GBaobfvpDZ9Ws/m8AHJcvcez5OnLI2Vlw1OAM8vBsC8N26sy9Bi1pCreefIOkAIKemALWrx7GSBP49Alx5N3cfIOyChg70lRPPNoujzHkQmu3qEWLhNG3gH8wJHFINgxy1PEUDEf5YByft+UktrE74iQ/PzhOT+9YT8VrouRlWbEUa/gyh/v5BNhhADB9G/8JsU/8xPQxDXiipPz79si9W0vFrlL5c9TJGDtH/YYhQgbA9TwFLC1L8B1gvyzdomKilLR5yN5B7QqwhilQxNMy7EQAGS9A5zul3eAiMJHMadbeogzDz818ROurI0BtZR9gf+lc3XEMAGkyoitYusS1bycb5weEEJxZT3kYBwigFAGYy8y8H3lN0gNbqYxYAFNcw8fjynOBGjInuER4BX1A7aXvpLb4MzRSIkxzigKq+iNDAcqHNl5PkSzQgbsEAFIm1ALSDmI5UXg5Oz3t3wB1g6nCwzuQlk9s6rkKPsornxM4HBLPTwCkIIFn5QKbG/27hC2dtm3fP9X56dznAQ0A7KCfXT+pt127O0wB64KI8thbDP0SRZ/bM3nYowcpv2hUL56b7IuviRYo/tRSSoZceEDkPZAIDiNWDUwmAXvpm5uyTeN7O16M2DXMQ6oFHB6e54qcEwzBLydZA+EtgLTi2XsAD0HNg4uATuQooMfDY+ePJBZLp+WDbG4PYHKX3eN4jkYsx6A5BwRsgFr6+sgHQB/ckHy7oCnHPqzr1RsHvk9phAideu3gTruwGQGDtAB8NjgFcDMwuQduHOZbINWBWdPo46tBJFMoKI+uANItdMlJ8eTz5/FySeEo49vXiIvGH3t3FJYFd6Boj9eAYRszJ6aY847njw9S5O/JIA4vCHT4240LmOnvQDyS61CC9+8C4AY2gAcmfOz9cnP0RDNz96qvFnlZKN0wmYIzcstQrGl1x4UIrtnc/Jxwahkc64yMUCDepzdn7QbRH5p30QkfrX4Ur/oL2cswhkCSYAtd5nskb+s9Fjh64X0E8lhnxApa6u85b3jnz3eYeqRvMXtDK6uAwgAZmkEWbRmqeypkAByyqP2ok+Jfdtdt/zrzkM5B7rrMgz0gKTDiaPhIgK4sDmoJjmC3JESSX2q80XY3e20zgq3n+la0HamM7LPatCZGYvazrOiF1hkpnhAjPi+ylNO2FUK0M/VovbQAPJ7b0+8tcDxmLE/TMwW/Ob/NHWBAHcH4G5cIMDdAbgbv3kC/hsAAP//dbO2jma8M4AAAAAASUVORK5CYII=",
+      "relationship": "Google Developer Expert (Cloud & GenAI)"
+    }
+  ],
+  "recentContributions": [
+    {
+      "nameWithOwner": "iii-hq/workers",
+      "url": "https://github.com/iii-hq/workers",
+      "stars": 113,
+      "forks": 25,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "scope": "all-time",
+      "mergedPullRequests": 198,
+      "lastMergedAt": "2026-09-06T18:30:07Z",
+      "additions": 511783,
+      "deletions": 21103
+    },
+    {
+      "nameWithOwner": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "stars": 18806,
+      "forks": 1268,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "scope": "all-time",
+      "mergedPullRequests": 206,
+      "lastMergedAt": "2026-09-04T15:44:08Z",
+      "additions": 162142,
+      "deletions": 109255
+    },
+    {
+      "nameWithOwner": "iii-experimental/openwiki",
+      "url": "https://github.com/iii-experimental/openwiki",
+      "stars": 6,
+      "forks": 1,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "scope": "all-time",
+      "mergedPullRequests": 9,
+      "lastMergedAt": "2026-07-31T12:33:14Z",
+      "additions": 4232,
+      "deletions": 753
+    },
+    {
+      "nameWithOwner": "modelcontextprotocol/rust-sdk",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "stars": 3951,
+      "forks": 644,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "scope": "all-time",
+      "mergedPullRequests": 1,
+      "lastMergedAt": "2026-06-04T12:43:40Z",
+      "additions": 132,
+      "deletions": 38
+    },
+    {
+      "nameWithOwner": "docker/mcp-registry",
+      "url": "https://github.com/docker/mcp-registry",
+      "stars": 558,
+      "forks": 1544,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "scope": "all-time",
+      "mergedPullRequests": 2,
+      "lastMergedAt": "2026-01-27T19:00:57Z",
+      "additions": 31,
+      "deletions": 1
+    }
+  ],
+  "techStack": [
+    "Python",
+    "TypeScript",
+    "Rust",
+    "Kubernetes",
+    "MCP"
+  ],
+  "builderIndex": {
+    "score": 97.6,
+    "scale": 100,
+    "values": {
+      "creation": 100,
+      "shipping": 100,
+      "collaboration": 90.6,
+      "maintenance": 100,
+      "community": 95.2
+    },
+    "model": {
+      "version": "1.0.0",
+      "components": {
+        "creation": {
+          "weight": 0.35,
+          "cap": 100000
+        },
+        "shipping": {
+          "weight": 0.25,
+          "cap": 1000
+        },
+        "collaboration": {
+          "weight": 0.2,
+          "pullRequestCap": 250,
+          "reviewCap": 500
+        },
+        "maintenance": {
+          "weight": 0.1,
+          "cap": 250
+        },
+        "community": {
+          "weight": 0.1,
+          "cap": 10000
+        }
+      }
+    },
+    "classification": "Public ecosystem builder",
+    "globalRank": null,
+    "globalRankStatus": "A reproducible comparison corpus is required before this score can claim a world rank."
+  },
+  "privacy": {
+    "visibility": "public-only",
+    "privateRepositoriesIncluded": false,
+    "restrictedContributionTotalsIncluded": false,
+    "titlesAndCommitMessagesIncluded": false,
+    "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
+  },
+  "fingerprint": "876604a3fe40fd1ef2ae18708e3fe1b1db87e31798f211f07640e1818f54f8a8",
+  "generatedAt": "2026-09-25T19:50:24.226Z"
+}
