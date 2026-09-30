@@ -140,8 +140,8 @@
   {
     "date": "2026-09-30",
     "builderIndex": 97.7,
-    "followerRank": 644,
-    "topProjectRank": 351,
+    "followerRank": 642,
+    "topProjectRank": 348,
     "gitRanksCreatorRank": 79,
     "creatorBenchmarkRanks": {
       "world": 67,
@@ -150,11 +150,11 @@
       "uk": 2,
       "china": 11
     },
-    "followers": 6639,
-    "ownedStars": 111075,
+    "followers": 6644,
+    "ownedStars": 111285,
     "commits": 6492,
-    "pullRequests": 1604,
+    "pullRequests": 1605,
     "issues": 268,
-    "reviews": 92
+    "reviews": 93
   }
 ]
