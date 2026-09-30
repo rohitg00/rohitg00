@@ -139,21 +139,21 @@
   },
   {
     "date": "2026-09-30",
-    "builderIndex": 97.6,
-    "followerRank": 645,
-    "topProjectRank": 355,
+    "builderIndex": 97.7,
+    "followerRank": 644,
+    "topProjectRank": 351,
     "gitRanksCreatorRank": 79,
     "creatorBenchmarkRanks": {
-      "world": 69,
+      "world": 67,
       "india": 1,
       "usa": 19,
       "uk": 2,
-      "china": 12
+      "china": 11
     },
-    "followers": 6629,
-    "ownedStars": 110716,
+    "followers": 6639,
+    "ownedStars": 111075,
     "commits": 6492,
-    "pullRequests": 1603,
+    "pullRequests": 1604,
     "issues": 268,
     "reviews": 92
   }
