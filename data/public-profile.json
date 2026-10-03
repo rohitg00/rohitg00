@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 6702,
+    "followers": 6705,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 112429,
+    "ownedStars": 112505,
     "commits": 6513,
     "pullRequests": 1619,
     "issues": 268,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 634,
-      "measuredValue": 6702,
+      "position": 633,
+      "measuredValue": 6705,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 337,
-      "measuredValue": 63074,
+      "position": 336,
+      "measuredValue": 63143,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": null,
       "stars": 103923,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-03T21:11:18.710Z",
+      "measuredAt": "2026-10-03T23:46:05.089Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 112429,
+      "measuredValue": 112505,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-03T21:11:18.710Z",
+      "measuredAt": "2026-10-03T23:46:05.089Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 63074,
-      "forks": 10787,
+      "stars": 63143,
+      "forks": 10796,
       "updatedAt": "2026-10-02T05:37:24Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -158,8 +158,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29119,
-      "forks": 2546,
+      "stars": 29122,
+      "forks": 2547,
       "updatedAt": "2026-10-03T08:04:35Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -230,7 +230,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2671,
+      "stars": 2673,
       "forks": 992,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -286,7 +286,7 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10454,
+      "ecosystemStars": 10455,
       "repositoryCount": 3,
       "repositories": [
         {
@@ -301,7 +301,7 @@
         },
         {
           "nameWithOwner": "cncf/people",
-          "stars": 179,
+          "stars": 180,
           "url": "https://github.com/cncf/people"
         }
       ],
@@ -460,7 +460,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 566,
-      "forks": 1682,
+      "forks": 1686,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -526,6 +526,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "66a139bc1614c7991cbff1fb69475cfa535eb89cecc8c6d2a60a4b49adb527ad",
-  "generatedAt": "2026-10-03T21:11:18.710Z"
+  "fingerprint": "3b040c35455ec06baea1a3bcc5c1a6f99b51330d61dd27b06c6dc55f48891836",
+  "generatedAt": "2026-10-03T23:46:05.089Z"
 }
