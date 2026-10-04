@@ -3,29 +3,29 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 6705,
+    "followers": 6708,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 112505,
+    "ownedStars": 112569,
     "commits": 6513,
     "pullRequests": 1619,
     "issues": 268,
-    "reviews": 93,
+    "reviews": 92,
     "windowDays": 365,
-    "windowStart": "2025-10-03",
-    "windowEnd": "2026-10-03"
+    "windowStart": "2025-10-04",
+    "windowEnd": "2026-10-04"
   },
   "ranking": {
     "followerWorld": {
       "position": 633,
-      "measuredValue": 6705,
+      "measuredValue": 6708,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 336,
-      "measuredValue": 63143,
+      "position": 337,
+      "measuredValue": 63206,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": null,
       "stars": 103923,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-03T23:46:05.089Z",
+      "measuredAt": "2026-10-04T02:52:21.007Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 112505,
+      "measuredValue": 112569,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-03T23:46:05.089Z",
+      "measuredAt": "2026-10-04T02:52:21.007Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 63143,
-      "forks": 10796,
+      "stars": 63206,
+      "forks": 10806,
       "updatedAt": "2026-10-02T05:37:24Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -231,7 +231,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2673,
-      "forks": 992,
+      "forks": 993,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -347,12 +347,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 3976,
+      "ecosystemStars": 3977,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 3976,
+          "stars": 3977,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 3976,
+      "stars": 3977,
       "forks": 655,
       "language": {
         "name": "Rust",
@@ -460,7 +460,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 566,
-      "forks": 1686,
+      "forks": 1688,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -485,7 +485,7 @@
     "values": {
       "creation": 100,
       "shipping": 100,
-      "collaboration": 90.6,
+      "collaboration": 90.5,
       "maintenance": 100,
       "community": 95.7
     },
@@ -526,6 +526,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "3b040c35455ec06baea1a3bcc5c1a6f99b51330d61dd27b06c6dc55f48891836",
-  "generatedAt": "2026-10-03T23:46:05.089Z"
+  "fingerprint": "96acef290c8d5a2a4e33317ebb29bfcc00c369a4621aa806f8edc5c783601e1c",
+  "generatedAt": "2026-10-04T02:52:21.007Z"
 }
