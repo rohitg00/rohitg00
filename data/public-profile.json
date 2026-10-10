@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 6873,
+    "followers": 6878,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 115818,
-    "commits": 6516,
-    "pullRequests": 1646,
+    "ownedStars": 115912,
+    "commits": 6523,
+    "pullRequests": 1650,
     "issues": 269,
     "reviews": 90,
     "windowDays": 365,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 620,
-      "measuredValue": 6873,
+      "measuredValue": 6878,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 309,
-      "measuredValue": 66230,
+      "measuredValue": 66312,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": 12,
       "stars": 111407,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-10T02:20:14.289Z",
+      "measuredAt": "2026-10-10T08:59:39.219Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 115818,
+      "measuredValue": 115912,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-10T02:20:14.289Z",
+      "measuredAt": "2026-10-10T08:59:39.219Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,30 +87,35 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 66230,
-      "forks": 11496,
-      "updatedAt": "2026-10-09T17:04:33Z",
+      "stars": 66312,
+      "forks": 11559,
+      "updatedAt": "2026-10-10T08:56:23Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 51.3
+          "percentage": 50.6
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 32.3
+          "percentage": 31.7
         },
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 5.6
+          "percentage": 6.8
         },
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 5.1
+          "percentage": 4.9
+        },
+        {
+          "name": "Go",
+          "color": "#00ADD8",
+          "percentage": 2.1
         },
         {
           "name": "Rust",
@@ -118,14 +123,9 @@
           "percentage": 1.6
         },
         {
-          "name": "Go",
-          "color": "#00ADD8",
-          "percentage": 1.6
-        },
-        {
           "name": "CSS",
           "color": "#663399",
-          "percentage": 1.2
+          "percentage": 1.1
         },
         {
           "name": "Julia",
@@ -158,9 +158,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29264,
-      "forks": 2560,
-      "updatedAt": "2026-10-09T15:27:58Z",
+      "stars": 29274,
+      "forks": 2563,
+      "updatedAt": "2026-10-10T08:48:56Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -171,12 +171,12 @@
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 10.1
+          "percentage": 10
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 4.2
+          "percentage": 4.3
         },
         {
           "name": "CSS",
@@ -231,7 +231,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2686,
-      "forks": 1006,
+      "forks": 1007,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -330,12 +330,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5401,
+      "ecosystemStars": 5403,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5401,
+          "stars": 5403,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -364,12 +364,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 18980,
+      "ecosystemStars": 18982,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18833,
+          "stars": 18835,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -414,8 +414,8 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18833,
-      "forks": 1266,
+      "stars": 18835,
+      "forks": 1265,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -460,7 +460,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 571,
-      "forks": 1815,
+      "forks": 1820,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -526,6 +526,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "fb231234ca268cca7b749b97480d609f5dc90f13dc805f15e9639c94f1400029",
-  "generatedAt": "2026-10-10T02:20:14.289Z"
+  "fingerprint": "5dd2a8e5cf2bce8a52d468c6971d48046232a93b2b60ea4a16a06a01b5210c16",
+  "generatedAt": "2026-10-10T08:59:39.219Z"
 }
