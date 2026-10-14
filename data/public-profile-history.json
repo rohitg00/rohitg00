@@ -421,20 +421,20 @@
     "date": "2026-10-14",
     "builderIndex": 97.7,
     "followerRank": 602,
-    "topProjectRank": 289,
+    "topProjectRank": 288,
     "gitRanksCreatorRank": 68,
     "creatorBenchmarkRanks": {
-      "world": 64,
+      "world": 63,
       "india": 1,
       "usa": 18,
       "uk": 2,
-      "china": 11
+      "china": 10
     },
-    "followers": 7046,
-    "ownedStars": 118544,
+    "followers": 7051,
+    "ownedStars": 118660,
     "commits": 6531,
     "pullRequests": 1677,
     "issues": 269,
-    "reviews": 89
+    "reviews": 90
   }
 ]
