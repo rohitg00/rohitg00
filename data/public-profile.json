@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7132,
+    "followers": 7135,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 120614,
+    "ownedStars": 120654,
     "commits": 6526,
     "pullRequests": 1692,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 594,
-      "measuredValue": 7132,
+      "measuredValue": 7135,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 280,
-      "measuredValue": 70586,
+      "measuredValue": 70624,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": 16,
       "stars": 119064,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-17T17:07:01.281Z",
+      "measuredAt": "2026-10-17T19:21:13.850Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 120614,
+      "measuredValue": 120654,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-17T17:07:01.281Z",
+      "measuredAt": "2026-10-17T19:21:13.850Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 70586,
-      "forks": 12423,
-      "updatedAt": "2026-10-17T16:44:28Z",
+      "stars": 70624,
+      "forks": 12431,
+      "updatedAt": "2026-10-17T19:10:55Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29612,
+      "stars": 29613,
       "forks": 2608,
       "updatedAt": "2026-10-16T13:14:49Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17467,
+      "ecosystemStars": 17468,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17467,
+          "stars": 17468,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4024,
+      "ecosystemStars": 4025,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4024,
+          "stars": 4025,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,8 +474,8 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4024,
-      "forks": 678,
+      "stars": 4025,
+      "forks": 679,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 572,
-      "forks": 1993,
+      "forks": 1995,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ebab57ca5f44b2c750859952ed491faf8b686736b9e34f816b2bbc92b2a4ba3a",
-  "generatedAt": "2026-10-17T17:07:01.281Z"
+  "fingerprint": "2a6f122f16048aa5474905a7dd2fc9869abeb5e5c4287b56fe8e5cee300614a1",
+  "generatedAt": "2026-10-17T19:21:13.850Z"
 }
