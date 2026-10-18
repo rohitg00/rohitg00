@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7136,
-    "originalRepositoryCount": 104
+    "followers": 7140,
+    "originalRepositoryCount": 103
   },
   "metrics": {
-    "ownedStars": 120726,
+    "ownedStars": 120804,
     "commits": 6526,
-    "pullRequests": 1692,
+    "pullRequests": 1693,
     "issues": 269,
     "reviews": 91,
     "windowDays": 365,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 594,
-      "measuredValue": 7136,
+      "position": 593,
+      "measuredValue": 7140,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 280,
-      "measuredValue": 70685,
+      "measuredValue": 70754,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": 16,
       "stars": 119064,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-18T01:31:03.075Z",
+      "measuredAt": "2026-10-18T06:34:52.644Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 120726,
+      "measuredValue": 120804,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-18T01:31:03.075Z",
+      "measuredAt": "2026-10-18T06:34:52.644Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 70685,
-      "forks": 12444,
-      "updatedAt": "2026-10-18T01:08:36Z",
+      "stars": 70754,
+      "forks": 12450,
+      "updatedAt": "2026-10-18T06:25:27Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29623,
+      "stars": 29632,
       "forks": 2609,
-      "updatedAt": "2026-10-16T13:14:49Z",
+      "updatedAt": "2026-10-18T05:32:16Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 18995,
+      "ecosystemStars": 18996,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18846,
+          "stars": 18847,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18846,
+      "stars": 18847,
       "forks": 1265,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 572,
-      "forks": 2004,
+      "forks": 2008,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "62ecbc7bbc959ea8323eeb297d7464a2f84806cb09a888d26ba5e483d627ea2a",
-  "generatedAt": "2026-10-18T01:31:03.075Z"
+  "fingerprint": "a5bc9a6d11ebae7cb283a333319e6670c6b9047ab8998ac4c1b85f69b5e60b9a",
+  "generatedAt": "2026-10-18T06:34:52.644Z"
 }
