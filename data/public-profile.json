@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7145,
+    "followers": 7148,
     "originalRepositoryCount": 103
   },
   "metrics": {
-    "ownedStars": 120893,
-    "commits": 6526,
-    "pullRequests": 1694,
+    "ownedStars": 120954,
+    "commits": 6571,
+    "pullRequests": 1696,
     "issues": 269,
     "reviews": 91,
     "windowDays": 365,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 593,
-      "measuredValue": 7145,
+      "position": 591,
+      "measuredValue": 7148,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 280,
-      "measuredValue": 70833,
+      "position": 281,
+      "measuredValue": 70891,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,21 +37,21 @@
       "monthlyChange": 16,
       "stars": 119112,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-18T11:42:11.901Z",
+      "measuredAt": "2026-10-18T14:48:51.336Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 120893,
+      "measuredValue": 120954,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-18T11:42:11.901Z",
+      "measuredAt": "2026-10-18T14:48:51.336Z",
       "positions": {
         "world": {
           "label": "World",
-          "position": 63,
+          "position": 62,
           "comparedProfiles": 100,
           "source": "https://gitranks.com/by/stars/1"
         },
@@ -87,20 +87,20 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 70833,
-      "forks": 12460,
-      "updatedAt": "2026-10-18T10:26:19Z",
+      "stars": 70891,
+      "forks": 12470,
+      "updatedAt": "2026-10-18T14:48:45Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 49.1
+          "percentage": 48.9
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 31.5
+          "percentage": 31.7
         },
         {
           "name": "HTML",
@@ -125,7 +125,7 @@
         {
           "name": "CSS",
           "color": "#663399",
-          "percentage": 1.1
+          "percentage": 1.2
         },
         {
           "name": "Assembly",
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29639,
-      "forks": 2610,
+      "stars": 29641,
+      "forks": 2611,
       "updatedAt": "2026-10-18T05:32:16Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -260,7 +260,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2713,
+      "stars": 2714,
       "forks": 1026,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17469,
+      "ecosystemStars": 17468,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17469,
+          "stars": 17468,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4025,
+      "ecosystemStars": 4024,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4025,
+          "stars": 4024,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 18997,
+      "ecosystemStars": 18996,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18848,
+          "stars": 18847,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18848,
+      "stars": 18847,
       "forks": 1265,
       "language": {
         "name": "Rust",
@@ -474,8 +474,8 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4025,
-      "forks": 681,
+      "stars": 4024,
+      "forks": 682,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 572,
-      "forks": 2012,
+      "forks": 2018,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "93133df8bf896068c3a7dcad258537af02a9861ecd49681b85d4087870b20780",
-  "generatedAt": "2026-10-18T11:42:11.901Z"
+  "fingerprint": "a28014b7bf1cf0290eb6dfc35cd2eb06cd11ae7c6164d9eb5e1af9f74b14e966",
+  "generatedAt": "2026-10-18T14:48:51.336Z"
 }
