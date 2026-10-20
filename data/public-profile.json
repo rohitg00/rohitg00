@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7185,
+    "followers": 7186,
     "originalRepositoryCount": 103
   },
   "metrics": {
-    "ownedStars": 121886,
+    "ownedStars": 121942,
     "commits": 6584,
     "pullRequests": 1704,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 587,
-      "measuredValue": 7185,
+      "measuredValue": 7186,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 277,
-      "measuredValue": 71730,
+      "measuredValue": 71773,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": 16,
       "stars": 119112,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-20T19:12:26.004Z",
+      "measuredAt": "2026-10-20T22:16:17.429Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 121886,
+      "measuredValue": 121942,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-20T19:12:26.004Z",
+      "measuredAt": "2026-10-20T22:16:17.429Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 71730,
-      "forks": 12622,
+      "stars": 71773,
+      "forks": 12626,
       "updatedAt": "2026-10-19T08:42:46Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29705,
-      "forks": 2623,
+      "stars": 29714,
+      "forks": 2626,
       "updatedAt": "2026-10-20T11:59:03Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -235,7 +235,7 @@
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
       "stars": 2922,
-      "forks": 310,
+      "forks": 300,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
       "languages": [
@@ -260,8 +260,8 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2718,
-      "forks": 1030,
+      "stars": 2721,
+      "forks": 1031,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17479,
+      "ecosystemStars": 17480,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17479,
+          "stars": 17480,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5408,
+      "ecosystemStars": 5409,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5408,
+          "stars": 5409,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 18998,
+      "ecosystemStars": 18999,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18849,
+          "stars": 18850,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,8 +444,8 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18849,
-      "forks": 1267,
+      "stars": 18850,
+      "forks": 1268,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4035,
-      "forks": 685,
+      "forks": 677,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 573,
-      "forks": 2089,
+      "forks": 2090,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "0285e995be88ee4495c01105a36dcde60fd2182c616effb6ff68c937f4b92650",
-  "generatedAt": "2026-10-20T19:12:26.004Z"
+  "fingerprint": "90126df6ae8df3679795aea94e3fb682f50d78969bfa9ea19cb357a9ba8a5b79",
+  "generatedAt": "2026-10-20T22:16:17.429Z"
 }
