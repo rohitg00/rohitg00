@@ -3,29 +3,29 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7172,
+    "followers": 7174,
     "originalRepositoryCount": 103
   },
   "metrics": {
-    "ownedStars": 121553,
-    "commits": 6584,
+    "ownedStars": 121577,
+    "commits": 6583,
     "pullRequests": 1703,
     "issues": 269,
     "reviews": 91,
     "windowDays": 365,
-    "windowStart": "2025-10-19",
-    "windowEnd": "2026-10-19"
+    "windowStart": "2025-10-20",
+    "windowEnd": "2026-10-20"
   },
   "ranking": {
     "followerWorld": {
       "position": 589,
-      "measuredValue": 7172,
+      "measuredValue": 7174,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 279,
-      "measuredValue": 71423,
+      "measuredValue": 71444,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": 16,
       "stars": 119112,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-19T21:44:43.498Z",
+      "measuredAt": "2026-10-20T00:40:29.484Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 121553,
+      "measuredValue": 121577,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-19T21:44:43.498Z",
+      "measuredAt": "2026-10-20T00:40:29.484Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 71423,
-      "forks": 12566,
+      "stars": 71444,
+      "forks": 12570,
       "updatedAt": "2026-10-19T08:42:46Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29684,
-      "forks": 2621,
+      "stars": 29687,
+      "forks": 2622,
       "updatedAt": "2026-10-19T06:10:16Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4029,
+      "ecosystemStars": 4030,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4029,
+          "stars": 4030,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,8 +474,8 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4029,
-      "forks": 689,
+      "stars": 4030,
+      "forks": 690,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 572,
-      "forks": 2055,
+      "forks": 2064,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "d8d03a41704da16e488103f2575bccdf01fa4b37cd65615d5a21d3b3339e8b32",
-  "generatedAt": "2026-10-19T21:44:43.498Z"
+  "fingerprint": "63b3dc17552b501437e8933a0fcf0a9b7cc79431f30ad1ba2c40916d26416061",
+  "generatedAt": "2026-10-20T00:40:29.484Z"
 }
