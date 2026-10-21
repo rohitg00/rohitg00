@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7192,
+    "followers": 7201,
     "originalRepositoryCount": 103
   },
   "metrics": {
-    "ownedStars": 122046,
-    "commits": 6581,
-    "pullRequests": 1704,
+    "ownedStars": 122225,
+    "commits": 6690,
+    "pullRequests": 1714,
     "issues": 269,
     "reviews": 91,
     "windowDays": 365,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 587,
-      "measuredValue": 7192,
+      "position": 586,
+      "measuredValue": 7201,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 277,
-      "measuredValue": 71862,
+      "measuredValue": 72012,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -37,17 +37,17 @@
       "monthlyChange": 16,
       "stars": 119112,
       "source": "https://gitranks.com/profile/rohitg00/ranks",
-      "measuredAt": "2026-10-21T05:18:40.744Z",
+      "measuredAt": "2026-10-21T15:36:32.963Z",
       "status": "fresh"
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 122046,
+      "measuredValue": 122225,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-21T05:18:40.744Z",
+      "measuredAt": "2026-10-21T15:36:32.963Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,55 +87,55 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 71862,
-      "forks": 12646,
-      "updatedAt": "2026-10-19T08:42:46Z",
+      "stars": 72012,
+      "forks": 12680,
+      "updatedAt": "2026-10-21T12:32:37Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 48
+          "percentage": 46.2
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 32.9
+          "percentage": 31.6
         },
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 7.5
+          "percentage": 11.5
         },
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 5.1
-        },
-        {
-          "name": "Go",
-          "color": "#00ADD8",
-          "percentage": 1.6
+          "percentage": 4.6
         },
         {
           "name": "CSS",
           "color": "#663399",
-          "percentage": 1.3
+          "percentage": 1.5
+        },
+        {
+          "name": "Go",
+          "color": "#00ADD8",
+          "percentage": 1.4
         },
         {
           "name": "Rust",
           "color": "#dea584",
-          "percentage": 1.2
+          "percentage": 1.1
         },
         {
           "name": "Assembly",
           "color": "#6E4C13",
-          "percentage": 1
+          "percentage": 0.9
         },
         {
           "name": "Julia",
           "color": "#a270ba",
-          "percentage": 0.8
+          "percentage": 0.7
         },
         {
           "name": "Shell",
@@ -145,7 +145,7 @@
         {
           "name": "C",
           "color": "#555555",
-          "percentage": 0.2
+          "percentage": 0.1
         },
         {
           "name": "Java",
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29727,
-      "forks": 2628,
-      "updatedAt": "2026-10-20T11:59:03Z",
+      "stars": 29744,
+      "forks": 2629,
+      "updatedAt": "2026-10-21T10:16:57Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -234,8 +234,8 @@
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2922,
-      "forks": 300,
+      "stars": 2923,
+      "forks": 299,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
       "languages": [
@@ -260,8 +260,8 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2721,
-      "forks": 1032,
+      "stars": 2724,
+      "forks": 1033,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17485,
+      "ecosystemStars": 17487,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17485,
+          "stars": 17487,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10471,
+      "ecosystemStars": 10472,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10014,
+          "stars": 10015,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5409,
+      "ecosystemStars": 5408,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5409,
+          "stars": 5408,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 18999,
+      "ecosystemStars": 18998,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18850,
+          "stars": 18849,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18850,
+      "stars": 18849,
       "forks": 1268,
       "language": {
         "name": "Rust",
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4037,
-      "forks": 676,
+      "forks": 677,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 573,
-      "forks": 2099,
+      "forks": 2107,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "dfca0b1b11c89b6ab7181ff3f2ca16887765c97ab4cf710ecf27322ca208f7c3",
-  "generatedAt": "2026-10-21T05:18:40.744Z"
+  "fingerprint": "a497a993f3a380c07875b6442fc32becc741cbc2d90fe895edd72add8be9e83f",
+  "generatedAt": "2026-10-21T15:36:32.963Z"
 }
