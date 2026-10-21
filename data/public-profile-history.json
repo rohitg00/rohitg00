@@ -564,14 +564,14 @@
     "topProjectRank": 277,
     "gitRanksCreatorRank": 63,
     "creatorBenchmarkRanks": {
-      "world": 62,
+      "world": 61,
       "india": 1,
       "usa": 18,
       "uk": 2,
-      "china": 10
+      "china": 9
     },
-    "followers": 7201,
-    "ownedStars": 122225,
+    "followers": 7206,
+    "ownedStars": 122284,
     "commits": 6690,
     "pullRequests": 1714,
     "issues": 269,
