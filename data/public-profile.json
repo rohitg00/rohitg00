@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7407,
+    "followers": 7423,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 126006,
-    "commits": 7047,
-    "pullRequests": 1761,
+    "ownedStars": 126183,
+    "commits": 7051,
+    "pullRequests": 1776,
     "issues": 269,
     "reviews": 91,
     "windowDays": 365,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 564,
-      "measuredValue": 7407,
+      "position": 563,
+      "measuredValue": 7423,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 253,
-      "measuredValue": 75407,
+      "measuredValue": 75561,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 126006,
+      "measuredValue": 126183,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-10-29T06:27:14.187Z",
+      "measuredAt": "2026-10-29T19:12:40.755Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,25 +87,25 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 75407,
-      "forks": 13256,
-      "updatedAt": "2026-10-23T16:14:21Z",
+      "stars": 75561,
+      "forks": 13293,
+      "updatedAt": "2026-10-29T15:07:57Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 46
+          "percentage": 45.4
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 32
+          "percentage": 32.3
         },
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 11.4
+          "percentage": 11.8
         },
         {
           "name": "TypeScript",
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 29988,
-      "forks": 2649,
-      "updatedAt": "2026-10-28T08:23:17Z",
+      "stars": 30006,
+      "forks": 2651,
+      "updatedAt": "2026-10-29T15:58:00Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -234,7 +234,7 @@
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2935,
+      "stars": 2937,
       "forks": 300,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2785,
-      "forks": 1060,
+      "forks": 1061,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -286,7 +286,7 @@
       "name": "DevOps_Books",
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
-      "stars": 2124,
+      "stars": 2125,
       "forks": 1223,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17537,
+      "ecosystemStars": 17543,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17537,
+          "stars": 17543,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -353,7 +353,7 @@
         }
       ],
       "relationship": "merged-public-prs",
-      "avatarDataUri": "data:image/png;base64,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"
+      "avatarDataUri": "data:image/png;base64,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"
     },
     {
       "login": "kubernetes",
@@ -387,7 +387,7 @@
         }
       ],
       "relationship": "merged-public-prs",
-      "avatarDataUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAFlElEQVR4nOxaT6gSXxRWe0MaWtofQkkSQiLJxApKJSICCypc9I+yFrWwaKVBEG2KFmbaslqUQRAIQRkFQWFBmyyaQijDNpEIVtQoypvRp47e3+L+uNxGHXXmzns8eN/qvXOuc77v+N0zf5wpAIBqPkMz1wTkYkHAXGNBwFxjahZq1Ov1QqFQq9WWLFlit9vNZjPJowMl8eLFiz179kxN/dOmTZs2JZPJTqdDpIRSAprN5okTJ0Qa53a7v3//Lr+QIgIYhvF6vSO/fLPZ/PXrV5m11MTPxJVKZdeuXV++fEERr9d75MiRtWvXMgyTyWTS6TTP8zBls9k+f/5sMBik1yPU9P/BMMyWLVvQwQ0Gw8OHDwVrcrncunXr0JpLly7JqUhSAMMwTqcTZ//+/fuBK0ulkslkgstMJlOr1ZJclJgAlmU9Hg9iv3jx4kwmgy+o1+v4v/F4HC1+/fq15LpkBDAMg7M3GAw4+0ajcfDgQTh5/v79C4OlUgmtj8fjkksTECDunHa7vX//fpRNJpMoRVEUDF64cEFydbkCxJ3TbrcPHz6MshqNhqZpmOI4Tq1Ww/jFixd//fpVrVZnW4DAOXq9XuAcvPcURaVSKZR99uxZ/0hcsWJFIBB49OhRt9tVXIDAOf29x9mr1WqcfafTwadtP7Zv314sFhUU0D/vcfYcx4n0vt1uB4NBEfYQFosln88rIkB813Ict3PnzmG973a7J0+exImuWbMmHA7fvHnz2rVrfr8fbQx4rfH792/CAkbuWoFz7t27h7M/c+YMzj4SiTQaDfz4Hz9+tNlsaMGxY8dIChg578WdI+h9LBYbWOXHjx+rV69GLfj27RsZARPN+5HOuX79ukitVCqFVkajUQICJpr3I50jYJ9IJIxGo8/nq1QqMNJqtdAl6qFDh+QKkDPvu93uuXPnRJxz9erVganNmzfDoM/nkyVAzrwf2XucvUqlwj/rcrlgcMeOHdIFyJz3uO81Gs2tW7dE2J8/fx6l6vW6VquF8WAwKFEA2Xkvzj4SieDZaDQ67IPjCmg2myK7ttPpHDhwAGc/0a4VZ0/TNGo/RVE/f/6UIuDu3bvDnAMACIfDYzpHfNcKnAPZr1y5EmVHXmkPFfD06dOBzgEAfPjwYXznTNT7bDa7dOlSlN22bdvMzIxEAQCAGzduHD16NJvNCuKnT59GNRKJBM5+IueEQiE8S9M0zt7hcKDbN4kCBqLX661atQrWcLvdPM8j9uPPe8gefbbfOQ6Ho1wuj8NnYgHFYnFg++XsWoFzxuy9RAE0TaNKT548gUH89mqieQ8AePPmjV6vl9B7iQLy+Twqdv/+fRhMp9MoONG8z2azOHuXyzV+7yUKYFl20aJFsN6pU6dgkOf5cDjsdDpv3749Pntpu1auAAAAenCr1WoLhcKwZRPN+0mdI0vAnTt3UGG73T7wTHnlypXxd60E58gS0Gw28aezVqv1wYMHHMfB7KdPn/bt24ezJzLvSQqAT5iXLVuGs6Qoymq1Go1G1b8gNe8JCwAAvH37dvny5SpRCB6dy5n35AUAAMrl8tmzZ3U6XT/1rVu3vnz5El8sc94PA4FfaKrV6vPnz3O53J8/f3Q63fr16/fu3btx40Z8zbt37/x+P8uy8F+Xy/Xq1SvcS9IhvwcjQXbXCqC4AOK7VgBlBRCc98OgoIB8Pq+ccxAUFLB7927lnIOglIDp6WmN5v83STZs2KBE7yGUeluFZdlerwf/9ng8ZCbmQCjUGACAxWJBVS5fvqxQFQUFxGIxvFP4/SdBKCiA5/lQKIQEqNVqJTQofiKLRCL49yDnN+2BmI1LCfx7sFgsZA8+GwJwLwUCAbIHJ/++0DA8fvy4VqsdP3584OW3ZMyeAIUw71+7XBAw15j3Av4LAAD//0rrKR6v5ctvAAAAAElFTkSuQmCC"
+      "avatarDataUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAFyElEQVR4nOxaTagSbRR+tStdQ0v7IZQkISSSTPqBUomIwIIKF/1R1qIWFq00CKJN0cJMW1aLMggCISijICgsaJNFFkIZtokksKJGUZrR1BnfD/Uev7mjjjrOXLtwn/cu5Dzv3DnP8TnHcZwJjDGazZDDizkBcwLmBMxOARPwQkIUi8V0Ol0oFBYsWGAymXQ6HTBiAEuJp0+f7ty5c2JiWpnWrVsXDodrtRrsGglSCSiXy0ePHoWcu2D9+vVfvnyB7f+YAIIg7HY7pNoTOp3u06dPcJBAyET/JM7lctu3b//48SMEkN1uP3jw4MqVKwmCiMVi0WiUpukmg4xG44cPH9RqNewdHqBEHBAEsXHjRvjfSK1W37t3D8gpJJPJVatWwRZ0/vx5YMZtIYIgLBYLJNbI/s2bN0BOw7dv37RabXMX0mq1lUoFmPEJIEnSZrNB8mj+/PmxWAzIxioWi/CysYLBIOxFL168gPCYBBAEwc5erVazsy+VSvv27WtNnt+/f7ffBNiOgsEg7B2HAH7nVKvVPXv2AInC4TAwWKFQNGPo7NmzEJtxAfzOqVarBw4cABLJ5fJEItEiKYqSyWTNMDp37tyPHz/y+TwcN1MCOM5RqVQc57Brr1AoIpEIkPjx48fA/I8lS5a4XK779+8zDAMbJRPAcU5n7dnZy2Qydva1Wo09bTuxZcuWTCYD2yUQ0Dnv2dlTFMVT+2q16na7gewJvV6fSqXgIFEF8HctRVHbtm3rVXuGYY4dOwZkY61YscLr9V67du3y5ctOp7PdGK1rjZ8/f8KhIgno27Uc59y+fRtIzDDMyZMngWwsn89XKpWAb6x3794ZjUbg0eHDh4ERQ0Dfec/vHE7tA4EAkNPw9evX5cuXt0vw+fNnYEYTwO8c/q7tdM6VK1eA7IJIJAIbkd/vh/AIAoaa932dw8k+FAppNBqHw5HL5ZoBXKlU2peo+/fvh41CBYwy7xmGOX36NI9zLl261JXasGFDM4YcDgfEBAngOKdv13Ky5689O3uEEPtYq9XajKGtW7dCbHgBI857tu/lcvn169d5sj9z5gwwuFgsTk5ONsPI7XZDeEgB4s57/ux9Ph8wjeX3+3sdOKiAcrnM07W1Wm3v3r2Dz3t+53CyTyQS7fIrFIrv378DM4yAW7du9XIOxtjr9Q7oHP6u5Tinlf3SpUuB7H+l3VPAo0ePujoHY/z27dvBnTNU7ePx+MKFC4FEmzdv/vv3L5BDCsAYX7169dChQ/F4HAJTOHHiBJwChUIhwc7xeDwc57CzN5vN7a9vAgV0XfV6fdmyZe2bUzRNC5j3rezbx3Y6x2w2Z7NZIEUVkMlkupZ/lK7lOGfA2gsUkEgk4ETo4cOHnV+vhpr3GOOXL1+qVCoBtRcoIJVKwbnQnTt3mjEcjUZ7je2+tWdnb7VaB6+9QAEkSc6bN68l4Pjx480Ypmna6/VaLJYbN24Mnr2wrh1VAMa4feN2cnIynU5DmAt+5wjuWhEE3Lx5E86LTCZT10/Kixcv8tSe07UCnDOSgHK5zL47azAY7t69S1FUk8Tv37/fvXu36PNeTAGtO8yLFi2CHKYuKAwGg0ajgYDI815kARjjV69eLV68GDLpDs6t81HmvfgCMMbZbPbUqVNKpRJS+h+bNm169uwZbBRh3kv4C00+n3/y5Ekymfz165dSqVy9evWuXbvWrl0LfGO9fv3a6XSSJNnu2ufPn7O9JBygREKI27ViWmgQiN61MypAxHk/BgGpVEo658yEgB07dkjnHMkF/PnzRy6fepJkzZo1UtS+taR6WoUkyXq93npaxWaziTMxuwKUiA+9Xg8nQRcuXIDwLLEQxjgQCED+3O+fs0MATdMejwfyb9yAkUKDhAJafz6fDySM+pv2eARgjNnvg16vh/DsEcD2ksvlgrA4EP95oV548OBBoVA4cuRI18tvwWvmBEgEubT/fk7AnIB/XsB/AwBK6ykezgOgpwAAAABJRU5ErkJggg=="
     },
     {
       "login": "iii-hq",
@@ -430,7 +430,7 @@
       "nameWithOwner": "iii-hq/workers",
       "url": "https://github.com/iii-hq/workers",
       "stars": 114,
-      "forks": 27,
+      "forks": 28,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -445,7 +445,7 @@
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
       "stars": 18874,
-      "forks": 1268,
+      "forks": 1269,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4066,
-      "forks": 684,
+      "forks": 685,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 578,
-      "forks": 2401,
+      "forks": 2418,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -517,7 +517,7 @@
       "shipping": 100,
       "collaboration": 90.5,
       "maintenance": 100,
-      "community": 96.7
+      "community": 96.8
     },
     "model": {
       "version": "1.0.0",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "42fac88512a5fcbe9b72a8d014a99d0bff245d661f867f5b9bb5e3d1dfd27fe0",
-  "generatedAt": "2026-10-29T06:27:14.187Z"
+  "fingerprint": "a5546c8fd8996ad9ca2a074713455ea4d24103154237bb473d03fe5bc64380b2",
+  "generatedAt": "2026-10-29T19:12:40.755Z"
 }

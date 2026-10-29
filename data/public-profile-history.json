@@ -720,7 +720,7 @@
   {
     "date": "2026-10-29",
     "builderIndex": 97.8,
-    "followerRank": 564,
+    "followerRank": 563,
     "topProjectRank": 253,
     "gitRanksCreatorRank": 64,
     "creatorBenchmarkRanks": {
@@ -730,10 +730,10 @@
       "uk": 2,
       "china": 9
     },
-    "followers": 7407,
-    "ownedStars": 126006,
-    "commits": 7047,
-    "pullRequests": 1761,
+    "followers": 7423,
+    "ownedStars": 126183,
+    "commits": 7051,
+    "pullRequests": 1776,
     "issues": 269,
     "reviews": 91
   }
