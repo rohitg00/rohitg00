@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7512,
+    "followers": 7522,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127071,
+    "ownedStars": 127151,
     "commits": 7044,
     "pullRequests": 1771,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 552,
-      "measuredValue": 7512,
+      "measuredValue": 7522,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 249,
-      "measuredValue": 76297,
+      "measuredValue": 76362,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127071,
+      "measuredValue": 127151,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-02T06:48:39.760Z",
+      "measuredAt": "2026-11-02T17:00:40.934Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 76297,
-      "forks": 13501,
+      "stars": 76362,
+      "forks": 13525,
       "updatedAt": "2026-11-02T04:26:52Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30079,
-      "forks": 2656,
+      "stars": 30088,
+      "forks": 2657,
       "updatedAt": "2026-11-02T06:15:04Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -260,8 +260,8 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2803,
-      "forks": 1074,
+      "stars": 2804,
+      "forks": 1076,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17580,
+      "ecosystemStars": 17584,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17580,
+          "stars": 17584,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10483,
+      "ecosystemStars": 10485,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10025,
+          "stars": 10027,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -336,7 +336,7 @@
         }
       ],
       "relationship": "merged-public-prs",
-      "avatarDataUri": "data:image/png;base64,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"
+      "avatarDataUri": "data:image/png;base64,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"
     },
     {
       "login": "docker",
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4083,
+      "ecosystemStars": 4085,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4083,
+          "stars": 4085,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,8 +474,8 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4083,
-      "forks": 693,
+      "stars": 4085,
+      "forks": 694,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 578,
-      "forks": 2516,
+      "forks": 2538,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "b135d82089c6f2873054d2b4d1b1cb34948ad5eac7a6a036480accdb58453624",
-  "generatedAt": "2026-11-02T06:48:39.760Z"
+  "fingerprint": "9fe3e3967737f9afb03cf4ec6d5bb47273d08a388a66438df113da7be7c11682",
+  "generatedAt": "2026-11-02T17:00:40.934Z"
 }
