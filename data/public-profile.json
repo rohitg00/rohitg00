@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127699,
-    "commits": 7090,
-    "pullRequests": 1810,
+    "ownedStars": 127698,
+    "commits": 7091,
+    "pullRequests": 1811,
     "issues": 269,
     "reviews": 90,
     "windowDays": 365,
@@ -24,7 +24,7 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 248,
+      "position": 249,
       "measuredValue": 76839,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127699,
+      "measuredValue": 127698,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-04T18:20:19.516Z",
+      "measuredAt": "2026-11-04T18:48:10.708Z",
       "positions": {
         "world": {
           "label": "World",
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30133,
+      "stars": 30132,
       "forks": 2668,
-      "updatedAt": "2026-11-04T18:20:16Z",
+      "updatedAt": "2026-11-04T18:48:01Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17601,
+      "ecosystemStars": 17602,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17601,
+          "stars": 17602,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19075,
+      "ecosystemStars": 19074,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18927,
+          "stars": 18926,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18927,
+      "stars": 18926,
       "forks": 1274,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "0f6039ee1c88649c1bd3d3b2d67b260ad800c73361dd764c96a8a09b67871be1",
-  "generatedAt": "2026-11-04T18:20:19.516Z"
+  "fingerprint": "71bb3e75396ed9f7947d7993170a890720a8b6260087e9ccd45bf0b2ee97824e",
+  "generatedAt": "2026-11-04T18:48:10.708Z"
 }
