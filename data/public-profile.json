@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127646,
+    "ownedStars": 127657,
     "commits": 7088,
     "pullRequests": 1810,
     "issues": 269,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 248,
-      "measuredValue": 76790,
+      "measuredValue": 76801,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127646,
+      "measuredValue": 127657,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-04T12:47:52.715Z",
+      "measuredAt": "2026-11-04T13:18:12.063Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 76790,
-      "forks": 13593,
+      "stars": 76801,
+      "forks": 13594,
       "updatedAt": "2026-11-04T06:04:54Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -343,12 +343,12 @@
       "url": "https://github.com/docker",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
       "mergedPullRequests": 2,
-      "ecosystemStars": 579,
+      "ecosystemStars": 580,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "docker/mcp-registry",
-          "stars": 579,
+          "stars": 580,
           "url": "https://github.com/docker/mcp-registry"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19072,
+      "ecosystemStars": 19073,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18924,
+          "stars": 18925,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18924,
+      "stars": 18925,
       "forks": 1274,
       "language": {
         "name": "Rust",
@@ -489,7 +489,7 @@
     {
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
-      "stars": 579,
+      "stars": 580,
       "forks": 2636,
       "language": {
         "name": "Go",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a180abfa6494efe0aa3d16ca949c63bbb5746e6b7795e0f7bc7621fee5b7a8dd",
-  "generatedAt": "2026-11-04T12:47:52.715Z"
+  "fingerprint": "99c5c7b651d1a43fef49ee92ae6705c4cdf0b83efd657c57e7c1488e369fa4c6",
+  "generatedAt": "2026-11-04T13:18:12.063Z"
 }
