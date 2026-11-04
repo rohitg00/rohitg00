@@ -7,8 +7,8 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127572,
-    "commits": 7068,
+    "ownedStars": 127584,
+    "commits": 7071,
     "pullRequests": 1801,
     "issues": 269,
     "reviews": 89,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 247,
-      "measuredValue": 76728,
+      "measuredValue": 76737,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127572,
+      "measuredValue": 127584,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-04T05:48:32.253Z",
+      "measuredAt": "2026-11-04T06:26:32.688Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,20 +87,20 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 76728,
-      "forks": 13584,
-      "updatedAt": "2026-11-03T20:47:09Z",
+      "stars": 76737,
+      "forks": 13585,
+      "updatedAt": "2026-11-04T06:04:54Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 45.1
+          "percentage": 45
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 32.7
+          "percentage": 32.9
         },
         {
           "name": "HTML",
@@ -190,7 +190,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30122,
       "forks": 2666,
-      "updatedAt": "2026-11-03T19:25:49Z",
+      "updatedAt": "2026-11-04T06:10:12Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -286,8 +286,8 @@
       "name": "DevOps_Books",
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
-      "stars": 2137,
-      "forks": 1227,
+      "stars": 2138,
+      "forks": 1228,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
       "languages": []
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19059,
+      "ecosystemStars": 19060,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18911,
+          "stars": 18912,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18911,
+      "stars": 18912,
       "forks": 1274,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 579,
-      "forks": 2617,
+      "forks": 2618,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "c313c1529a68072bd6b404473bb8745ac55deefe4b52b9870e5abca0504e9b2a",
-  "generatedAt": "2026-11-04T05:48:32.253Z"
+  "fingerprint": "5bfd6e3f6a9a00df63f07b6e991fd1f2236618bfba09f9b53a7d5f73b122224d",
+  "generatedAt": "2026-11-04T06:26:32.688Z"
 }
