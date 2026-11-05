@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127911,
+    "ownedStars": 127913,
     "commits": 7093,
     "pullRequests": 1815,
     "issues": 269,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 247,
-      "measuredValue": 76997,
+      "position": 246,
+      "measuredValue": 76999,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127911,
+      "measuredValue": 127913,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-05T21:18:23.030Z",
+      "measuredAt": "2026-11-05T21:47:50.592Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 76997,
-      "forks": 13630,
+      "stars": 76999,
+      "forks": 13631,
       "updatedAt": "2026-11-05T12:37:06Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 581,
-      "forks": 2682,
+      "forks": 2683,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "bc5261eb99f8879a37e406af1bcdddb6f1a2d4c2bc08ebdaa5e869a10621ce5a",
-  "generatedAt": "2026-11-05T21:18:23.030Z"
+  "fingerprint": "f7ae56dc29ceb1d95455b07f12177ca445794120b19b08b3878d0c21d68d5110",
+  "generatedAt": "2026-11-05T21:47:50.592Z"
 }
