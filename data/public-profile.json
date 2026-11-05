@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7556,
+    "followers": 7557,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127772,
+    "ownedStars": 127783,
     "commits": 7093,
     "pullRequests": 1815,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 550,
-      "measuredValue": 7556,
+      "measuredValue": 7557,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 248,
-      "measuredValue": 76895,
+      "measuredValue": 76902,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127772,
+      "measuredValue": 127783,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-05T05:48:23.589Z",
+      "measuredAt": "2026-11-05T06:47:37.152Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 76895,
-      "forks": 13613,
+      "stars": 76902,
+      "forks": 13615,
       "updatedAt": "2026-11-04T06:04:54Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30144,
-      "forks": 2666,
+      "stars": 30145,
+      "forks": 2665,
       "updatedAt": "2026-11-04T19:12:55Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -234,7 +234,7 @@
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2943,
+      "stars": 2944,
       "forks": 300,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
@@ -421,7 +421,7 @@
       "displayName": "Google Cloud",
       "url": "https://github.com/GoogleCloudPlatform",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2810941?v=4",
-      "avatarDataUri": "data:image/png;base64,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",
+      "avatarDataUri": "data:image/png;base64,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",
       "relationship": "Google Developer Expert (Cloud & GenAI)"
     }
   ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "01d668d0277431ec280101c2680c0b456ea725a676e49ed955fcd32b1c40cafc",
-  "generatedAt": "2026-11-05T05:48:23.589Z"
+  "fingerprint": "163b134005e5aab0e59e34d4052b1bb135b4510586eb03906c85fa98b5e4068c",
+  "generatedAt": "2026-11-05T06:47:37.152Z"
 }
