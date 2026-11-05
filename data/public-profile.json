@@ -3,7 +3,7 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7561,
+    "followers": 7562,
     "originalRepositoryCount": 104
   },
   "metrics": {
@@ -18,8 +18,8 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 549,
-      "measuredValue": 7561,
+      "position": 548,
+      "measuredValue": 7562,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-05T19:18:58.396Z",
+      "measuredAt": "2026-11-05T19:48:30.286Z",
       "positions": {
         "world": {
           "label": "World",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2813,
-      "forks": 1083,
+      "forks": 1084,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 581,
-      "forks": 2681,
+      "forks": 2682,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a637cf8a196591e83528aa16dac8165ee11efa1328faf7d050b4c6fe088ef408",
-  "generatedAt": "2026-11-05T19:18:58.396Z"
+  "fingerprint": "e74b5e87deb1e40113933dcaab69e8c4ab7200eff19b2e374e73c74d26d54812",
+  "generatedAt": "2026-11-05T19:48:30.286Z"
 }
