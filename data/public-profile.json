@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127732,
+    "ownedStars": 127734,
     "commits": 7093,
     "pullRequests": 1815,
     "issues": 269,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 248,
-      "measuredValue": 76866,
+      "measuredValue": 76867,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127732,
+      "measuredValue": 127734,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-05T00:51:58.644Z",
+      "measuredAt": "2026-11-05T01:19:11.163Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 76866,
+      "stars": 76867,
       "forks": 13608,
       "updatedAt": "2026-11-04T06:04:54Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30137,
+      "stars": 30138,
       "forks": 2667,
       "updatedAt": "2026-11-04T19:12:55Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5419,
+      "ecosystemStars": 5420,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5419,
+          "stars": 5420,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "b9f28ac9c96ee58f84148a2c295f71f4927415ecb972ef2ec353c143dae8ced9",
-  "generatedAt": "2026-11-05T00:51:58.644Z"
+  "fingerprint": "f5414f9463ce8f6932e8e4e32ac7afa84a60be7bc0dcf27fc0cf977b8ccab09d",
+  "generatedAt": "2026-11-05T01:19:11.163Z"
 }
