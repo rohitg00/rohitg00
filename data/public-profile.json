@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-06T10:17:59.045Z",
+      "measuredAt": "2026-11-06T10:48:13.085Z",
       "positions": {
         "world": {
           "label": "World",
@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 77056,
-      "forks": 13643,
+      "forks": 13644,
       "updatedAt": "2026-11-05T12:37:06Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4093,
+      "ecosystemStars": 4094,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4093,
+          "stars": 4094,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4093,
+      "stars": 4094,
       "forks": 696,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "96d48df2f4e7e490aff0b0c14667cf0f967c34c9ba07d99d3d85e1bca7d83e2d",
-  "generatedAt": "2026-11-06T10:17:59.045Z"
+  "fingerprint": "d36cfe0530c389d153dff60012877df1558b16814e9c1c12711178aa28798088",
+  "generatedAt": "2026-11-06T10:48:13.085Z"
 }
