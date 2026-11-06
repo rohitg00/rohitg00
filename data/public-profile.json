@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128080,
+    "ownedStars": 128085,
     "commits": 7092,
     "pullRequests": 1827,
     "issues": 269,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 245,
-      "measuredValue": 77135,
+      "measuredValue": 77139,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128080,
+      "measuredValue": 128085,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-06T21:48:12.695Z",
+      "measuredAt": "2026-11-06T22:18:03.671Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77135,
-      "forks": 13660,
+      "stars": 77139,
+      "forks": 13661,
       "updatedAt": "2026-11-06T19:31:00Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -234,7 +234,7 @@
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2945,
+      "stars": 2946,
       "forks": 299,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a66f9840b6ecef4537b4285552704be7279016da76a37abe0a1ca6794203b36f",
-  "generatedAt": "2026-11-06T21:48:12.695Z"
+  "fingerprint": "e0a31305c39f2ae418d567869ab09713759cb1ccb06587ff88c1e8a7c89784a5",
+  "generatedAt": "2026-11-06T22:18:03.671Z"
 }
