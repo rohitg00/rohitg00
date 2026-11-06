@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128061,
+    "ownedStars": 128068,
     "commits": 7092,
     "pullRequests": 1827,
     "issues": 269,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 245,
-      "measuredValue": 77117,
+      "measuredValue": 77123,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128061,
+      "measuredValue": 128068,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-06T19:48:03.527Z",
+      "measuredAt": "2026-11-06T20:19:01.528Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77117,
-      "forks": 13657,
+      "stars": 77123,
+      "forks": 13658,
       "updatedAt": "2026-11-06T19:31:00Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30176,
-      "forks": 2672,
+      "stars": 30177,
+      "forks": 2671,
       "updatedAt": "2026-11-06T19:42:17Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -235,7 +235,7 @@
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
       "stars": 2945,
-      "forks": 300,
+      "forks": 299,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
       "languages": [
@@ -445,7 +445,7 @@
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
       "stars": 18926,
-      "forks": 1274,
+      "forks": 1273,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "c72e69b481e7e84a091a3d6577de7c881667682c1f7e4f006a1ec809d7cbb6bd",
-  "generatedAt": "2026-11-06T19:48:03.527Z"
+  "fingerprint": "501a54b5b564c03ae98a89849f5d99607b245f1cc68f3334f4271658e3af7e13",
+  "generatedAt": "2026-11-06T20:19:01.528Z"
 }
