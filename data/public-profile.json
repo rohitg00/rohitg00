@@ -7,14 +7,14 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 127917,
-    "commits": 7093,
-    "pullRequests": 1815,
+    "ownedStars": 127919,
+    "commits": 7092,
+    "pullRequests": 1814,
     "issues": 269,
     "reviews": 89,
     "windowDays": 365,
-    "windowStart": "2025-11-05",
-    "windowEnd": "2026-11-05"
+    "windowStart": "2025-11-06",
+    "windowEnd": "2026-11-06"
   },
   "ranking": {
     "followerWorld": {
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 246,
-      "measuredValue": 77003,
+      "measuredValue": 77005,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 127917,
+      "measuredValue": 127919,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-05T23:48:09.141Z",
+      "measuredAt": "2026-11-06T00:37:33.103Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77003,
-      "forks": 13634,
+      "stars": 77005,
+      "forks": 13636,
       "updatedAt": "2026-11-05T12:37:06Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19073,
+      "ecosystemStars": 19074,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18925,
+          "stars": 18926,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18925,
+      "stars": 18926,
       "forks": 1273,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a819fc013af0781ff140f560cf1f02cf1aa59799f3283eb387c00da5467bfac4",
-  "generatedAt": "2026-11-05T23:48:09.141Z"
+  "fingerprint": "43c23ca3e88aad67f096ee37167fb222d563416fc39edc90a99d68b9061f3c73",
+  "generatedAt": "2026-11-06T00:37:33.103Z"
 }
