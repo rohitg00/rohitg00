@@ -7,8 +7,8 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128267,
-    "commits": 7089,
+    "ownedStars": 128276,
+    "commits": 7091,
     "pullRequests": 1828,
     "issues": 269,
     "reviews": 88,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 244,
-      "measuredValue": 77305,
+      "measuredValue": 77313,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128267,
+      "measuredValue": 128276,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-07T15:48:03.368Z",
+      "measuredAt": "2026-11-07T16:17:40.515Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,25 +87,25 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77305,
-      "forks": 13700,
-      "updatedAt": "2026-11-06T19:31:00Z",
+      "stars": 77313,
+      "forks": 13701,
+      "updatedAt": "2026-11-07T15:55:50Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 45
+          "percentage": 44.8
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 32.9
+          "percentage": 33.2
         },
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 11.7
+          "percentage": 11.6
         },
         {
           "name": "TypeScript",
@@ -125,7 +125,7 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "percentage": 1.1
+          "percentage": 1
         },
         {
           "name": "Assembly",
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30185,
+      "stars": 30186,
       "forks": 2672,
-      "updatedAt": "2026-11-07T08:09:59Z",
+      "updatedAt": "2026-11-07T15:59:48Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 582,
-      "forks": 2739,
+      "forks": 2741,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "d1f122d116ba3b9b1b1cf50e70b828788a4a87e87613b14698ecbccf193e897a",
-  "generatedAt": "2026-11-07T15:48:03.368Z"
+  "fingerprint": "3935c7d2033c1f9b1e3f4284643544e73c4f301ec3d16a50504c9ef2d874a824",
+  "generatedAt": "2026-11-07T16:17:40.515Z"
 }
