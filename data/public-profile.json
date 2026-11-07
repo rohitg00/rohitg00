@@ -3,12 +3,12 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7580,
+    "followers": 7581,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128179,
-    "commits": 7087,
+    "ownedStars": 128183,
+    "commits": 7089,
     "pullRequests": 1827,
     "issues": 269,
     "reviews": 88,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 547,
-      "measuredValue": 7580,
+      "measuredValue": 7581,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 245,
-      "measuredValue": 77223,
+      "measuredValue": 77227,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128179,
+      "measuredValue": 128183,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-07T07:18:13.089Z",
+      "measuredAt": "2026-11-07T07:48:10.741Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77223,
-      "forks": 13691,
+      "stars": 77227,
+      "forks": 13692,
       "updatedAt": "2026-11-06T19:31:00Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -190,18 +190,18 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30183,
       "forks": 2672,
-      "updatedAt": "2026-11-07T07:13:10Z",
+      "updatedAt": "2026-11-07T07:39:04Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 81
+          "percentage": 80.8
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 8.6
+          "percentage": 8.8
         },
         {
           "name": "HTML",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "20d16d14025bdfcab0bbe1f34365cfec0312867d02cd2f1f5fa6cb826be724ec",
-  "generatedAt": "2026-11-07T07:18:13.089Z"
+  "fingerprint": "ac87ea767fb285ec844fd460320779593c3ea1fedc3fb96fc168e6b79f528e63",
+  "generatedAt": "2026-11-07T07:48:10.741Z"
 }
