@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128207,
+    "ownedStars": 128204,
     "commits": 7089,
     "pullRequests": 1828,
     "issues": 269,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 245,
-      "measuredValue": 77250,
+      "measuredValue": 77248,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128207,
+      "measuredValue": 128204,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-07T09:48:16.169Z",
+      "measuredAt": "2026-11-07T10:18:02.754Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77250,
+      "stars": 77248,
       "forks": 13692,
       "updatedAt": "2026-11-06T19:31:00Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30183,
+      "stars": 30182,
       "forks": 2672,
       "updatedAt": "2026-11-07T08:09:59Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ad88a9f0c6fc2302bc33ca02ef257fba3c63bf140519299dd5864e0f8451c6e8",
-  "generatedAt": "2026-11-07T09:48:16.169Z"
+  "fingerprint": "61d3b6e64c4ad0b95fa4ccefd447760c16a7940fae89e6279c75ea63ee321e06",
+  "generatedAt": "2026-11-07T10:18:02.754Z"
 }
