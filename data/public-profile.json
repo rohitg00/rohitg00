@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128375,
+    "ownedStars": 128382,
     "commits": 7091,
     "pullRequests": 1828,
     "issues": 269,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 242,
-      "measuredValue": 77403,
+      "position": 243,
+      "measuredValue": 77410,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -41,7 +41,7 @@
       "status": "cached"
     },
     "creatorBenchmarks": {
-      "status": "fresh",
+      "status": "cached",
       "measuredValue": 128375,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77403,
+      "stars": 77410,
       "forks": 13719,
       "updatedAt": "2026-11-07T15:55:50Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 582,
-      "forks": 2750,
+      "forks": 2751,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "63684c51e772cf296ab40ad7b53b5d6a88e99103949eeda5376fbccee9afbc6d",
-  "generatedAt": "2026-11-07T21:18:24.022Z"
+  "fingerprint": "73df4111d14c0162c02001813b7f6a1e5793644f26dbcc4f7308f41e1fd81225",
+  "generatedAt": "2026-11-07T21:48:07.698Z"
 }
