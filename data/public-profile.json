@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7601,
+    "followers": 7602,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128574,
+    "ownedStars": 128588,
     "commits": 7090,
     "pullRequests": 1826,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 547,
-      "measuredValue": 7601,
+      "measuredValue": 7602,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 242,
-      "measuredValue": 77594,
+      "position": 243,
+      "measuredValue": 77608,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128574,
+      "measuredValue": 128588,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-08T05:17:46.871Z",
+      "measuredAt": "2026-11-08T05:48:13.195Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77594,
-      "forks": 13756,
+      "stars": 77608,
+      "forks": 13761,
       "updatedAt": "2026-11-07T15:55:50Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "9f16c6ffcae0f5a3b1745eaa0c53c649a56f4a01bd3c6522ef2d13b3a618b22b",
-  "generatedAt": "2026-11-08T05:17:46.871Z"
+  "fingerprint": "07f0834e469a12730358e7f201328bb68a65728e6eea9e7bcc882fda978341bc",
+  "generatedAt": "2026-11-08T05:48:13.195Z"
 }
