@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7613,
+    "followers": 7612,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128752,
-    "commits": 7105,
-    "pullRequests": 1835,
+    "ownedStars": 128760,
+    "commits": 7106,
+    "pullRequests": 1836,
     "issues": 269,
     "reviews": 88,
     "windowDays": 365,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 546,
-      "measuredValue": 7613,
+      "position": 547,
+      "measuredValue": 7612,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 241,
-      "measuredValue": 77751,
+      "measuredValue": 77758,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128752,
+      "measuredValue": 128760,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-08T16:18:07.904Z",
+      "measuredAt": "2026-11-08T16:48:13.414Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77751,
-      "forks": 13795,
-      "updatedAt": "2026-11-08T16:10:19Z",
+      "stars": 77758,
+      "forks": 13797,
+      "updatedAt": "2026-11-08T16:46:40Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -190,7 +190,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30203,
       "forks": 2674,
-      "updatedAt": "2026-11-08T16:07:48Z",
+      "updatedAt": "2026-11-08T16:31:50Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -260,7 +260,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2821,
+      "stars": 2822,
       "forks": 1092,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "f3283ca200f03a5d0032477f772af23b1862ee09cfb85f90bc7ef6df943e887f",
-  "generatedAt": "2026-11-08T16:18:07.904Z"
+  "fingerprint": "f4372e1d85bd218d06cef6cd99993b7f5baa88283217ceb46ad7b560982a9066",
+  "generatedAt": "2026-11-08T16:48:13.414Z"
 }
