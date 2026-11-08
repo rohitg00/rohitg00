@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7613,
+    "followers": 7614,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128781,
+    "ownedStars": 128789,
     "commits": 7106,
     "pullRequests": 1836,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 546,
-      "measuredValue": 7613,
+      "measuredValue": 7614,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 240,
-      "measuredValue": 77771,
+      "measuredValue": 77776,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128781,
+      "measuredValue": 128789,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-08T18:48:19.505Z",
+      "measuredAt": "2026-11-08T19:18:10.060Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77771,
-      "forks": 13802,
+      "stars": 77776,
+      "forks": 13803,
       "updatedAt": "2026-11-08T17:23:17Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30206,
+      "stars": 30207,
       "forks": 2674,
       "updatedAt": "2026-11-08T16:31:50Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "de8f6c6496e002d98f9b0e8c5c567c6a65ee2bb7c9957d4fd3f14c8b6dd8543e",
-  "generatedAt": "2026-11-08T18:48:19.505Z"
+  "fingerprint": "23acf5f7e83a75c456d898e7699a4a04a514f9a7293b175afaa2d98403632cb8",
+  "generatedAt": "2026-11-08T19:18:10.060Z"
 }
