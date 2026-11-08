@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128656,
+    "ownedStars": 128667,
     "commits": 7102,
     "pullRequests": 1835,
     "issues": 269,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 241,
-      "measuredValue": 77669,
+      "measuredValue": 77680,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128656,
+      "measuredValue": 128667,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-08T09:47:51.561Z",
+      "measuredAt": "2026-11-08T10:18:06.165Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77669,
-      "forks": 13773,
+      "stars": 77680,
+      "forks": 13774,
       "updatedAt": "2026-11-08T08:30:53Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -190,7 +190,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30196,
       "forks": 2674,
-      "updatedAt": "2026-11-08T09:43:28Z",
+      "updatedAt": "2026-11-08T09:50:12Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10485,
+      "ecosystemStars": 10484,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10026,
+          "stars": 10025,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 583,
-      "forks": 2765,
+      "forks": 2768,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "26b4c2f5cd144ffa2102f9a064856fc05c44d6579e71cf971d4509fee9428da6",
-  "generatedAt": "2026-11-08T09:47:51.561Z"
+  "fingerprint": "54ccb365695e2e7bd7fd2c4445cc4cde5e4960a359aa36fed32b987bc3698698",
+  "generatedAt": "2026-11-08T10:18:06.165Z"
 }
