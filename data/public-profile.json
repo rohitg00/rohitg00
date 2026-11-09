@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128893,
-    "commits": 7114,
-    "pullRequests": 1839,
+    "ownedStars": 128899,
+    "commits": 7115,
+    "pullRequests": 1841,
     "issues": 269,
     "reviews": 88,
     "windowDays": 365,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 241,
-      "measuredValue": 77869,
+      "position": 240,
+      "measuredValue": 77874,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128893,
+      "measuredValue": 128899,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-09T04:48:03.783Z",
+      "measuredAt": "2026-11-09T05:19:48.870Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77869,
-      "forks": 13822,
-      "updatedAt": "2026-11-09T04:47:52Z",
+      "stars": 77874,
+      "forks": 13824,
+      "updatedAt": "2026-11-09T05:02:51Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30216,
+      "stars": 30217,
       "forks": 2677,
-      "updatedAt": "2026-11-09T04:38:36Z",
+      "updatedAt": "2026-11-09T05:14:56Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -216,7 +216,7 @@
         {
           "name": "CSS",
           "color": "#663399",
-          "percentage": 1.3
+          "percentage": 1.4
         },
         {
           "name": "Shell",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "68bf0b35b80d7c68cc6d007a035a828b3c5937300af42c4e3247864c20429879",
-  "generatedAt": "2026-11-09T04:48:03.783Z"
+  "fingerprint": "353ff184cdae4c5107ca661a0bbc880f5cedfe3506d58a35f402cf535484b93e",
+  "generatedAt": "2026-11-09T05:19:48.870Z"
 }
