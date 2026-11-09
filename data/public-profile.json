@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128916,
+    "ownedStars": 128922,
     "commits": 7115,
     "pullRequests": 1843,
     "issues": 269,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 240,
-      "measuredValue": 77888,
+      "measuredValue": 77892,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128916,
+      "measuredValue": 128922,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-09T07:20:33.618Z",
+      "measuredAt": "2026-11-09T07:48:12.162Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77888,
-      "forks": 13830,
+      "stars": 77892,
+      "forks": 13831,
       "updatedAt": "2026-11-09T06:25:40Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30218,
+      "stars": 30219,
       "forks": 2677,
       "updatedAt": "2026-11-09T07:10:47Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 583,
-      "forks": 2787,
+      "forks": 2789,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "b4bf4ab82715aeefe9e4cefeebe17c55a82c120de924a666342a1109fc7759fb",
-  "generatedAt": "2026-11-09T07:20:33.618Z"
+  "fingerprint": "e276f22312e3d86245270f495bb044774a01efc4beddcfe6c61e6d338c8e28bf",
+  "generatedAt": "2026-11-09T07:48:12.162Z"
 }
