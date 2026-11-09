@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7623,
+    "followers": 7624,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128976,
+    "ownedStars": 128996,
     "commits": 7117,
     "pullRequests": 1844,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 545,
-      "measuredValue": 7623,
+      "measuredValue": 7624,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 240,
-      "measuredValue": 77937,
+      "measuredValue": 77946,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128976,
+      "measuredValue": 128996,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-09T10:17:53.789Z",
+      "measuredAt": "2026-11-09T10:48:31.458Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77937,
-      "forks": 13841,
-      "updatedAt": "2026-11-09T10:17:46Z",
+      "stars": 77946,
+      "forks": 13843,
+      "updatedAt": "2026-11-09T10:46:08Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -234,7 +234,7 @@
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2946,
+      "stars": 2947,
       "forks": 299,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
@@ -459,7 +459,7 @@
     {
       "nameWithOwner": "iii-experimental/openwiki",
       "url": "https://github.com/iii-experimental/openwiki",
-      "stars": 8,
+      "stars": 9,
       "forks": 1,
       "language": {
         "name": "JavaScript",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "96b5a158b2e90105057f7e8daa4a23a34277065e7484bf6cbd67af63d4764ee2",
-  "generatedAt": "2026-11-09T10:17:53.789Z"
+  "fingerprint": "095f38ebcca24806ba5a6ec38a1f11edc12c611f6391a767ce8c4c88dcce516a",
+  "generatedAt": "2026-11-09T10:48:31.458Z"
 }
