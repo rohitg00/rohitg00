@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7624,
+    "followers": 7623,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 128996,
+    "ownedStars": 129011,
     "commits": 7117,
     "pullRequests": 1844,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 545,
-      "measuredValue": 7624,
+      "measuredValue": 7623,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 240,
-      "measuredValue": 77946,
+      "measuredValue": 77955,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 128996,
+      "measuredValue": 129011,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-09T10:48:31.458Z",
+      "measuredAt": "2026-11-09T11:17:58.373Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77946,
-      "forks": 13843,
-      "updatedAt": "2026-11-09T10:46:08Z",
+      "stars": 77955,
+      "forks": 13847,
+      "updatedAt": "2026-11-09T11:17:06Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -260,7 +260,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2825,
+      "stars": 2826,
       "forks": 1094,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -286,7 +286,7 @@
       "name": "DevOps_Books",
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
-      "stars": 2145,
+      "stars": 2146,
       "forks": 1232,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "095f38ebcca24806ba5a6ec38a1f11edc12c611f6391a767ce8c4c88dcce516a",
-  "generatedAt": "2026-11-09T10:48:31.458Z"
+  "fingerprint": "c50ff2dca318185e3fc3335a8b5fb79672cc8d3a848698e426c1aa40e90ae349",
+  "generatedAt": "2026-11-09T11:17:58.373Z"
 }
