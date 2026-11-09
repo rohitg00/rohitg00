@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7625,
+    "followers": 7628,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129048,
+    "ownedStars": 129107,
     "commits": 7120,
     "pullRequests": 1848,
     "issues": 269,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 544,
-      "measuredValue": 7625,
+      "measuredValue": 7628,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 240,
-      "measuredValue": 77987,
+      "measuredValue": 78043,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129048,
+      "measuredValue": 129107,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-09T13:19:28.873Z",
+      "measuredAt": "2026-11-09T15:18:44.872Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 77987,
-      "forks": 13854,
-      "updatedAt": "2026-11-09T13:18:28Z",
+      "stars": 78043,
+      "forks": 13867,
+      "updatedAt": "2026-11-09T15:10:21Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30230,
-      "forks": 2678,
+      "stars": 30233,
+      "forks": 2679,
       "updatedAt": "2026-11-09T12:21:23Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10485,
+      "ecosystemStars": 10486,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10026,
+          "stars": 10027,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 583,
-      "forks": 2803,
+      "forks": 2806,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "bd16bb49225082185ef8b512ed1b924a24f108e2d07b99dfe66d421872cbc9e5",
-  "generatedAt": "2026-11-09T13:19:28.873Z"
+  "fingerprint": "bbe0e11ef4e3cada3dc67316b15f70f01af161f9a0841c67580e2613eb3dace6",
+  "generatedAt": "2026-11-09T15:18:44.872Z"
 }
