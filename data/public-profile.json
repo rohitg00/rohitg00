@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-09T23:18:13.135Z",
+      "measuredAt": "2026-11-09T23:47:53.959Z",
       "positions": {
         "world": {
           "label": "World",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 583,
-      "forks": 2823,
+      "forks": 2822,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "b676dcd04410558177e0ed8d20457b1969d49f5eda7f728402381e147f09cb28",
-  "generatedAt": "2026-11-09T23:18:13.135Z"
+  "fingerprint": "6e91dce0f4985e076b7e841ef9c3e846a41ec43d8ae3c2f9e1933498a4219ec5",
+  "generatedAt": "2026-11-09T23:47:53.959Z"
 }
