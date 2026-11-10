@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7635,
+    "followers": 7636,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129304,
+    "ownedStars": 129306,
     "commits": 7133,
-    "pullRequests": 1854,
+    "pullRequests": 1855,
     "issues": 269,
     "reviews": 88,
     "windowDays": 365,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 544,
-      "measuredValue": 7635,
+      "measuredValue": 7636,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78206,
+      "measuredValue": 78208,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129304,
+      "measuredValue": 129306,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-10T10:19:59.231Z",
+      "measuredAt": "2026-11-10T10:48:31.007Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78206,
+      "stars": 78208,
       "forks": 13907,
       "updatedAt": "2026-11-10T05:24:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -189,7 +189,7 @@
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30251,
-      "forks": 2681,
+      "forks": 2682,
       "updatedAt": "2026-11-09T12:21:23Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10485,
+      "ecosystemStars": 10486,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10026,
+          "stars": 10027,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "2cebc3a946eac2cddf6025c5e4bcd59f42aae1a172dfbe9f3a3efa6815ead294",
-  "generatedAt": "2026-11-10T10:19:59.231Z"
+  "fingerprint": "94a0911eace3de9a3ecfa5e8dbcdf9842f0b6df77f6bdd8b9daecadf235f1d48",
+  "generatedAt": "2026-11-10T10:48:31.007Z"
 }
