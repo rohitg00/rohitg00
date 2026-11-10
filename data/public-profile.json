@@ -7,14 +7,14 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129225,
+    "ownedStars": 129229,
     "commits": 7133,
-    "pullRequests": 1848,
+    "pullRequests": 1849,
     "issues": 269,
     "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-09",
-    "windowEnd": "2026-11-09"
+    "windowStart": "2025-11-10",
+    "windowEnd": "2026-11-10"
   },
   "ranking": {
     "followerWorld": {
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78148,
+      "measuredValue": 78152,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129225,
+      "measuredValue": 129229,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-09T23:47:53.959Z",
+      "measuredAt": "2026-11-10T00:36:19.448Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78148,
-      "forks": 13891,
-      "updatedAt": "2026-11-09T21:28:27Z",
+      "stars": 78152,
+      "forks": 13893,
+      "updatedAt": "2026-11-10T00:19:02Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6e91dce0f4985e076b7e841ef9c3e846a41ec43d8ae3c2f9e1933498a4219ec5",
-  "generatedAt": "2026-11-09T23:47:53.959Z"
+  "fingerprint": "4d34a0286679d7b0f01a7d6d6963bef13f77315c4d25d16cb49f118acf774742",
+  "generatedAt": "2026-11-10T00:36:19.448Z"
 }
