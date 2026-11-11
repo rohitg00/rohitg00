@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7644,
+    "followers": 7646,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129442,
+    "ownedStars": 129455,
     "commits": 7144,
     "pullRequests": 1861,
     "issues": 288,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 544,
-      "measuredValue": 7644,
+      "position": 543,
+      "measuredValue": 7646,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78315,
+      "measuredValue": 78323,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129442,
+      "measuredValue": 129455,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-11T01:48:14.676Z",
+      "measuredAt": "2026-11-11T02:47:33.492Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78315,
-      "forks": 13935,
+      "stars": 78323,
+      "forks": 13939,
       "updatedAt": "2026-11-10T05:24:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30273,
+      "stars": 30276,
       "forks": 2684,
       "updatedAt": "2026-11-10T11:55:46Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -234,7 +234,7 @@
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2949,
+      "stars": 2950,
       "forks": 299,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 583,
-      "forks": 2863,
+      "forks": 2868,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "51411058df48ff811e0fc2ec4ec69516c16512c9995226bcd7f92b20dd643aeb",
-  "generatedAt": "2026-11-11T01:48:14.676Z"
+  "fingerprint": "9afc89ae5c109b0d42d5f1825c8d59f2cb7e368bf353ce44e0bbff94b40c7d18",
+  "generatedAt": "2026-11-11T02:47:33.492Z"
 }
