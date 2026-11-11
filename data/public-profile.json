@@ -3,12 +3,12 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7657,
+    "followers": 7658,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129575,
-    "commits": 7148,
+    "ownedStars": 129581,
+    "commits": 7149,
     "pullRequests": 1872,
     "issues": 288,
     "reviews": 88,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 543,
-      "measuredValue": 7657,
+      "measuredValue": 7658,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 240,
-      "measuredValue": 78431,
+      "position": 239,
+      "measuredValue": 78434,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129575,
+      "measuredValue": 129581,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-11T12:23:50.489Z",
+      "measuredAt": "2026-11-11T12:47:59.185Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78431,
-      "forks": 13965,
-      "updatedAt": "2026-11-11T11:20:51Z",
+      "stars": 78434,
+      "forks": 13967,
+      "updatedAt": "2026-11-11T12:45:16Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30287,
+      "stars": 30290,
       "forks": 2689,
-      "updatedAt": "2026-11-11T11:17:29Z",
+      "updatedAt": "2026-11-11T12:47:35Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "78e2c64947b50369734b8cb9b2307353023d5a239efc0a65ad5d779a7138aae8",
-  "generatedAt": "2026-11-11T12:23:50.489Z"
+  "fingerprint": "a653c060ddc81ee8be7b2650e55aa464bd38ae6fbb16609b6e62dff45f894ddc",
+  "generatedAt": "2026-11-11T12:47:59.185Z"
 }
