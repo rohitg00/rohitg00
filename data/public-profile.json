@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129661,
+    "ownedStars": 129662,
     "commits": 7149,
     "pullRequests": 1872,
     "issues": 288,
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129661,
+      "measuredValue": 129662,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-11T22:18:21.021Z",
+      "measuredAt": "2026-11-11T22:47:32.974Z",
       "positions": {
         "world": {
           "label": "World",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30298,
+      "stars": 30299,
       "forks": 2695,
       "updatedAt": "2026-11-11T18:46:22Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4109,
-      "forks": 706,
+      "forks": 707,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 583,
-      "forks": 2905,
+      "forks": 2906,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "8df2718b78a603bc5379ee77486a485a182c4c8273ec9e5615d8ef06e733da6f",
-  "generatedAt": "2026-11-11T22:18:21.021Z"
+  "fingerprint": "6a2c3f0f49d3b9e8e597bd5e3a91c800b911697832fe0eb32028551b28c9f82f",
+  "generatedAt": "2026-11-11T22:47:32.974Z"
 }
