@@ -7,8 +7,8 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129483,
-    "commits": 7144,
+    "ownedStars": 129488,
+    "commits": 7145,
     "pullRequests": 1861,
     "issues": 288,
     "reviews": 88,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78349,
+      "measuredValue": 78354,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129483,
+      "measuredValue": 129488,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-11T05:18:17.925Z",
+      "measuredAt": "2026-11-11T05:48:14.032Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78349,
+      "stars": 78354,
       "forks": 13945,
       "updatedAt": "2026-11-10T05:24:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -189,8 +189,8 @@
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30276,
-      "forks": 2688,
-      "updatedAt": "2026-11-10T11:55:46Z",
+      "forks": 2689,
+      "updatedAt": "2026-11-11T05:35:27Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "4f177478cc29fbb3393c514743bf69bddccc56445f2112263b81ca15ded6b127",
-  "generatedAt": "2026-11-11T05:18:17.925Z"
+  "fingerprint": "148999ebbc4668ba698df51bf4e7a1512aab2aa9f459fc5df39fbfe71d0aa5eb",
+  "generatedAt": "2026-11-11T05:48:14.032Z"
 }
