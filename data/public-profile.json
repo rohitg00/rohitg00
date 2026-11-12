@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-12T23:18:30.705Z",
+      "measuredAt": "2026-11-12T23:48:01.542Z",
       "positions": {
         "world": {
           "label": "World",
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4111,
+      "ecosystemStars": 4112,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4111,
+          "stars": 4112,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4111,
+      "stars": 4112,
       "forks": 708,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "4c8ab834abfe296cccda452e9e84cc654cdcd114db23694af28cd5676a62d57d",
-  "generatedAt": "2026-11-12T23:18:30.705Z"
+  "fingerprint": "53155b2c5d7731c2452ffaab86218ed05ef716a9fe96786b0dcf5ce0293855aa",
+  "generatedAt": "2026-11-12T23:48:01.542Z"
 }
