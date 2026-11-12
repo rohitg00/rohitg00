@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129673,
+    "ownedStars": 129674,
     "commits": 7149,
     "pullRequests": 1870,
     "issues": 288,
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129673,
+      "measuredValue": 129674,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-12T00:53:43.811Z",
+      "measuredAt": "2026-11-12T01:18:37.653Z",
       "positions": {
         "world": {
           "label": "World",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17641,
+      "ecosystemStars": 17642,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17641,
+          "stars": 17642,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a2329a6d5b24c825da0c423cc8320206fccfb2ba525e131a04a2e1309ad4cdc3",
-  "generatedAt": "2026-11-12T00:53:43.811Z"
+  "fingerprint": "80bc133a7a353564d76824f4aa053b14ff0ea4373522653b620d78997f73f674",
+  "generatedAt": "2026-11-12T01:18:37.653Z"
 }
