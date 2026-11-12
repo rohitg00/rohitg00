@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129767,
+    "ownedStars": 129779,
     "commits": 7161,
     "pullRequests": 1883,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78565,
+      "measuredValue": 78576,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129767,
+      "measuredValue": 129779,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-12T18:21:40.058Z",
+      "measuredAt": "2026-11-12T20:48:01.283Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78565,
-      "forks": 13987,
-      "updatedAt": "2026-11-12T17:47:48Z",
+      "stars": 78576,
+      "forks": 13989,
+      "updatedAt": "2026-11-12T20:10:42Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,15 +188,15 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30319,
-      "forks": 2697,
+      "stars": 30320,
+      "forks": 2698,
       "updatedAt": "2026-11-12T18:00:25Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 81.6
+          "percentage": 81.7
         },
         {
           "name": "JavaScript",
@@ -343,12 +343,12 @@
       "url": "https://github.com/docker",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
       "mergedPullRequests": 2,
-      "ecosystemStars": 585,
+      "ecosystemStars": 584,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "docker/mcp-registry",
-          "stars": 585,
+          "stars": 584,
           "url": "https://github.com/docker/mcp-registry"
         }
       ],
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4110,
+      "ecosystemStars": 4111,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4110,
+          "stars": 4111,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,8 +474,8 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4110,
-      "forks": 707,
+      "stars": 4111,
+      "forks": 708,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -489,8 +489,8 @@
     {
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
-      "stars": 585,
-      "forks": 2939,
+      "stars": 584,
+      "forks": 2949,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "7973cc9af23ba5a66c70d9c44b389515a4f45677f74b2808ca3c8527848d8605",
-  "generatedAt": "2026-11-12T18:21:40.058Z"
+  "fingerprint": "d6348e0481edee52fcb3a913d4b6d06cf78ee14e99be9dcecb314c924b35582e",
+  "generatedAt": "2026-11-12T20:48:01.283Z"
 }
