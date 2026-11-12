@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7663,
+    "followers": 7664,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129674,
+    "ownedStars": 129676,
     "commits": 7149,
     "pullRequests": 1870,
     "issues": 288,
@@ -19,7 +19,7 @@
   "ranking": {
     "followerWorld": {
       "position": 542,
-      "measuredValue": 7663,
+      "measuredValue": 7664,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129674,
+      "measuredValue": 129676,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-12T01:18:37.653Z",
+      "measuredAt": "2026-11-12T01:47:42.727Z",
       "positions": {
         "world": {
           "label": "World",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30299,
+      "stars": 30301,
       "forks": 2695,
       "updatedAt": "2026-11-11T18:46:22Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -343,12 +343,12 @@
       "url": "https://github.com/docker",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
       "mergedPullRequests": 2,
-      "ecosystemStars": 583,
+      "ecosystemStars": 584,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "docker/mcp-registry",
-          "stars": 583,
+          "stars": 584,
           "url": "https://github.com/docker/mcp-registry"
         }
       ],
@@ -489,7 +489,7 @@
     {
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
-      "stars": 583,
+      "stars": 584,
       "forks": 2911,
       "language": {
         "name": "Go",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "80bc133a7a353564d76824f4aa053b14ff0ea4373522653b620d78997f73f674",
-  "generatedAt": "2026-11-12T01:18:37.653Z"
+  "fingerprint": "ba2e297a67a7c5a5ff1fce9187264fdbc515016ac08580f3ae4c2002f287f3ed",
+  "generatedAt": "2026-11-12T01:47:42.727Z"
 }
