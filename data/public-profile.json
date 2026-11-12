@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129785,
+    "ownedStars": 129788,
     "commits": 7161,
     "pullRequests": 1883,
     "issues": 288,
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129785,
+      "measuredValue": 129788,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-12T21:48:25.376Z",
+      "measuredAt": "2026-11-12T22:18:11.304Z",
       "positions": {
         "world": {
           "label": "World",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30320,
+      "stars": 30323,
       "forks": 2698,
       "updatedAt": "2026-11-12T18:00:25Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 584,
-      "forks": 2949,
+      "forks": 2950,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "bf06d09c5906738662e58b2d98d91cf6ed46ec4a2ec1cf512ee8f62b585ef14e",
-  "generatedAt": "2026-11-12T21:48:25.376Z"
+  "fingerprint": "70bded569228d6fcc528979e79c158b56e7c5a3234589899be9c43644950da74",
+  "generatedAt": "2026-11-12T22:18:11.304Z"
 }
