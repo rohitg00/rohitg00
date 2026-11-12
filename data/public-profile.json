@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129747,
+    "ownedStars": 129750,
     "commits": 7156,
-    "pullRequests": 1874,
+    "pullRequests": 1875,
     "issues": 288,
     "reviews": 88,
     "windowDays": 365,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78550,
+      "measuredValue": 78553,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129747,
+      "measuredValue": 129750,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-12T12:24:53.622Z",
+      "measuredAt": "2026-11-12T12:48:23.987Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78550,
-      "forks": 13985,
-      "updatedAt": "2026-11-12T12:23:58Z",
+      "stars": 78553,
+      "forks": 13986,
+      "updatedAt": "2026-11-12T12:47:20Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -190,23 +190,23 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30316,
       "forks": 2694,
-      "updatedAt": "2026-11-12T11:54:38Z",
+      "updatedAt": "2026-11-12T12:40:05Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 81.3
+          "percentage": 81.6
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 8.6
+          "percentage": 8.5
         },
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 6.9
+          "percentage": 6.8
         },
         {
           "name": "Python",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 585,
-      "forks": 2927,
+      "forks": 2928,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "36de1f1418be9d8ed8e93ea48efd0849fb306c8d25337f465d033a5b65a50b3f",
-  "generatedAt": "2026-11-12T12:24:53.622Z"
+  "fingerprint": "957dcff40f35452b7f8183b3eb8f7b616c863c238744c175ac49788f8f9dbb35",
+  "generatedAt": "2026-11-12T12:48:23.987Z"
 }
