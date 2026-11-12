@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129716,
+    "ownedStars": 129721,
     "commits": 7149,
     "pullRequests": 1870,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78528,
+      "measuredValue": 78532,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129716,
+      "measuredValue": 129721,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-12T08:48:26.457Z",
+      "measuredAt": "2026-11-12T09:19:51.252Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78528,
+      "stars": 78532,
       "forks": 13982,
       "updatedAt": "2026-11-11T12:45:16Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 585,
-      "forks": 2919,
+      "forks": 2921,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "31f3d4f32ff5bd2f6136aa7700d9e21fd42a0df0e8e0c1cb98bdd3707f8de2d3",
-  "generatedAt": "2026-11-12T08:48:26.457Z"
+  "fingerprint": "873b5dc5f14a78561122e2bd8951f2eef4543b6e16ce0cedac3f6942a7c4703d",
+  "generatedAt": "2026-11-12T09:19:51.252Z"
 }
