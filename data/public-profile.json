@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129801,
+    "ownedStars": 129803,
     "commits": 7148,
     "pullRequests": 1882,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78593,
+      "measuredValue": 78595,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129801,
+      "measuredValue": 129803,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-13T00:53:26.403Z",
+      "measuredAt": "2026-11-13T01:48:00.325Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78593,
+      "stars": 78595,
       "forks": 13990,
       "updatedAt": "2026-11-12T20:10:42Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10489,
+      "ecosystemStars": 10490,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10030,
+          "stars": 10031,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 584,
-      "forks": 2955,
+      "forks": 2957,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6b958a8ca19aa375b8e8f96e9bf78df3f9e45f894850b29072a813414ec04a46",
-  "generatedAt": "2026-11-13T00:53:26.403Z"
+  "fingerprint": "49948a94367b2fc672165bee50fb6526a64ab6d56db80c4e0581b8ee0f6bb3f1",
+  "generatedAt": "2026-11-13T01:48:00.325Z"
 }
