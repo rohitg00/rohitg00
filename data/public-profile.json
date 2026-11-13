@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129828,
+    "ownedStars": 129830,
     "commits": 7148,
-    "pullRequests": 1882,
+    "pullRequests": 1883,
     "issues": 288,
     "reviews": 88,
     "windowDays": 365,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78611,
+      "measuredValue": 78612,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129828,
+      "measuredValue": 129830,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-13T05:48:04.932Z",
+      "measuredAt": "2026-11-13T06:26:27.217Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78611,
-      "forks": 13992,
+      "stars": 78612,
+      "forks": 13994,
       "updatedAt": "2026-11-12T20:10:42Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30328,
+      "stars": 30329,
       "forks": 2698,
-      "updatedAt": "2026-11-12T18:00:25Z",
+      "updatedAt": "2026-11-13T06:16:05Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "24a3f5ec328064d621a73a21304a4dbfddc01fe4a52822caecbed914fd864fab",
-  "generatedAt": "2026-11-13T05:48:04.932Z"
+  "fingerprint": "006fac491630c490da01c7612a5df3e433bbe3a82cdc8108ab777d7b5c28045f",
+  "generatedAt": "2026-11-13T06:26:27.217Z"
 }
