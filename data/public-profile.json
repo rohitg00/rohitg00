@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129817,
+    "ownedStars": 129820,
     "commits": 7148,
     "pullRequests": 1882,
     "issues": 288,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 542,
+      "position": 543,
       "measuredValue": 7670,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 239,
-      "measuredValue": 78605,
+      "position": 240,
+      "measuredValue": 78606,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129817,
+      "measuredValue": 129820,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-13T03:48:17.056Z",
+      "measuredAt": "2026-11-13T04:20:09.969Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78605,
-      "forks": 13991,
+      "stars": 78606,
+      "forks": 13993,
       "updatedAt": "2026-11-12T20:10:42Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30327,
+      "stars": 30328,
       "forks": 2698,
       "updatedAt": "2026-11-12T18:00:25Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -286,7 +286,7 @@
       "name": "DevOps_Books",
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
-      "stars": 2150,
+      "stars": 2151,
       "forks": 1234,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 584,
-      "forks": 2959,
+      "forks": 2962,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "585d35eb6ba3a9ae19e505ad2f679ddfe9bd26f290dc83c55f782b00dfe33312",
-  "generatedAt": "2026-11-13T03:48:17.056Z"
+  "fingerprint": "c6161984eeaafc27bb7155433b130bdd86f8b5c605371a3170424a15b600a2b0",
+  "generatedAt": "2026-11-13T04:20:09.969Z"
 }
