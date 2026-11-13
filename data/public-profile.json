@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7672,
+    "followers": 7673,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129862,
+    "ownedStars": 129865,
     "commits": 7152,
     "pullRequests": 1886,
     "issues": 288,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 543,
-      "measuredValue": 7672,
+      "measuredValue": 7673,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78637,
+      "measuredValue": 78640,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129862,
+      "measuredValue": 129865,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-13T11:48:12.059Z",
+      "measuredAt": "2026-11-13T12:24:04.038Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78637,
+      "stars": 78640,
       "forks": 13997,
       "updatedAt": "2026-11-13T10:49:26Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 584,
-      "forks": 2972,
+      "forks": 2973,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "e48d44ac4536d8e63b85b15e9eee5513575f9e99ffbae2c0f0548e645b6af5ae",
-  "generatedAt": "2026-11-13T11:48:12.059Z"
+  "fingerprint": "4b60540726f5c37f68cac2f00ecaa9febb2fc2a96b7e6701b7c6d7a5ddcd18a6",
+  "generatedAt": "2026-11-13T12:24:04.038Z"
 }
