@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-13T23:18:45.855Z",
+      "measuredAt": "2026-11-13T23:48:07.345Z",
       "positions": {
         "world": {
           "label": "World",
