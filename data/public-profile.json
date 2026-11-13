@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129835,
+    "ownedStars": 129840,
     "commits": 7148,
     "pullRequests": 1883,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 239,
-      "measuredValue": 78614,
+      "measuredValue": 78618,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129835,
+      "measuredValue": 129840,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-13T07:19:08.101Z",
+      "measuredAt": "2026-11-13T07:47:58.120Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78614,
+      "stars": 78618,
       "forks": 13995,
-      "updatedAt": "2026-11-13T06:48:20Z",
+      "updatedAt": "2026-11-13T07:30:25Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30332,
+      "stars": 30333,
       "forks": 2698,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "d3e4f06dd1d845ab41e47f1a0b5dce45b4f154d511f93e8f7e009a632eb4359c",
-  "generatedAt": "2026-11-13T07:19:08.101Z"
+  "fingerprint": "eafe88771cead8f6347320fed6ff813504f5e198c0c8c52a5b6e6b9a4833d49a",
+  "generatedAt": "2026-11-13T07:47:58.120Z"
 }
