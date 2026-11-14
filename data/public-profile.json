@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129938,
+    "ownedStars": 129943,
     "commits": 7152,
     "pullRequests": 1886,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 238,
-      "measuredValue": 78689,
+      "measuredValue": 78694,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129938,
+      "measuredValue": 129943,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-14T01:48:37.085Z",
+      "measuredAt": "2026-11-14T02:21:46.587Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78689,
+      "stars": 78694,
       "forks": 14017,
       "updatedAt": "2026-11-13T10:49:26Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4114,
-      "forks": 711,
+      "forks": 710,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "818e03fa31cb2d76b30cd505759fce3d1268cf478d20c778cfdc370e5152fe98",
-  "generatedAt": "2026-11-14T01:48:37.085Z"
+  "fingerprint": "a1f099f0128c386858e3304084affc8fae2c38b3f08edaccead13cde4a28af04",
+  "generatedAt": "2026-11-14T02:21:46.587Z"
 }
