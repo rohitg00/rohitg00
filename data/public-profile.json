@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7684,
+    "followers": 7686,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130099,
+    "ownedStars": 130113,
     "commits": 7167,
     "pullRequests": 1898,
     "issues": 288,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 543,
-      "measuredValue": 7684,
+      "measuredValue": 7686,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 238,
-      "measuredValue": 78833,
+      "measuredValue": 78846,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130099,
+      "measuredValue": 130113,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-14T17:48:05.930Z",
+      "measuredAt": "2026-11-14T18:18:42.187Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78833,
-      "forks": 14045,
+      "stars": 78846,
+      "forks": 14048,
       "updatedAt": "2026-11-14T16:28:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30359,
+      "stars": 30360,
       "forks": 2699,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 585,
-      "forks": 3022,
+      "forks": 3023,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "2e6c0ca3dced5758d7733606cfe33a3b811da68f90e507763e848e575494f1d0",
-  "generatedAt": "2026-11-14T17:48:05.930Z"
+  "fingerprint": "8732ccf383a7d1c65405191ca11ef2389954da2c35a8385efe8d71675c34176a",
+  "generatedAt": "2026-11-14T18:18:42.187Z"
 }
