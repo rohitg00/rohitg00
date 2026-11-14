@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7681,
+    "followers": 7682,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130008,
+    "ownedStars": 130013,
     "commits": 7152,
-    "pullRequests": 1886,
+    "pullRequests": 1893,
     "issues": 288,
     "reviews": 88,
     "windowDays": 365,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 543,
-      "measuredValue": 7681,
+      "measuredValue": 7682,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 238,
-      "measuredValue": 78746,
+      "position": 237,
+      "measuredValue": 78751,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130008,
+      "measuredValue": 130013,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-14T10:48:27.611Z",
+      "measuredAt": "2026-11-14T11:18:07.175Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78746,
+      "stars": 78751,
       "forks": 14026,
-      "updatedAt": "2026-11-14T09:31:29Z",
+      "updatedAt": "2026-11-14T11:15:37Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2840,
-      "forks": 1107,
+      "forks": 1108,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 584,
-      "forks": 3009,
+      "forks": 3010,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "1a0a0621c80c87ea2a20cd74605d4abf751a79b4dfd87045d1f89921cf9a6965",
-  "generatedAt": "2026-11-14T10:48:27.611Z"
+  "fingerprint": "337627d9397fad721d8c3ec6944b2731c984163198396ada2ac8b049cfd3a5cb",
+  "generatedAt": "2026-11-14T11:18:07.175Z"
 }
