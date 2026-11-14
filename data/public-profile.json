@@ -7,14 +7,14 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 129929,
+    "ownedStars": 129933,
     "commits": 7152,
     "pullRequests": 1886,
     "issues": 288,
     "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-13",
-    "windowEnd": "2026-11-13"
+    "windowStart": "2025-11-14",
+    "windowEnd": "2026-11-14"
   },
   "ranking": {
     "followerWorld": {
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 238,
-      "measuredValue": 78684,
+      "measuredValue": 78687,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 129929,
+      "measuredValue": 129933,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-13T23:48:07.345Z",
+      "measuredAt": "2026-11-14T00:36:18.747Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78684,
-      "forks": 14018,
+      "stars": 78687,
+      "forks": 14017,
       "updatedAt": "2026-11-13T10:49:26Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30347,
+      "stars": 30348,
       "forks": 2699,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2837,
-      "forks": 1104,
+      "forks": 1105,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10490,
+      "ecosystemStars": 10489,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10031,
+          "stars": 10030,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 584,
-      "forks": 2999,
+      "forks": 3000,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6d515d414948fecd424fa3e409fb1e72e6ef441567821b511f751735b1a54987",
-  "generatedAt": "2026-11-13T23:18:45.855Z"
+  "fingerprint": "33bfd446ba39c6c849727a041df7aa2da3c7186749ab0dba457e0dec4eeb7eb4",
+  "generatedAt": "2026-11-14T00:36:18.747Z"
 }
