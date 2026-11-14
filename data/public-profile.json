@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130026,
+    "ownedStars": 130029,
     "commits": 7152,
-    "pullRequests": 1897,
+    "pullRequests": 1898,
     "issues": 288,
     "reviews": 88,
     "windowDays": 365,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 237,
-      "measuredValue": 78763,
+      "measuredValue": 78766,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130026,
+      "measuredValue": 130029,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-14T12:48:09.217Z",
+      "measuredAt": "2026-11-14T13:17:47.942Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78763,
-      "forks": 14029,
-      "updatedAt": "2026-11-14T12:42:11Z",
+      "stars": 78766,
+      "forks": 14031,
+      "updatedAt": "2026-11-14T12:56:54Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "7157999575c99603be14d99388701cf621db129ec4a9a7f7055289749dac91f0",
-  "generatedAt": "2026-11-14T12:48:09.217Z"
+  "fingerprint": "255a569a3deb489521ce21a201bd29341f654cc239d9974f509931cee0866ade",
+  "generatedAt": "2026-11-14T13:17:47.942Z"
 }
