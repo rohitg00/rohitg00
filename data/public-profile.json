@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130000,
+    "ownedStars": 130008,
     "commits": 7152,
     "pullRequests": 1886,
     "issues": 288,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 237,
-      "measuredValue": 78738,
+      "position": 238,
+      "measuredValue": 78746,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130000,
+      "measuredValue": 130008,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-14T10:18:05.937Z",
+      "measuredAt": "2026-11-14T10:48:27.611Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78738,
-      "forks": 14024,
+      "stars": 78746,
+      "forks": 14026,
       "updatedAt": "2026-11-14T09:31:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "1b0861092f0783de693c93427599e58cc9c9de2412b1188a1398361633f4971b",
-  "generatedAt": "2026-11-14T10:18:05.937Z"
+  "fingerprint": "1a0a0621c80c87ea2a20cd74605d4abf751a79b4dfd87045d1f89921cf9a6965",
+  "generatedAt": "2026-11-14T10:48:27.611Z"
 }
