@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130230,
+    "ownedStars": 130234,
     "commits": 7161,
     "pullRequests": 1896,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 78954,
+      "measuredValue": 78957,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130230,
+      "measuredValue": 130234,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T03:20:11.400Z",
+      "measuredAt": "2026-11-15T03:48:24.586Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78954,
+      "stars": 78957,
       "forks": 14067,
       "updatedAt": "2026-11-14T16:28:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17651,
+      "ecosystemStars": 17652,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17651,
+          "stars": 17652,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4115,
+      "ecosystemStars": 4116,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4115,
+          "stars": 4116,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4115,
+      "stars": 4116,
       "forks": 713,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "3e81617036e0e389148fc13f37b67acd9c9787ed17e7d1f4c229a196d6bb3b7c",
-  "generatedAt": "2026-11-15T03:20:11.400Z"
+  "fingerprint": "15e51e98e4d15d9945636d63bd469acd6fee3575c19511e8589f0dcdbf35ebda",
+  "generatedAt": "2026-11-15T03:48:24.586Z"
 }
