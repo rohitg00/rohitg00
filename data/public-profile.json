@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130244,
+    "ownedStars": 130245,
     "commits": 7162,
     "pullRequests": 1896,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 78966,
+      "measuredValue": 78967,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130244,
+      "measuredValue": 130245,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T06:24:32.348Z",
+      "measuredAt": "2026-11-15T06:48:12.209Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78966,
+      "stars": 78967,
       "forks": 14071,
-      "updatedAt": "2026-11-15T06:22:15Z",
+      "updatedAt": "2026-11-15T06:34:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "39e792a61a1c4fc9815f0f7302056c6945aaee4f1d0926e43f0452594735ca3f",
-  "generatedAt": "2026-11-15T06:24:32.348Z"
+  "fingerprint": "01c584faf4a8216fafe72ead79f92dceb3deb879d214a5acc313fc725600826f",
+  "generatedAt": "2026-11-15T06:48:12.209Z"
 }
