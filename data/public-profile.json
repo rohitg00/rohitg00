@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130278,
+    "ownedStars": 130285,
     "commits": 7162,
     "pullRequests": 1896,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 78992,
+      "measuredValue": 78995,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -41,13 +41,13 @@
       "status": "cached"
     },
     "creatorBenchmarks": {
-      "status": "cached",
-      "measuredValue": 130277,
+      "status": "fresh",
+      "measuredValue": 130285,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T10:47:43.037Z",
+      "measuredAt": "2026-11-15T11:48:19.539Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78992,
+      "stars": 78995,
       "forks": 14080,
-      "updatedAt": "2026-11-15T08:54:39Z",
+      "updatedAt": "2026-11-15T11:39:42Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30370,
+      "stars": 30374,
       "forks": 2701,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4116,
+      "ecosystemStars": 4115,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4116,
+          "stars": 4115,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "29c7938d571da1b910b2b8efa6a4a3fa64a0b62fd61d35bbfca710391b0188be",
-  "generatedAt": "2026-11-15T11:18:13.472Z"
+  "fingerprint": "653edeeb86a7025425af7f19a6ef4e7c81d220353653cf29e70b0d526051e9a6",
+  "generatedAt": "2026-11-15T11:48:19.539Z"
 }
