@@ -7,8 +7,8 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130239,
-    "commits": 7161,
+    "ownedStars": 130244,
+    "commits": 7162,
     "pullRequests": 1896,
     "issues": 288,
     "reviews": 88,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 78961,
+      "measuredValue": 78966,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130239,
+      "measuredValue": 130244,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T05:47:59.218Z",
+      "measuredAt": "2026-11-15T06:24:32.348Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78961,
-      "forks": 14069,
-      "updatedAt": "2026-11-14T16:28:09Z",
+      "stars": 78966,
+      "forks": 14071,
+      "updatedAt": "2026-11-15T06:22:15Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "b5e52f3ccc9bb51353e170dc64cb95686624ee9d27b972943a8fd8fba76868eb",
-  "generatedAt": "2026-11-15T05:47:59.218Z"
+  "fingerprint": "39e792a61a1c4fc9815f0f7302056c6945aaee4f1d0926e43f0452594735ca3f",
+  "generatedAt": "2026-11-15T06:24:32.348Z"
 }
