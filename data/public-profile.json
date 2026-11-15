@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130254,
+    "ownedStars": 130259,
     "commits": 7162,
     "pullRequests": 1896,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 78972,
+      "measuredValue": 78976,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130254,
+      "measuredValue": 130259,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T08:20:10.762Z",
+      "measuredAt": "2026-11-15T08:47:40.532Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78972,
-      "forks": 14072,
+      "stars": 78976,
+      "forks": 14074,
       "updatedAt": "2026-11-15T06:34:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -260,7 +260,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2840,
+      "stars": 2841,
       "forks": 1108,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 586,
-      "forks": 3054,
+      "forks": 3055,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "fc041fb34afb450f29c0421673562cc12bf005404522b4380d71d92ad50519f3",
-  "generatedAt": "2026-11-15T08:20:10.762Z"
+  "fingerprint": "9fafaaaf396542c79146d7a8f0510b0a60db604e2d182a52e7d72d33f2987a98",
+  "generatedAt": "2026-11-15T08:47:40.532Z"
 }
