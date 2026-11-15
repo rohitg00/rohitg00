@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130230,
+    "ownedStars": 130229,
     "commits": 7161,
     "pullRequests": 1896,
     "issues": 288,
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130230,
+      "measuredValue": 130229,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T02:22:29.402Z",
+      "measuredAt": "2026-11-15T02:48:07.382Z",
       "positions": {
         "world": {
           "label": "World",
@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 78953,
-      "forks": 14066,
+      "forks": 14067,
       "updatedAt": "2026-11-14T16:28:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30365,
+      "stars": 30364,
       "forks": 2700,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6957553946c512005b97c3cdde3188a3f54b225e5d6689c16e549975ee137c16",
-  "generatedAt": "2026-11-15T02:22:29.402Z"
+  "fingerprint": "ab873abb86ec4cd6e723a00cb2f12b73d61ba36e35a9f26150e31b0fc2c26ab5",
+  "generatedAt": "2026-11-15T02:48:07.382Z"
 }
