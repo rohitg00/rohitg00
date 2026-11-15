@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7691,
+    "followers": 7692,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130277,
+    "ownedStars": 130278,
     "commits": 7162,
     "pullRequests": 1896,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 543,
-      "measuredValue": 7691,
+      "measuredValue": 7692,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 78991,
+      "measuredValue": 78992,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -41,7 +41,7 @@
       "status": "cached"
     },
     "creatorBenchmarks": {
-      "status": "fresh",
+      "status": "cached",
       "measuredValue": 130277,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78991,
-      "forks": 14079,
+      "stars": 78992,
+      "forks": 14080,
       "updatedAt": "2026-11-15T08:54:39Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4116,
+      "stars": 4115,
       "forks": 713,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 586,
-      "forks": 3057,
+      "forks": 3060,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -517,7 +517,7 @@
       "shipping": 100,
       "collaboration": 90.3,
       "maintenance": 100,
-      "community": 97.1
+      "community": 97.2
     },
     "model": {
       "version": "1.0.0",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "199698b7ede168ebc7ab7f965ff6f15241f2ad916ec2045b8de55e1080e93a63",
-  "generatedAt": "2026-11-15T10:47:43.037Z"
+  "fingerprint": "29c7938d571da1b910b2b8efa6a4a3fa64a0b62fd61d35bbfca710391b0188be",
+  "generatedAt": "2026-11-15T11:18:13.472Z"
 }
