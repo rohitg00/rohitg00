@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T03:48:24.586Z",
+      "measuredAt": "2026-11-15T04:19:44.187Z",
       "positions": {
         "world": {
           "label": "World",
@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 78957,
-      "forks": 14067,
+      "forks": 14068,
       "updatedAt": "2026-11-14T16:28:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -189,7 +189,7 @@
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30364,
-      "forks": 2700,
+      "forks": 2701,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -287,7 +287,7 @@
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
       "stars": 2152,
-      "forks": 1234,
+      "forks": 1235,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
       "languages": []
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "15e51e98e4d15d9945636d63bd469acd6fee3575c19511e8589f0dcdbf35ebda",
-  "generatedAt": "2026-11-15T03:48:24.586Z"
+  "fingerprint": "5a33cdd051e2a4773f7720858735cdc9cd6e4bc1e67a208232418a4b7a038b20",
+  "generatedAt": "2026-11-15T04:19:44.187Z"
 }
