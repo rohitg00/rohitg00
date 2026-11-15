@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130225,
+    "ownedStars": 130227,
     "commits": 7161,
     "pullRequests": 1896,
     "issues": 288,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 237,
-      "measuredValue": 78950,
+      "position": 236,
+      "measuredValue": 78951,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130225,
+      "measuredValue": 130227,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T01:18:10.907Z",
+      "measuredAt": "2026-11-15T01:48:24.974Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78950,
+      "stars": 78951,
       "forks": 14066,
       "updatedAt": "2026-11-14T16:28:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17650,
+      "ecosystemStars": 17651,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17650,
+          "stars": 17651,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -343,12 +343,12 @@
       "url": "https://github.com/docker",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
       "mergedPullRequests": 2,
-      "ecosystemStars": 585,
+      "ecosystemStars": 586,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "docker/mcp-registry",
-          "stars": 585,
+          "stars": 586,
           "url": "https://github.com/docker/mcp-registry"
         }
       ],
@@ -489,8 +489,8 @@
     {
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
-      "stars": 585,
-      "forks": 3045,
+      "stars": 586,
+      "forks": 3046,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ef455f7af8504288445d23e514c70ce51cb20e53bee73705d3da88d9c65e991c",
-  "generatedAt": "2026-11-15T01:18:10.907Z"
+  "fingerprint": "4c5fa6364cc03c16e45f9e95d512fdcc23885d7ac6329ade26c384f58b6bab6e",
+  "generatedAt": "2026-11-15T01:48:24.974Z"
 }
