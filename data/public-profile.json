@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130259,
+    "ownedStars": 130264,
     "commits": 7162,
     "pullRequests": 1896,
     "issues": 288,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 78976,
+      "measuredValue": 78981,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130259,
+      "measuredValue": 130264,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T08:47:40.532Z",
+      "measuredAt": "2026-11-15T09:17:48.256Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 78976,
-      "forks": 14074,
-      "updatedAt": "2026-11-15T06:34:09Z",
+      "stars": 78981,
+      "forks": 14075,
+      "updatedAt": "2026-11-15T08:54:39Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2841,
-      "forks": 1108,
+      "forks": 1109,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -316,7 +316,7 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10490,
+      "ecosystemStars": 10491,
       "repositoryCount": 3,
       "repositories": [
         {
@@ -331,7 +331,7 @@
         },
         {
           "nameWithOwner": "cncf/people",
-          "stars": 187,
+          "stars": 188,
           "url": "https://github.com/cncf/people"
         }
       ],
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 586,
-      "forks": 3055,
+      "forks": 3056,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "9fafaaaf396542c79146d7a8f0510b0a60db604e2d182a52e7d72d33f2987a98",
-  "generatedAt": "2026-11-15T08:47:40.532Z"
+  "fingerprint": "f59934d4f6705b5e70a8c5b29be26af0eee8040e10982aecc4e77b4720bad80b",
+  "generatedAt": "2026-11-15T09:17:48.256Z"
 }
