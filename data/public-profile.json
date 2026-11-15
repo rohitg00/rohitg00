@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T12:21:31.922Z",
+      "measuredAt": "2026-11-15T12:47:38.917Z",
       "positions": {
         "world": {
           "label": "World",
@@ -88,8 +88,8 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 78999,
-      "forks": 14081,
-      "updatedAt": "2026-11-15T11:39:42Z",
+      "forks": 14083,
+      "updatedAt": "2026-11-15T12:46:21Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "cb8d3db38f19204eb8d49b737dbed1b6ae49985e3f314a11b1908d35e7e5d280",
-  "generatedAt": "2026-11-15T12:21:31.922Z"
+  "fingerprint": "5f20151ba0b3772102c249d737a8348cdd5f8d9c53612b40cacd6b94e793c7c1",
+  "generatedAt": "2026-11-15T12:47:38.917Z"
 }
