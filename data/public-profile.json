@@ -7,14 +7,14 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130357,
+    "ownedStars": 130363,
     "commits": 7162,
     "pullRequests": 1896,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-15",
-    "windowEnd": "2026-11-15"
+    "windowStart": "2025-11-16",
+    "windowEnd": "2026-11-16"
   },
   "ranking": {
     "followerWorld": {
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 236,
-      "measuredValue": 79051,
+      "measuredValue": 79056,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130357,
+      "measuredValue": 130363,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-15T23:48:00.085Z",
+      "measuredAt": "2026-11-16T00:44:06.640Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79051,
+      "stars": 79056,
       "forks": 14094,
       "updatedAt": "2026-11-15T14:21:10Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30385,
+      "stars": 30386,
       "forks": 2701,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 586,
-      "forks": 3083,
+      "forks": 3084,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ad740031c4f4ee0eeeba33e2f8a5ad6126ea92e92ea6b41ac8a43f03d0700630",
-  "generatedAt": "2026-11-15T23:48:00.085Z"
+  "fingerprint": "6aa9a78894304366098bb70f53b00b619a050dc0a47132ef3c13b24a3fccf3db",
+  "generatedAt": "2026-11-16T00:44:06.640Z"
 }
