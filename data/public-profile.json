@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130491,
+    "ownedStars": 130492,
     "commits": 7167,
     "pullRequests": 1900,
     "issues": 298,
@@ -24,7 +24,7 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 236,
+      "position": 235,
       "measuredValue": 79154,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
@@ -41,7 +41,7 @@
       "status": "cached"
     },
     "creatorBenchmarks": {
-      "status": "fresh",
+      "status": "cached",
       "measuredValue": 130491,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 79154,
-      "forks": 14120,
+      "forks": 14121,
       "updatedAt": "2026-11-16T15:49:24Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30406,
+      "stars": 30407,
       "forks": 2705,
       "updatedAt": "2026-11-16T11:49:23Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2847,
-      "forks": 1114,
+      "forks": 1115,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "77049583bb57e7d7b4db4ecbe2a5f8fabca2c6327afdcb12e4d2076929a139e1",
-  "generatedAt": "2026-11-16T22:18:07.776Z"
+  "fingerprint": "fd412ce95cace55f611b7d040e908d668ce4c977639d22b158eba20dba7981ec",
+  "generatedAt": "2026-11-16T22:48:05.519Z"
 }
