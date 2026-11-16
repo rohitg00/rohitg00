@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130393,
+    "ownedStars": 130399,
     "commits": 7162,
-    "pullRequests": 1896,
+    "pullRequests": 1897,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 236,
-      "measuredValue": 79078,
+      "position": 235,
+      "measuredValue": 79083,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130393,
+      "measuredValue": 130399,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-16T05:48:14.182Z",
+      "measuredAt": "2026-11-16T06:39:13.423Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79078,
+      "stars": 79083,
       "forks": 14099,
-      "updatedAt": "2026-11-16T05:47:12Z",
+      "updatedAt": "2026-11-16T06:29:57Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30393,
-      "forks": 2705,
-      "updatedAt": "2026-11-13T06:39:42Z",
+      "stars": 30394,
+      "forks": 2704,
+      "updatedAt": "2026-11-16T06:18:43Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2843,
-      "forks": 1111,
+      "forks": 1113,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "49b729fc4d1c05baa7c273b36027b9818e6bf0eff95eb4133a1e28b06a3d58ad",
-  "generatedAt": "2026-11-16T05:48:14.182Z"
+  "fingerprint": "2039f4970da11f81d614e909715c28f45bd3e13620e075ee466a5f4059a19ac2",
+  "generatedAt": "2026-11-16T06:39:13.423Z"
 }
