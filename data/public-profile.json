@@ -41,13 +41,13 @@
       "status": "cached"
     },
     "creatorBenchmarks": {
-      "status": "cached",
-      "measuredValue": 130415,
+      "status": "fresh",
+      "measuredValue": 130419,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-16T09:27:59.635Z",
+      "measuredAt": "2026-11-16T10:24:06.163Z",
       "positions": {
         "world": {
           "label": "World",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 586,
-      "forks": 3095,
+      "forks": 3096,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "4781a36098a2bdf815f60b0f20eeef9b6a37b7b40564d152d5ff6a17ece0408c",
-  "generatedAt": "2026-11-16T09:51:18.315Z"
+  "fingerprint": "7008c3382fad8546af28f45575554d6ecfa700a85ffd0f845bdff12ef0682941",
+  "generatedAt": "2026-11-16T10:24:06.163Z"
 }
