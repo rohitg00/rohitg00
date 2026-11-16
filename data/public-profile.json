@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-16T03:48:26.187Z",
+      "measuredAt": "2026-11-16T04:22:14.501Z",
       "positions": {
         "world": {
           "label": "World",
@@ -189,7 +189,7 @@
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30390,
-      "forks": 2703,
+      "forks": 2705,
       "updatedAt": "2026-11-13T06:39:42Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "2a82b5115d7a1e46402af18cdc8a5d4574717f853279b0c0bfa88606af4499a0",
-  "generatedAt": "2026-11-16T03:48:26.187Z"
+  "fingerprint": "1e28513c978d479e46023d1f41f6988799388a3a5aba908b2cf755e08465293b",
+  "generatedAt": "2026-11-16T04:22:14.501Z"
 }
