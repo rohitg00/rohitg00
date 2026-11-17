@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130536,
+    "ownedStars": 130537,
     "commits": 7169,
     "pullRequests": 1900,
     "issues": 298,
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130536,
+      "measuredValue": 130537,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-17T06:27:36.603Z",
+      "measuredAt": "2026-11-17T06:48:57.862Z",
       "positions": {
         "world": {
           "label": "World",
@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 79188,
-      "forks": 14131,
+      "forks": 14132,
       "updatedAt": "2026-11-17T06:26:44Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2847,
-      "forks": 1115,
+      "forks": 1116,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -286,7 +286,7 @@
       "name": "DevOps_Books",
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
-      "stars": 2153,
+      "stars": 2154,
       "forks": 1235,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19081,
+      "ecosystemStars": 19082,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18933,
+          "stars": 18934,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18933,
+      "stars": 18934,
       "forks": 1273,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "93ec882e08ac06012454a99b81530f11d62c658746efce0b75466523f585ce20",
-  "generatedAt": "2026-11-17T06:27:36.603Z"
+  "fingerprint": "e29ed7689290d6e0fc53bb35ba3f015cc976bfb3f11d17e9e6d61a29b9daf968",
+  "generatedAt": "2026-11-17T06:48:57.862Z"
 }
