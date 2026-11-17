@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7700,
+    "followers": 7701,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130540,
+    "ownedStars": 130543,
     "commits": 7169,
     "pullRequests": 1900,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 542,
-      "measuredValue": 7700,
+      "measuredValue": 7701,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 79190,
+      "measuredValue": 79192,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130540,
+      "measuredValue": 130543,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-17T07:20:22.708Z",
+      "measuredAt": "2026-11-17T07:48:09.040Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,45 +87,45 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79190,
-      "forks": 14133,
+      "stars": 79192,
+      "forks": 14134,
       "updatedAt": "2026-11-17T06:26:44Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 35.8
+          "percentage": 38.1
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 27.1
+          "percentage": 26.8
         },
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 17.7
+          "percentage": 16.7
         },
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 9.1
+          "percentage": 8.6
         },
         {
           "name": "Rust",
           "color": "#dea584",
-          "percentage": 2.7
+          "percentage": 2.5
         },
         {
           "name": "Shell",
           "color": "#89e051",
-          "percentage": 2.5
+          "percentage": 2.4
         },
         {
           "name": "Go",
           "color": "#00ADD8",
-          "percentage": 1.8
+          "percentage": 1.7
         },
         {
           "name": "CSS",
@@ -135,12 +135,12 @@
         {
           "name": "Julia",
           "color": "#a270ba",
-          "percentage": 1.2
+          "percentage": 1.1
         },
         {
           "name": "Assembly",
           "color": "#6E4C13",
-          "percentage": 0.7
+          "percentage": 0.6
         },
         {
           "name": "C",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30413,
+      "stars": 30414,
       "forks": 2706,
       "updatedAt": "2026-11-17T06:01:14Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -287,7 +287,7 @@
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
       "stars": 2154,
-      "forks": 1235,
+      "forks": 1236,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
       "languages": []
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "bf460c5b4c3ccaf798eedd62659a52ffbb2c417003898d979876476ae521d9b4",
-  "generatedAt": "2026-11-17T07:20:22.708Z"
+  "fingerprint": "85c883d94297daf0b6859c33bf18672bf32efb54f50bb4ec4e9fba46313cb583",
+  "generatedAt": "2026-11-17T07:48:09.040Z"
 }
