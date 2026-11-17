@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-17T18:48:07.709Z",
+      "measuredAt": "2026-11-17T19:18:09.280Z",
       "positions": {
         "world": {
           "label": "World",
@@ -235,7 +235,7 @@
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
       "stars": 2962,
-      "forks": 301,
+      "forks": 300,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "e5f41a64dccbd50b56a03531a333897c4e89be4a5afa7a0666f3d0632ab2d090",
-  "generatedAt": "2026-11-17T18:48:07.709Z"
+  "fingerprint": "42af3dd80372bb1e5bbd93853605c8fefd262241475b1fd84740549d3afe8f5f",
+  "generatedAt": "2026-11-17T19:18:09.280Z"
 }
