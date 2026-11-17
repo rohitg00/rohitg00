@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130523,
+    "ownedStars": 130524,
     "commits": 7167,
     "pullRequests": 1900,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79175,
+      "measuredValue": 79176,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130523,
+      "measuredValue": 130524,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-17T03:20:23.828Z",
+      "measuredAt": "2026-11-17T03:48:02.194Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79175,
+      "stars": 79176,
       "forks": 14126,
       "updatedAt": "2026-11-16T15:49:24Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5430,
+      "ecosystemStars": 5431,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5430,
+          "stars": 5431,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19080,
+      "ecosystemStars": 19081,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18932,
+          "stars": 18933,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18932,
+      "stars": 18933,
       "forks": 1273,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "4fea7424ef338f9bc37af3532be07127f1a4741517a057b6d50d06ec0578b3c7",
-  "generatedAt": "2026-11-17T03:20:23.828Z"
+  "fingerprint": "ad9f63c0c5db03b2a3f716d18eed3aeba7a1523473958dc51e8b91250f2359aa",
+  "generatedAt": "2026-11-17T03:48:02.194Z"
 }
