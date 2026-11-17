@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130524,
+    "ownedStars": 130525,
     "commits": 7167,
     "pullRequests": 1900,
     "issues": 298,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 235,
-      "measuredValue": 79176,
+      "position": 234,
+      "measuredValue": 79177,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130524,
+      "measuredValue": 130525,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-17T03:48:02.194Z",
+      "measuredAt": "2026-11-17T04:20:03.416Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79176,
-      "forks": 14126,
+      "stars": 79177,
+      "forks": 14127,
       "updatedAt": "2026-11-16T15:49:24Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5431,
+      "ecosystemStars": 5432,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5431,
+          "stars": 5432,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ad9f63c0c5db03b2a3f716d18eed3aeba7a1523473958dc51e8b91250f2359aa",
-  "generatedAt": "2026-11-17T03:48:02.194Z"
+  "fingerprint": "d97720c0a1ffcc57b614643fbb09b6ef403e38e9a2b4c6e3171056127ec439dc",
+  "generatedAt": "2026-11-17T04:20:03.416Z"
 }
