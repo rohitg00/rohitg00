@@ -3,7 +3,7 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7700,
+    "followers": 7701,
     "originalRepositoryCount": 104
   },
   "metrics": {
@@ -19,7 +19,7 @@
   "ranking": {
     "followerWorld": {
       "position": 542,
-      "measuredValue": 7700,
+      "measuredValue": 7701,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
@@ -47,7 +47,7 @@
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-17T04:20:03.416Z",
+      "measuredAt": "2026-11-17T04:48:03.029Z",
       "positions": {
         "world": {
           "label": "World",
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5432,
+      "ecosystemStars": 5433,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5432,
+          "stars": 5433,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 587,
-      "forks": 3137,
+      "forks": 3139,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "d97720c0a1ffcc57b614643fbb09b6ef403e38e9a2b4c6e3171056127ec439dc",
-  "generatedAt": "2026-11-17T04:20:03.416Z"
+  "fingerprint": "fedb8a33a7b4cee5c97e8eaa00f7ca17957ddb4e48b39aee1bf353199d4e94e4",
+  "generatedAt": "2026-11-17T04:48:03.029Z"
 }
