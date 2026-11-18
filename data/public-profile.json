@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130740,
+    "ownedStars": 130754,
     "commits": 7173,
     "pullRequests": 1900,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 79349,
+      "measuredValue": 79361,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -41,7 +41,7 @@
       "status": "cached"
     },
     "creatorBenchmarks": {
-      "status": "fresh",
+      "status": "cached",
       "measuredValue": 130740,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79349,
-      "forks": 14159,
-      "updatedAt": "2026-11-17T06:26:44Z",
+      "stars": 79361,
+      "forks": 14161,
+      "updatedAt": "2026-11-18T06:12:04Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30435,
+      "stars": 30437,
       "forks": 2710,
       "updatedAt": "2026-11-18T04:36:53Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2848,
-      "forks": 1116,
+      "forks": 1117,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4120,
+      "ecosystemStars": 4121,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4120,
+          "stars": 4121,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4120,
+      "stars": 4121,
       "forks": 718,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 587,
-      "forks": 3184,
+      "forks": 3185,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ec18583abe9b4278f01f0d9e6a218d0c4522313c1a5c849dfe3a100a0b39ad58",
-  "generatedAt": "2026-11-18T05:18:46.586Z"
+  "fingerprint": "24bf38f4856098aba014034b953edb0c9bdd11a431ad870d9c8553d5794c086b",
+  "generatedAt": "2026-11-18T06:27:44.365Z"
 }
