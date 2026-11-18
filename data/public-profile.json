@@ -7,11 +7,11 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130729,
-    "commits": 7171,
-    "pullRequests": 1899,
+    "ownedStars": 130736,
+    "commits": 7173,
+    "pullRequests": 1900,
     "issues": 298,
-    "reviews": 87,
+    "reviews": 88,
     "windowDays": 365,
     "windowStart": "2025-11-18",
     "windowEnd": "2026-11-18"
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 79339,
+      "measuredValue": 79346,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130729,
+      "measuredValue": 130736,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-18T04:19:42.123Z",
+      "measuredAt": "2026-11-18T04:48:20.567Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79339,
+      "stars": 79346,
       "forks": 14157,
       "updatedAt": "2026-11-17T06:26:44Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -190,7 +190,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30434,
       "forks": 2710,
-      "updatedAt": "2026-11-18T04:19:10Z",
+      "updatedAt": "2026-11-18T04:36:53Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17675,
+      "ecosystemStars": 17674,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17675,
+          "stars": 17674,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -515,7 +515,7 @@
     "values": {
       "creation": 100,
       "shipping": 100,
-      "collaboration": 90.2,
+      "collaboration": 90.3,
       "maintenance": 100,
       "community": 97.2
     },
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "2dda25ef8dee070ad7f1e7878e0a73a150495d8e306962c4a040674e82a67941",
-  "generatedAt": "2026-11-18T04:19:42.123Z"
+  "fingerprint": "310297398bc109dca3f1a46920b8e8b8d75503612748aefcf442686be7a6c0c7",
+  "generatedAt": "2026-11-18T04:48:20.567Z"
 }
