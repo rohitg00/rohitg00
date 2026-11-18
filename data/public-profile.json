@@ -7,8 +7,8 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130725,
-    "commits": 7169,
+    "ownedStars": 130729,
+    "commits": 7171,
     "pullRequests": 1899,
     "issues": 298,
     "reviews": 87,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 235,
-      "measuredValue": 79336,
+      "position": 234,
+      "measuredValue": 79339,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -42,12 +42,12 @@
     },
     "creatorBenchmarks": {
       "status": "fresh",
-      "measuredValue": 130725,
+      "measuredValue": 130729,
       "metric": "stars on original public repositories",
       "source": "GitRanks Stars leaderboards via Jina Reader",
       "method": "one plus the number of leaderboard profiles with a higher creator score",
       "interpretation": "The same public creator score is benchmarked against each leaderboard; country values do not claim residency.",
-      "measuredAt": "2026-11-18T03:47:57.067Z",
+      "measuredAt": "2026-11-18T04:19:42.123Z",
       "positions": {
         "world": {
           "label": "World",
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79336,
+      "stars": 79339,
       "forks": 14157,
       "updatedAt": "2026-11-17T06:26:44Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -190,7 +190,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30434,
       "forks": 2710,
-      "updatedAt": "2026-11-17T06:01:14Z",
+      "updatedAt": "2026-11-18T04:19:10Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -234,7 +234,7 @@
       "name": "pro-workflow",
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
-      "stars": 2962,
+      "stars": 2963,
       "forks": 300,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2848,
-      "forks": 1115,
+      "forks": 1116,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10496,
+      "ecosystemStars": 10497,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10037,
+          "stars": 10038,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "f18fc99d69170412ac832885f06ed5defba6721a57f7684337a0b5efbe431654",
-  "generatedAt": "2026-11-18T03:47:57.067Z"
+  "fingerprint": "2dda25ef8dee070ad7f1e7878e0a73a150495d8e306962c4a040674e82a67941",
+  "generatedAt": "2026-11-18T04:19:42.123Z"
 }
