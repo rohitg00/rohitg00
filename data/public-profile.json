@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7710,
+    "followers": 7712,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130814,
+    "ownedStars": 130828,
     "commits": 7175,
-    "pullRequests": 1903,
+    "pullRequests": 1904,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 542,
-      "measuredValue": 7710,
+      "position": 541,
+      "measuredValue": 7712,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 79412,
+      "measuredValue": 79425,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79412,
-      "forks": 14174,
+      "stars": 79425,
+      "forks": 14176,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,9 +188,9 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30445,
+      "stars": 30446,
       "forks": 2711,
-      "updatedAt": "2026-11-18T06:27:49Z",
+      "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 587,
-      "forks": 3192,
+      "forks": 3193,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a52a6793de0d2553853e5ac47bda1b35613e83456e7bcb7f73de4785453aab11",
-  "generatedAt": "2026-11-18T11:18:17.790Z"
+  "fingerprint": "7dd98b3dded4cca29f170cc66a0f554e6a942827084bc3b62378099996c606d0",
+  "generatedAt": "2026-11-18T12:23:56.529Z"
 }
