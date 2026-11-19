@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7725,
+    "followers": 7726,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131025,
+    "ownedStars": 131026,
     "commits": 7168,
     "pullRequests": 1901,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 541,
-      "measuredValue": 7725,
+      "measuredValue": 7726,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79590,
+      "measuredValue": 79591,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79590,
-      "forks": 14222,
+      "stars": 79591,
+      "forks": 14223,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 587,
-      "forks": 3249,
+      "forks": 3250,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a079bd391fb65c4b8f5368dbea00505d9bf739af4fdf266791914be018b181a2",
-  "generatedAt": "2026-11-19T17:48:31.474Z"
+  "fingerprint": "34ab7fe8a54332ee00cc8f737cff2ddbcadde213ac7bae5488dd95a84953e464",
+  "generatedAt": "2026-11-19T18:21:13.780Z"
 }
