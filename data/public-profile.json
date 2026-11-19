@@ -7,14 +7,14 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130930,
-    "commits": 7175,
-    "pullRequests": 1904,
+    "ownedStars": 130933,
+    "commits": 7168,
+    "pullRequests": 1901,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-18",
-    "windowEnd": "2026-11-18"
+    "windowStart": "2025-11-19",
+    "windowEnd": "2026-11-19"
   },
   "ranking": {
     "followerWorld": {
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79512,
+      "measuredValue": 79515,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79512,
-      "forks": 14199,
+      "stars": 79515,
+      "forks": 14201,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2848,
-      "forks": 1118,
+      "forks": 1119,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 587,
-      "forks": 3215,
+      "forks": 3217,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "29a2085634d54c087ec3380f17f4d04ea5f8b9d5d317331dd054ec0d0dad350a",
-  "generatedAt": "2026-11-18T23:48:16.115Z"
+  "fingerprint": "1caef711f9260b2c5d0640ce529951c3785953296b6e1c34ea9ef7b364a8ee5b",
+  "generatedAt": "2026-11-19T01:19:10.016Z"
 }
