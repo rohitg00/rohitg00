@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 130948,
+    "ownedStars": 130949,
     "commits": 7168,
     "pullRequests": 1901,
     "issues": 298,
@@ -24,7 +24,7 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 234,
+      "position": 235,
       "measuredValue": 79526,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
@@ -260,7 +260,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2848,
+      "stars": 2849,
       "forks": 1119,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17678,
+      "ecosystemStars": 17679,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17678,
+          "stars": 17679,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4125,
-      "forks": 718,
+      "forks": 719,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ccc96c9e9f6a18e2374f1448174d55ba6955c89894e59f547052d2ddf6fa3e3e",
-  "generatedAt": "2026-11-19T04:48:17.200Z"
+  "fingerprint": "36df06a8819eeade7b18de3763caabc1f5450292758732135e070ab54637d5ea",
+  "generatedAt": "2026-11-19T05:19:07.961Z"
 }
