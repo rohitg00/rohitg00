@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7738,
+    "followers": 7740,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131092,
+    "ownedStars": 131093,
     "commits": 7163,
     "pullRequests": 1900,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 540,
-      "measuredValue": 7738,
+      "measuredValue": 7740,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79636,
+      "measuredValue": 79637,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79636,
+      "stars": 79637,
       "forks": 14231,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2851,
-      "forks": 1119,
+      "forks": 1120,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 587,
-      "forks": 3272,
+      "forks": 3273,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "be64b2174d1dc059fb0318919a019421e93e9a9b595aa68065a915f5d70fe8e5",
-  "generatedAt": "2026-11-20T08:22:13.619Z"
+  "fingerprint": "18d8eab55e66fd59eb86f09cf47ca189feeb3c21d46805cf82599fad9b3c4d8e",
+  "generatedAt": "2026-11-20T08:48:03.840Z"
 }
