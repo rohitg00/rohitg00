@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131043,
+    "ownedStars": 131044,
     "commits": 7163,
     "pullRequests": 1900,
     "issues": 298,
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30475,
+      "stars": 30476,
       "forks": 2712,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "f14688f43bc24b3e50cab1cca0af6c6b65e6fcd6a300b4ceafa3070bba069ed0",
-  "generatedAt": "2026-11-20T00:53:03.024Z"
+  "fingerprint": "681bbe4927923daea29f03c97704f11d8e02a3a709977d1fb6c94bae40c75326",
+  "generatedAt": "2026-11-20T01:17:48.373Z"
 }
