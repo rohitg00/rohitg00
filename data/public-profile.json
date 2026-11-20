@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7744,
+    "followers": 7745,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131138,
+    "ownedStars": 131143,
     "commits": 7166,
     "pullRequests": 1900,
     "issues": 298,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 539,
-      "measuredValue": 7744,
+      "position": 538,
+      "measuredValue": 7745,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79668,
+      "measuredValue": 79671,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79668,
+      "stars": 79671,
       "forks": 14236,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -260,8 +260,8 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2853,
-      "forks": 1120,
+      "stars": 2854,
+      "forks": 1121,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17688,
+      "ecosystemStars": 17689,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17688,
+          "stars": 17689,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "3979298e990308294a4ea1ecfb370128432f15b937a2e7b246b221eb3ef9880e",
-  "generatedAt": "2026-11-20T15:48:15.050Z"
+  "fingerprint": "736165ae02b277a8ca40b3a5ea22c85fa9b713ca4b167014e98fd77194ef99f0",
+  "generatedAt": "2026-11-20T16:18:20.418Z"
 }
