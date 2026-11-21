@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 588,
-      "forks": 3325,
+      "forks": 3328,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "4056b0a17ef7b5dd50ef4a54685f0b4a4f9fdcd2718d5e53b2f44123b9657905",
-  "generatedAt": "2026-11-21T08:47:51.121Z"
+  "fingerprint": "1d00d92773639c82159e5552c865bb1e1371d229debdb424e731e4d15aefe947",
+  "generatedAt": "2026-11-21T09:18:33.995Z"
 }
