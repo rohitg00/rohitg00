@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131215,
+    "ownedStars": 131217,
     "commits": 7165,
     "pullRequests": 1899,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79722,
+      "measuredValue": 79723,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79722,
-      "forks": 14244,
+      "stars": 79723,
+      "forks": 14243,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -260,7 +260,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2857,
+      "stars": 2858,
       "forks": 1121,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 588,
-      "forks": 3333,
+      "forks": 3334,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "7b5c851893b4bf48cd9f41e35378366a662eb1ed5dfd3aa87ba3ecffba9a8bde",
-  "generatedAt": "2026-11-21T12:22:04.562Z"
+  "fingerprint": "f4f3c1a6a82032e4e175756de2d1010694fe4a8b1df61544aaccce1031b478e5",
+  "generatedAt": "2026-11-21T12:48:09.012Z"
 }
