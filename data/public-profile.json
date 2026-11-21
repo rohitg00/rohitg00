@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4134,
-      "forks": 722,
+      "forks": 721,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 588,
-      "forks": 3324,
+      "forks": 3325,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "5b9503454380afd7e9bbf9e59d81b4dae4828843241e50904d487de2efec4f06",
-  "generatedAt": "2026-11-21T07:18:18.265Z"
+  "fingerprint": "c2809c1fc47cdf6225cdc8d6e0b1c6ec9a6710bc038cea93e0ec099aacb584ff",
+  "generatedAt": "2026-11-21T07:48:01.126Z"
 }
