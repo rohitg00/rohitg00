@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7752,
+    "followers": 7753,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131258,
+    "ownedStars": 131261,
     "commits": 7165,
     "pullRequests": 1899,
     "issues": 298,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 539,
-      "measuredValue": 7752,
+      "position": 538,
+      "measuredValue": 7753,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 235,
-      "measuredValue": 79759,
+      "position": 236,
+      "measuredValue": 79762,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79759,
-      "forks": 14250,
+      "stars": 79762,
+      "forks": 14251,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17695,
+      "ecosystemStars": 17696,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17695,
+          "stars": 17696,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ba80e499365e9a83a20af20ad45b9cb4bd5eb05e01efd70c1cb845ae4430bb05",
-  "generatedAt": "2026-11-21T22:48:14.828Z"
+  "fingerprint": "66463ebe1a5b3f6ef1fbc009e5a1b99f1b5cc0e7ff588c6321ba952ba197592f",
+  "generatedAt": "2026-11-21T23:18:05.220Z"
 }
