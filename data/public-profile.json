@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7752,
+    "followers": 7751,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131217,
+    "ownedStars": 131219,
     "commits": 7165,
     "pullRequests": 1899,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 538,
-      "measuredValue": 7752,
+      "measuredValue": 7751,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79723,
+      "measuredValue": 79725,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79723,
+      "stars": 79725,
       "forks": 14243,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -343,12 +343,12 @@
       "url": "https://github.com/docker",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
       "mergedPullRequests": 2,
-      "ecosystemStars": 588,
+      "ecosystemStars": 589,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "docker/mcp-registry",
-          "stars": 588,
+          "stars": 589,
           "url": "https://github.com/docker/mcp-registry"
         }
       ],
@@ -489,8 +489,8 @@
     {
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
-      "stars": 588,
-      "forks": 3334,
+      "stars": 589,
+      "forks": 3335,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "f4f3c1a6a82032e4e175756de2d1010694fe4a8b1df61544aaccce1031b478e5",
-  "generatedAt": "2026-11-21T12:48:09.012Z"
+  "fingerprint": "7fd81e09c88dfb9a6379ee9b79bebd77189048760056b89e480759e748195241",
+  "generatedAt": "2026-11-21T13:17:59.734Z"
 }
