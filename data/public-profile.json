@@ -18,7 +18,7 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 538,
+      "position": 539,
       "measuredValue": 7752,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3354,
+      "forks": 3355,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "f0cf0ae571d7db414c4b93e1c00f206e4e9c5e3e5c4e7df1ec31b681cde3d916",
-  "generatedAt": "2026-11-21T21:18:31.036Z"
+  "fingerprint": "34e1f7e03c0507276d0a7f58831312661420f775fc7936f7a50f7e31fa5b3761",
+  "generatedAt": "2026-11-21T21:48:10.350Z"
 }
