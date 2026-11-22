@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7762,
+    "followers": 7763,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131367,
+    "ownedStars": 131369,
     "commits": 7165,
     "pullRequests": 1898,
     "issues": 298,
@@ -19,7 +19,7 @@
   "ranking": {
     "followerWorld": {
       "position": 537,
-      "measuredValue": 7762,
+      "measuredValue": 7763,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 79847,
-      "forks": 14278,
+      "forks": 14276,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30536,
+      "stars": 30537,
       "forks": 2718,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -260,7 +260,7 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2858,
+      "stars": 2859,
       "forks": 1127,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17698,
+      "ecosystemStars": 17699,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17698,
+          "stars": 17699,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -517,7 +517,7 @@
       "shipping": 100,
       "collaboration": 90.3,
       "maintenance": 100,
-      "community": 97.2
+      "community": 97.3
     },
     "model": {
       "version": "1.0.0",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6547bf48e1e3bdef942271b6abbb01139ed04ed3fade9605a398950135abb216",
-  "generatedAt": "2026-11-22T21:17:56.956Z"
+  "fingerprint": "27019d95e87df2345ff8fd5e863b758e4e2143afbac6d2db382f9d0818df3c65",
+  "generatedAt": "2026-11-22T21:47:59.857Z"
 }
