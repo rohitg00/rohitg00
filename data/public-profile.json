@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131366,
+    "ownedStars": 131367,
     "commits": 7165,
     "pullRequests": 1898,
     "issues": 298,
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30535,
+      "stars": 30536,
       "forks": 2718,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5432,
+      "ecosystemStars": 5433,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5432,
+          "stars": 5433,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "983c6fca2e42606bb9ab7b1ba25f473b38defeaf39eabb5762ca06a371eba024",
-  "generatedAt": "2026-11-22T20:47:48.128Z"
+  "fingerprint": "6547bf48e1e3bdef942271b6abbb01139ed04ed3fade9605a398950135abb216",
+  "generatedAt": "2026-11-22T21:17:56.956Z"
 }
