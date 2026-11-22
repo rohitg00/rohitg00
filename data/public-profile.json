@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131287,
+    "ownedStars": 131289,
     "commits": 7165,
     "pullRequests": 1898,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79781,
+      "measuredValue": 79783,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79781,
+      "stars": 79783,
       "forks": 14259,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2858,
-      "forks": 1124,
+      "forks": 1125,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "3f8d00ef64acb64fe59d8b02eb94d6517af49fef81f3a79334c643a6bc85136f",
-  "generatedAt": "2026-11-22T04:48:07.772Z"
+  "fingerprint": "28850895b523a0d496a3a01fec0f632c542327d04dab6e24fba9c4e3798abb8a",
+  "generatedAt": "2026-11-22T05:18:48.801Z"
 }
