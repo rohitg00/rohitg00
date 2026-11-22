@@ -7,14 +7,14 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131266,
+    "ownedStars": 131269,
     "commits": 7165,
-    "pullRequests": 1899,
+    "pullRequests": 1898,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-21",
-    "windowEnd": "2026-11-21"
+    "windowStart": "2025-11-22",
+    "windowEnd": "2026-11-22"
   },
   "ranking": {
     "followerWorld": {
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79765,
+      "measuredValue": 79768,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79765,
-      "forks": 14251,
+      "stars": 79768,
+      "forks": 14253,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -287,7 +287,7 @@
       "nameWithOwner": "rohitg00/DevOps_Books",
       "url": "https://github.com/rohitg00/DevOps_Books",
       "stars": 2159,
-      "forks": 1241,
+      "forks": 1242,
       "updatedAt": "2025-05-29T16:02:36Z",
       "createdAt": "2022-05-24T10:22:56Z",
       "languages": []
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "704ed3b451085676787313f11a130f3a6fe76c2ec790d22808da8ed559923fbe",
-  "generatedAt": "2026-11-21T23:47:46.432Z"
+  "fingerprint": "ba2e586c2e8ac518c125336afe1146d8835acb58e51b5b1df6f143c13d75415d",
+  "generatedAt": "2026-11-22T00:40:05.539Z"
 }
