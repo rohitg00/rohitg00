@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 79768,
-      "forks": 14253,
+      "forks": 14254,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ba2e586c2e8ac518c125336afe1146d8835acb58e51b5b1df6f143c13d75415d",
-  "generatedAt": "2026-11-22T00:40:05.539Z"
+  "fingerprint": "6b55019b484f49600e498e0e47f8c531f623d4727f4a0070d4cf6f7c7158f2df",
+  "generatedAt": "2026-11-22T00:54:59.502Z"
 }
