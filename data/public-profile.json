@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7765,
+    "followers": 7767,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131451,
+    "ownedStars": 131473,
     "commits": 7173,
     "pullRequests": 1899,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 537,
-      "measuredValue": 7765,
+      "measuredValue": 7767,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 234,
-      "measuredValue": 79913,
+      "position": 233,
+      "measuredValue": 79934,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79913,
-      "forks": 14292,
+      "stars": 79934,
+      "forks": 14295,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30547,
+      "stars": 30549,
       "forks": 2718,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19085,
+      "ecosystemStars": 19086,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18937,
+          "stars": 18938,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18937,
+      "stars": 18938,
       "forks": 1273,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3409,
+      "forks": 3417,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "dafa2bb7f1c868a040a2d39d104a3cf5a27131ad245e6dc08a33b005ae34fd9a",
-  "generatedAt": "2026-11-23T15:18:46.656Z"
+  "fingerprint": "2d07115a20988e2eb8056d79fbcb430ac7b1ecf9b353a1c5d1cf0657c9ce1ffb",
+  "generatedAt": "2026-11-23T18:48:07.128Z"
 }
