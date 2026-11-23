@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131432,
+    "ownedStars": 131437,
     "commits": 7165,
     "pullRequests": 1898,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 79900,
+      "measuredValue": 79904,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79900,
+      "stars": 79904,
       "forks": 14288,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -189,7 +189,7 @@
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30543,
-      "forks": 2716,
+      "forks": 2715,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4136,
+      "ecosystemStars": 4138,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4136,
+          "stars": 4138,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -445,7 +445,7 @@
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
       "stars": 18937,
-      "forks": 1274,
+      "forks": 1273,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4136,
+      "stars": 4138,
       "forks": 726,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3396,
+      "forks": 3398,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "d6dfd927bc75fae0f86e2fd256def917509510cb88b75c099164951e061e4280",
-  "generatedAt": "2026-11-23T11:17:54.632Z"
+  "fingerprint": "a6668d28051907d68c53c27166f6b9f10452b2a4286ef41e43df2a236053b34a",
+  "generatedAt": "2026-11-23T11:47:50.588Z"
 }
