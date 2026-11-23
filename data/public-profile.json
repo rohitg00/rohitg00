@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131418,
+    "ownedStars": 131422,
     "commits": 7165,
     "pullRequests": 1898,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 235,
-      "measuredValue": 79889,
+      "measuredValue": 79892,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79889,
+      "stars": 79892,
       "forks": 14288,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -235,7 +235,7 @@
       "nameWithOwner": "rohitg00/pro-workflow",
       "url": "https://github.com/rohitg00/pro-workflow",
       "stars": 2968,
-      "forks": 300,
+      "forks": 301,
       "updatedAt": "2026-09-29T10:12:13Z",
       "createdAt": "2026-02-01T19:47:29Z",
       "languages": [
@@ -260,8 +260,8 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2860,
-      "forks": 1127,
+      "stars": 2861,
+      "forks": 1128,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17702,
+      "ecosystemStars": 17703,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17702,
+          "stars": 17703,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "534a3bd4b5c9d117fc49e7a37d41a23f0de5834c137a8593f7b43de4f9f68003",
-  "generatedAt": "2026-11-23T09:24:40.439Z"
+  "fingerprint": "3ed6b5603b4d8c2b3eb678e33ba4f2a7ba0e6095eddde5ed275075d17b22295b",
+  "generatedAt": "2026-11-23T09:48:05.851Z"
 }
