@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131385,
+    "ownedStars": 131388,
     "commits": 7165,
     "pullRequests": 1898,
     "issues": 298,
@@ -24,8 +24,8 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 234,
-      "measuredValue": 79862,
+      "position": 235,
+      "measuredValue": 79864,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79862,
-      "forks": 14279,
+      "stars": 79864,
+      "forks": 14281,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -260,8 +260,8 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2859,
-      "forks": 1126,
+      "stars": 2860,
+      "forks": 1127,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3389,
+      "forks": 3390,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "4c1a435dff2984e5861abc24a9e34f700d7e688555f7a777e6541c85e09516d1",
-  "generatedAt": "2026-11-23T02:48:05.463Z"
+  "fingerprint": "54237c9f043472ebc5691916daf20ff1d7e3ec0b6c5a2b70de128289c187d173",
+  "generatedAt": "2026-11-23T03:23:24.038Z"
 }
