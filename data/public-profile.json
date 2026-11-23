@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131401,
+    "ownedStars": 131403,
     "commits": 7165,
     "pullRequests": 1898,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 79875,
+      "measuredValue": 79877,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79875,
+      "stars": 79877,
       "forks": 14284,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4136,
-      "forks": 724,
+      "forks": 725,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "b36d8ce736634f1a718ef3b3e5ff4aeb2a10199e9e082da1fccc025d4526cabc",
-  "generatedAt": "2026-11-23T06:58:20.142Z"
+  "fingerprint": "b9640d890abef00df9f33727f3b60c1c718de14dc330cfb12b3c42c6f4d9a845",
+  "generatedAt": "2026-11-23T07:21:34.661Z"
 }
