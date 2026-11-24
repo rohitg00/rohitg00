@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7771,
+    "followers": 7772,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131546,
+    "ownedStars": 131552,
     "commits": 7173,
     "pullRequests": 1899,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 535,
-      "measuredValue": 7771,
+      "measuredValue": 7772,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 233,
-      "measuredValue": 79988,
+      "measuredValue": 79994,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79988,
+      "stars": 79994,
       "forks": 14295,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2862,
-      "forks": 1129,
+      "forks": 1130,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17710,
+      "ecosystemStars": 17712,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17710,
+          "stars": 17712,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3440,
+      "forks": 3442,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "93c9385def2188b59a72ccc4b14cbe32bceb22061ce8cf1acc6e6d6775a4a6d7",
-  "generatedAt": "2026-11-24T10:18:07.399Z"
+  "fingerprint": "effc1d65f22fa8a2822e1311de799e0ebbc6c3af6c9423f290fe090aefb4cbb5",
+  "generatedAt": "2026-11-24T10:48:11.369Z"
 }
