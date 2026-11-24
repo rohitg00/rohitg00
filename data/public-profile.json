@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131585,
+    "ownedStars": 131594,
     "commits": 7173,
     "pullRequests": 1899,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 233,
-      "measuredValue": 80018,
+      "measuredValue": 80027,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80018,
-      "forks": 14303,
+      "stars": 80027,
+      "forks": 14302,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17715,
+      "ecosystemStars": 17716,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17715,
+          "stars": 17716,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5436,
+      "ecosystemStars": 5437,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5436,
+          "stars": 5437,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3452,
+      "forks": 3455,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "69c57365383ce54f61f74d6c004bd63a1cf2aab90656353adad8ccc12e85341d",
-  "generatedAt": "2026-11-24T17:17:53.588Z"
+  "fingerprint": "957d8a0447034aea29ac1a6e6382541ce650011ffa9f62f173f80fa912cb0eb0",
+  "generatedAt": "2026-11-24T18:48:14.337Z"
 }
