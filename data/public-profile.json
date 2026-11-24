@@ -7,14 +7,14 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131490,
+    "ownedStars": 131491,
     "commits": 7173,
     "pullRequests": 1899,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-23",
-    "windowEnd": "2026-11-23"
+    "windowStart": "2025-11-24",
+    "windowEnd": "2026-11-24"
   },
   "ranking": {
     "followerWorld": {
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 233,
-      "measuredValue": 79948,
+      "measuredValue": 79949,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 79948,
+      "stars": 79949,
       "forks": 14296,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30551,
+      "stars": 30550,
       "forks": 2719,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2861,
-      "forks": 1128,
+      "forks": 1129,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17704,
+      "ecosystemStars": 17705,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17704,
+          "stars": 17705,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3424,
+      "forks": 3425,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "cc0dce92879cd14ada413307c825449ee5ab65bf3b6caf234f16cb2d9681225d",
-  "generatedAt": "2026-11-23T23:48:01.938Z"
+  "fingerprint": "bb98697e48d470ec06b25e9c18116ea2fc9eed794b8ffdebd8210c9f1168c1de",
+  "generatedAt": "2026-11-24T00:35:38.161Z"
 }
