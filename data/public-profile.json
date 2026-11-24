@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7773,
+    "followers": 7774,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131560,
+    "ownedStars": 131564,
     "commits": 7173,
     "pullRequests": 1899,
     "issues": 298,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 535,
-      "measuredValue": 7773,
+      "position": 534,
+      "measuredValue": 7774,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 233,
-      "measuredValue": 80001,
+      "measuredValue": 80005,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80001,
-      "forks": 14296,
+      "stars": 80005,
+      "forks": 14297,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17712,
+      "ecosystemStars": 17713,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17712,
+          "stars": 17713,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5434,
+      "ecosystemStars": 5436,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5434,
+          "stars": 5436,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3442,
+      "forks": 3449,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "b12830faeef178d238cdf043e3b8e03c996920b3918e53a525b518abbd942d52",
-  "generatedAt": "2026-11-24T12:25:20.548Z"
+  "fingerprint": "ae5eaef33c279caacc5ef2167c9183ad290bfef6aeb1a1fd3b50db4fe47591b1",
+  "generatedAt": "2026-11-24T13:48:13.415Z"
 }
