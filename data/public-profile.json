@@ -24,7 +24,7 @@
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 233,
+      "position": 234,
       "measuredValue": 80123,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3505,
+      "forks": 3506,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "9acf4eed98a27ef1d1a7d3d7f0ef81fe34e3cf571c2f93d2f92b9ec82d569438",
-  "generatedAt": "2026-11-25T20:18:09.244Z"
+  "fingerprint": "ac678ee6ad71fd5b9bf9e5240d38237c8b22f75ff3746d8a159697ecd400caf3",
+  "generatedAt": "2026-11-25T20:48:10.598Z"
 }
