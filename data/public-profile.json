@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7778,
+    "followers": 7777,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131689,
+    "ownedStars": 131697,
     "commits": 7173,
-    "pullRequests": 1898,
+    "pullRequests": 1899,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 535,
-      "measuredValue": 7778,
+      "measuredValue": 7777,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 233,
-      "measuredValue": 80098,
+      "position": 234,
+      "measuredValue": 80104,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,9 +87,9 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80098,
-      "forks": 14315,
-      "updatedAt": "2026-11-18T10:49:29Z",
+      "stars": 80104,
+      "forks": 14316,
+      "updatedAt": "2026-11-25T13:07:04Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30582,
+      "stars": 30583,
       "forks": 2723,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5441,
+      "ecosystemStars": 5443,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5441,
+          "stars": 5443,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4139,
+      "ecosystemStars": 4140,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4139,
+          "stars": 4140,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19096,
+      "ecosystemStars": 19100,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18947,
+          "stars": 18951,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18947,
+      "stars": 18951,
       "forks": 1271,
       "language": {
         "name": "Rust",
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4139,
+      "stars": 4140,
       "forks": 727,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3488,
+      "forks": 3494,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "9fa9ea98526191d864a52219d8c8d1a2080609a1d67029dd4b13c8349e31772b",
-  "generatedAt": "2026-11-25T11:48:23.170Z"
+  "fingerprint": "2fbc2c205361ad89cedbbd20fe62e6b3f86860a744a64b9ef4351fa9186f64cb",
+  "generatedAt": "2026-11-25T13:48:38.371Z"
 }
