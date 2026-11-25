@@ -3,15 +3,15 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7777,
+    "followers": 7778,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131697,
-    "commits": 7173,
-    "pullRequests": 1899,
+    "ownedStars": 131707,
+    "commits": 7175,
+    "pullRequests": 1900,
     "issues": 298,
-    "reviews": 88,
+    "reviews": 89,
     "windowDays": 365,
     "windowStart": "2025-11-25",
     "windowEnd": "2026-11-25"
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 535,
-      "measuredValue": 7777,
+      "measuredValue": 7778,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 80104,
+      "measuredValue": 80113,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,20 +87,20 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80104,
-      "forks": 14316,
-      "updatedAt": "2026-11-25T13:07:04Z",
+      "stars": 80113,
+      "forks": 14317,
+      "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "percentage": 38.1
+          "percentage": 37.9
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "percentage": 26.8
+          "percentage": 27
         },
         {
           "name": "TypeScript",
@@ -188,8 +188,8 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30583,
-      "forks": 2723,
+      "stars": 30585,
+      "forks": 2724,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2866,
-      "forks": 1134,
+      "forks": 1133,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -394,17 +394,17 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19100,
+      "ecosystemStars": 19104,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18951,
+          "stars": 18954,
           "url": "https://github.com/iii-hq/iii"
         },
         {
           "nameWithOwner": "iii-hq/workers",
-          "stars": 115,
+          "stars": 116,
           "url": "https://github.com/iii-hq/workers"
         },
         {
@@ -429,7 +429,7 @@
     {
       "nameWithOwner": "iii-hq/workers",
       "url": "https://github.com/iii-hq/workers",
-      "stars": 115,
+      "stars": 116,
       "forks": 31,
       "language": {
         "name": "Rust",
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18951,
+      "stars": 18954,
       "forks": 1271,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3494,
+      "forks": 3498,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "2fbc2c205361ad89cedbbd20fe62e6b3f86860a744a64b9ef4351fa9186f64cb",
-  "generatedAt": "2026-11-25T13:48:38.371Z"
+  "fingerprint": "4ebbb11da1ba17ac307c5df6c9dccc6a0d18fbcff250b4aeb8a5e75a47981fc3",
+  "generatedAt": "2026-11-25T15:48:10.393Z"
 }
