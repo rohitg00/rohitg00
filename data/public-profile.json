@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131720,
+    "ownedStars": 131721,
     "commits": 7175,
     "pullRequests": 1900,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 233,
-      "measuredValue": 80122,
+      "measuredValue": 80123,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80122,
-      "forks": 14322,
+      "stars": 80123,
+      "forks": 14324,
       "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30587,
+      "stars": 30588,
       "forks": 2726,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3503,
+      "forks": 3505,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "4ab7dc0f1771e89af32beb4496c6a0c5510f9b36416eb238bb81f9dcf245a98f",
-  "generatedAt": "2026-11-25T19:48:10.227Z"
+  "fingerprint": "9acf4eed98a27ef1d1a7d3d7f0ef81fe34e3cf571c2f93d2f92b9ec82d569438",
+  "generatedAt": "2026-11-25T20:18:09.244Z"
 }
