@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 80123,
-      "forks": 14325,
+      "forks": 14326,
       "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -394,17 +394,17 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19109,
+      "ecosystemStars": 19112,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18959,
+          "stars": 18961,
           "url": "https://github.com/iii-hq/iii"
         },
         {
           "nameWithOwner": "iii-hq/workers",
-          "stars": 116,
+          "stars": 117,
           "url": "https://github.com/iii-hq/workers"
         },
         {
@@ -429,7 +429,7 @@
     {
       "nameWithOwner": "iii-hq/workers",
       "url": "https://github.com/iii-hq/workers",
-      "stars": 116,
+      "stars": 117,
       "forks": 33,
       "language": {
         "name": "Rust",
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18959,
+      "stars": 18961,
       "forks": 1274,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "7a840ff85268d9f43218881b484a16c0fedfd57d33276c89ee596b88b067dda9",
-  "generatedAt": "2026-11-25T21:48:25.989Z"
+  "fingerprint": "0dff88f810f7fe4f84cddc2086932ea50cd1323ee79428f0025c51132ccabebc",
+  "generatedAt": "2026-11-25T22:18:09.564Z"
 }
