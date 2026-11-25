@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7776,
+    "followers": 7777,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131668,
+    "ownedStars": 131671,
     "commits": 7173,
     "pullRequests": 1898,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 535,
-      "measuredValue": 7776,
+      "measuredValue": 7777,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 233,
-      "measuredValue": 80082,
+      "measuredValue": 80084,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80082,
+      "stars": 80084,
       "forks": 14313,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30579,
+      "stars": 30580,
       "forks": 2723,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17726,
+      "ecosystemStars": 17727,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17726,
+          "stars": 17727,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -316,12 +316,12 @@
       "url": "https://github.com/cncf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13455738?v=4",
       "mergedPullRequests": 5,
-      "ecosystemStars": 10503,
+      "ecosystemStars": 10504,
       "repositoryCount": 3,
       "repositories": [
         {
           "nameWithOwner": "cncf/landscape",
-          "stars": 10044,
+          "stars": 10045,
           "url": "https://github.com/cncf/landscape"
         },
         {
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a4dfa88eb9cd5fb7adef18e5f7190cd75826f8a5d91c40f04219798993d1f9bf",
-  "generatedAt": "2026-11-25T08:22:54.839Z"
+  "fingerprint": "5a077b27c8a9112e493e2f77ae0be12b1b543f69889c13d844b14ddbefea6f5c",
+  "generatedAt": "2026-11-25T08:48:08.607Z"
 }
