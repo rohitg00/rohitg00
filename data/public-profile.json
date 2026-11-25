@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7777,
+    "followers": 7778,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131680,
+    "ownedStars": 131682,
     "commits": 7173,
     "pullRequests": 1898,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 535,
-      "measuredValue": 7777,
+      "measuredValue": 7778,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 233,
-      "measuredValue": 80087,
+      "measuredValue": 80089,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80087,
+      "stars": 80089,
       "forks": 14316,
       "updatedAt": "2026-11-18T10:49:29Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19089,
+      "ecosystemStars": 19090,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18941,
+          "stars": 18942,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18941,
+      "stars": 18942,
       "forks": 1271,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "570b3786a499ef8d4ee5ea7e5849ca0b5671076f302d65f7a96c6d1278658fa5",
-  "generatedAt": "2026-11-25T09:47:57.572Z"
+  "fingerprint": "3a6fb53bf53d0ba17a8d607a0724f46f113383ab6bef787e61213dbd43112f54",
+  "generatedAt": "2026-11-25T10:19:49.853Z"
 }
