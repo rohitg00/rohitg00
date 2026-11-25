@@ -18,7 +18,7 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 534,
+      "position": 535,
       "measuredValue": 7780,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
@@ -88,7 +88,7 @@
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "stars": 80123,
-      "forks": 14324,
+      "forks": 14325,
       "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2868,
-      "forks": 1134,
+      "forks": 1135,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17727,
+      "ecosystemStars": 17728,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17727,
+          "stars": 17728,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4141,
+      "ecosystemStars": 4143,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4141,
+          "stars": 4143,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -394,12 +394,12 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19108,
+      "ecosystemStars": 19109,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18958,
+          "stars": 18959,
           "url": "https://github.com/iii-hq/iii"
         },
         {
@@ -430,7 +430,7 @@
       "nameWithOwner": "iii-hq/workers",
       "url": "https://github.com/iii-hq/workers",
       "stars": 116,
-      "forks": 32,
+      "forks": 33,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -444,8 +444,8 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18958,
-      "forks": 1272,
+      "stars": 18959,
+      "forks": 1274,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4141,
+      "stars": 4143,
       "forks": 726,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3506,
+      "forks": 3508,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "ac678ee6ad71fd5b9bf9e5240d38237c8b22f75ff3746d8a159697ecd400caf3",
-  "generatedAt": "2026-11-25T20:48:10.598Z"
+  "fingerprint": "7a840ff85268d9f43218881b484a16c0fedfd57d33276c89ee596b88b067dda9",
+  "generatedAt": "2026-11-25T21:48:25.989Z"
 }
