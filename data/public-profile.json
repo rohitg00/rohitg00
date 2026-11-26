@@ -3,29 +3,29 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7780,
+    "followers": 7782,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 131724,
-    "commits": 7175,
+    "ownedStars": 131734,
+    "commits": 7165,
     "pullRequests": 1900,
     "issues": 298,
-    "reviews": 89,
+    "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-25",
-    "windowEnd": "2026-11-25"
+    "windowStart": "2025-11-26",
+    "windowEnd": "2026-11-26"
   },
   "ranking": {
     "followerWorld": {
       "position": 535,
-      "measuredValue": 7780,
+      "measuredValue": 7782,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 234,
-      "measuredValue": 80125,
+      "measuredValue": 80129,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80125,
-      "forks": 14327,
+      "stars": 80129,
+      "forks": 14329,
       "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30589,
+      "stars": 30594,
       "forks": 2726,
       "updatedAt": "2026-11-18T12:15:33Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17728,
+      "ecosystemStars": 17729,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17728,
+          "stars": 17729,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -360,12 +360,12 @@
       "url": "https://github.com/kubernetes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13629408?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 5445,
+      "ecosystemStars": 5447,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "kubernetes/website",
-          "stars": 5445,
+          "stars": 5447,
           "url": "https://github.com/kubernetes/website"
         }
       ],
@@ -394,17 +394,17 @@
       "url": "https://github.com/iii-hq",
       "avatarUrl": "https://avatars.githubusercontent.com/u/258310054?v=4",
       "mergedPullRequests": 413,
-      "ecosystemStars": 19115,
+      "ecosystemStars": 19125,
       "repositoryCount": 5,
       "repositories": [
         {
           "nameWithOwner": "iii-hq/iii",
-          "stars": 18964,
+          "stars": 18973,
           "url": "https://github.com/iii-hq/iii"
         },
         {
           "nameWithOwner": "iii-hq/workers",
-          "stars": 117,
+          "stars": 118,
           "url": "https://github.com/iii-hq/workers"
         },
         {
@@ -429,7 +429,7 @@
     {
       "nameWithOwner": "iii-hq/workers",
       "url": "https://github.com/iii-hq/workers",
-      "stars": 117,
+      "stars": 118,
       "forks": 33,
       "language": {
         "name": "Rust",
@@ -444,7 +444,7 @@
     {
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
-      "stars": 18964,
+      "stars": 18973,
       "forks": 1274,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3511,
+      "forks": 3512,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "0d0c590d7a45aff813a4fcca02c31c798b65e42193e23026e80abe8a8401b006",
-  "generatedAt": "2026-11-25T23:17:47.377Z"
+  "fingerprint": "4d32fed56e21a9acb7282a1312c221554069e272b2f138970d0db3f32b8343bc",
+  "generatedAt": "2026-11-26T00:37:45.674Z"
 }
