@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7811,
+    "followers": 7812,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132238,
+    "ownedStars": 132244,
     "commits": 7159,
     "pullRequests": 1897,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 533,
-      "measuredValue": 7811,
+      "measuredValue": 7812,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80611,
+      "measuredValue": 80617,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80611,
+      "stars": 80617,
       "forks": 14449,
       "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17740,
+      "ecosystemStars": 17741,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17740,
+          "stars": 17741,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "3b3069a4e7ab88a2cb0657753f54a17b52b1c5fb3be7853dde1d84c392683550",
-  "generatedAt": "2026-11-27T00:54:19.036Z"
+  "fingerprint": "cb00af57100f0ab185878bdb102a7ef6fc86f1aafd39d8807b1472e61fa366a0",
+  "generatedAt": "2026-11-27T01:19:26.759Z"
 }
