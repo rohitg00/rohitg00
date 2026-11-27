@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132532,
+    "ownedStars": 132540,
     "commits": 7162,
     "pullRequests": 1899,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80871,
+      "measuredValue": 80876,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80871,
-      "forks": 14500,
+      "stars": 80876,
+      "forks": 14501,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4155,
+      "ecosystemStars": 4156,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4155,
+          "stars": 4156,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4155,
+      "stars": 4156,
       "forks": 734,
       "language": {
         "name": "Rust",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 590,
-      "forks": 3588,
+      "forks": 3589,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6b5a04e787e87087ca8031bbfc2b77decdf68e4eda1a328cb81f2fdd66673c61",
-  "generatedAt": "2026-11-27T22:48:04.062Z"
+  "fingerprint": "c53ab0df1be2acf3a51e0c492d795fa61849b12820d64f53dcfa72000ce57993",
+  "generatedAt": "2026-11-27T23:18:40.092Z"
 }
