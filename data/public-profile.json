@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7819,
+    "followers": 7820,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132391,
+    "ownedStars": 132401,
     "commits": 7159,
     "pullRequests": 1898,
     "issues": 298,
@@ -18,14 +18,14 @@
   },
   "ranking": {
     "followerWorld": {
-      "position": 534,
-      "measuredValue": 7819,
+      "position": 533,
+      "measuredValue": 7820,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 230,
-      "measuredValue": 80753,
+      "position": 229,
+      "measuredValue": 80762,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80753,
-      "forks": 14481,
+      "stars": 80762,
+      "forks": 14484,
       "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30615,
+      "stars": 30616,
       "forks": 2728,
       "updatedAt": "2026-11-26T05:25:19Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "166a3e5ef267d08f78793b26d4eb3b2ed6de91a582fcf06656a3836d54383525",
-  "generatedAt": "2026-11-27T11:48:08.836Z"
+  "fingerprint": "457360e40ef1fb594f51f5e304b47d11a10bc5a7f6661ac9c140e1bd0838a370",
+  "generatedAt": "2026-11-27T12:24:50.433Z"
 }
