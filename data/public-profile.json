@@ -3,13 +3,13 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7822,
+    "followers": 7824,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132481,
-    "commits": 7160,
-    "pullRequests": 1898,
+    "ownedStars": 132486,
+    "commits": 7162,
+    "pullRequests": 1899,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 533,
-      "measuredValue": 7822,
+      "measuredValue": 7824,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80827,
+      "measuredValue": 80831,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80827,
-      "forks": 14495,
+      "stars": 80831,
+      "forks": 14497,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,15 +188,15 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30629,
-      "forks": 2729,
-      "updatedAt": "2026-11-27T17:12:55Z",
+      "stars": 30630,
+      "forks": 2728,
+      "updatedAt": "2026-11-27T17:32:09Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 82.2
+          "percentage": 82.3
         },
         {
           "name": "JavaScript",
@@ -206,7 +206,7 @@
         {
           "name": "HTML",
           "color": "#e34c26",
-          "percentage": 6.6
+          "percentage": 6.5
         },
         {
           "name": "Python",
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4155,
-      "forks": 733,
+      "forks": 734,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 590,
-      "forks": 3584,
+      "forks": 3585,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "640c69d835786f91add2750416af33722565ce4cb5d025574e65db60aa64bda3",
-  "generatedAt": "2026-11-27T17:18:07.452Z"
+  "fingerprint": "451bf3d1a23f3ee96709bbaecc1e7baa07a17e5fc7956234b3a46b5929299e46",
+  "generatedAt": "2026-11-27T18:20:28.245Z"
 }
