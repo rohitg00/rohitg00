@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132506,
+    "ownedStars": 132510,
     "commits": 7162,
     "pullRequests": 1899,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80848,
+      "measuredValue": 80852,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80848,
+      "stars": 80852,
       "forks": 14497,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -189,7 +189,7 @@
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30632,
-      "forks": 2728,
+      "forks": 2729,
       "updatedAt": "2026-11-27T17:32:09Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "bd0cc69bf372db5159c3ec29d3973dc38bc67e8af2a875702f7a8172db599017",
-  "generatedAt": "2026-11-27T20:18:22.402Z"
+  "fingerprint": "873a5479f17a1889dfdaa79795e4600437edc60076eeab18bae1af6b0ea243cd",
+  "generatedAt": "2026-11-27T20:48:23.362Z"
 }
