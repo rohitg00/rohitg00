@@ -3,29 +3,29 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7810,
+    "followers": 7811,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132230,
-    "commits": 7165,
-    "pullRequests": 1900,
+    "ownedStars": 132237,
+    "commits": 7159,
+    "pullRequests": 1897,
     "issues": 298,
     "reviews": 88,
     "windowDays": 365,
-    "windowStart": "2025-11-26",
-    "windowEnd": "2026-11-26"
+    "windowStart": "2025-11-27",
+    "windowEnd": "2026-11-27"
   },
   "ranking": {
     "followerWorld": {
       "position": 533,
-      "measuredValue": 7810,
+      "measuredValue": 7811,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80603,
+      "measuredValue": 80610,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80603,
-      "forks": 14445,
+      "stars": 80610,
+      "forks": 14446,
       "updatedAt": "2026-11-25T15:31:09Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -475,7 +475,7 @@
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
       "stars": 4148,
-      "forks": 732,
+      "forks": 733,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 589,
-      "forks": 3559,
+      "forks": 3560,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a108450da5120d1a70352993ce2b4dce6be56c3ab0808424e4cea7d5ce933bb3",
-  "generatedAt": "2026-11-26T23:47:46.041Z"
+  "fingerprint": "64d48adb54a49cd670b603387591bbd016394669f9ac7e1c6a33504db5c15adf",
+  "generatedAt": "2026-11-27T00:37:55.254Z"
 }
