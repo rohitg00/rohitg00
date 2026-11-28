@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132564,
+    "ownedStars": 132572,
     "commits": 7156,
     "pullRequests": 1896,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80896,
+      "measuredValue": 80903,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80896,
-      "forks": 14510,
+      "stars": 80903,
+      "forks": 14511,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30637,
+      "stars": 30639,
       "forks": 2729,
       "updatedAt": "2026-11-27T17:32:09Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2876,
-      "forks": 1141,
+      "forks": 1142,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4157,
+      "ecosystemStars": 4156,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4157,
+          "stars": 4156,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4157,
+      "stars": 4156,
       "forks": 734,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "51c8c694f3bfc37746c3de57b00aa260770507a16d3bf1118e7281978e1444cd",
-  "generatedAt": "2026-11-28T03:48:32.184Z"
+  "fingerprint": "518a7366f6842c959d5b00dea02a2bdc427e48e1f67daddeda68a3caba9b6e60",
+  "generatedAt": "2026-11-28T04:47:40.833Z"
 }
