@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7828,
+    "followers": 7829,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132598,
+    "ownedStars": 132604,
     "commits": 7156,
     "pullRequests": 1896,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 534,
-      "measuredValue": 7828,
+      "measuredValue": 7829,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80923,
+      "measuredValue": 80928,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80923,
-      "forks": 14514,
+      "stars": 80928,
+      "forks": 14515,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -260,8 +260,8 @@
       "name": "awesome-claude-code-toolkit",
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "stars": 2877,
-      "forks": 1143,
+      "stars": 2878,
+      "forks": 1144,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "76f446753ea966ec8874ddb0c3cbf302040f70297f878321792a7ac065d3d28e",
-  "generatedAt": "2026-11-28T08:20:42.706Z"
+  "fingerprint": "8c4742ab9c0e916c19e9f683f944addcec800763f5c6d7bbf2ce519675f1a162",
+  "generatedAt": "2026-11-28T08:48:11.738Z"
 }
