@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132665,
-    "commits": 7187,
-    "pullRequests": 1904,
+    "ownedStars": 132671,
+    "commits": 7203,
+    "pullRequests": 1905,
     "issues": 298,
     "reviews": 87,
     "windowDays": 365,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 228,
-      "measuredValue": 80983,
+      "measuredValue": 80988,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80983,
+      "stars": 80988,
       "forks": 14527,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -190,7 +190,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30653,
       "forks": 2730,
-      "updatedAt": "2026-11-28T17:09:11Z",
+      "updatedAt": "2026-11-28T19:08:13Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -445,7 +445,7 @@
       "nameWithOwner": "iii-hq/iii",
       "url": "https://github.com/iii-hq/iii",
       "stars": 18975,
-      "forks": 1274,
+      "forks": 1273,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 590,
-      "forks": 3606,
+      "forks": 3605,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6e6a8bf29288e5eb45369f8a0cfebcf8143bea93b1fc9f47dc85ac2ca5c18520",
-  "generatedAt": "2026-11-28T18:19:32.464Z"
+  "fingerprint": "9b7beca2bfa2e02ceeae511257b1ef272ad21fa4744bee2a73142d78fe8e5f4b",
+  "generatedAt": "2026-11-28T19:18:12.659Z"
 }
