@@ -7,9 +7,9 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132638,
+    "ownedStars": 132640,
     "commits": 7161,
-    "pullRequests": 1898,
+    "pullRequests": 1900,
     "issues": 298,
     "reviews": 87,
     "windowDays": 365,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80956,
+      "measuredValue": 80958,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80956,
+      "stars": 80958,
       "forks": 14521,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -188,15 +188,15 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30652,
+      "stars": 30653,
       "forks": 2731,
-      "updatedAt": "2026-11-28T12:59:04Z",
+      "updatedAt": "2026-11-28T13:35:03Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "percentage": 82.3
+          "percentage": 82.4
         },
         {
           "name": "JavaScript",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "6cd2af465045841ef5f1b04d153945168893be1909469bbcbc59202788fa61c7",
-  "generatedAt": "2026-11-28T13:17:55.879Z"
+  "fingerprint": "36b6f7bf7a6cc0d87d219f09e7854b3c989b2e3cc26afca6f333be540bef1400",
+  "generatedAt": "2026-11-28T13:48:21.246Z"
 }
