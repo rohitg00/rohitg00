@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7826,
+    "followers": 7827,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132550,
+    "ownedStars": 132555,
     "commits": 7156,
     "pullRequests": 1896,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 534,
-      "measuredValue": 7826,
+      "measuredValue": 7827,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
-      "position": 229,
-      "measuredValue": 80885,
+      "position": 230,
+      "measuredValue": 80889,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,8 +87,8 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80885,
-      "forks": 14507,
+      "stars": 80889,
+      "forks": 14508,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
       "languages": [
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30634,
+      "stars": 30635,
       "forks": 2729,
       "updatedAt": "2026-11-27T17:32:09Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 590,
-      "forks": 3594,
+      "forks": 3596,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "3c0ce8d24632afbc5d624b0ebc7ea5ca65f8df7de35b632c4ce3d14c4722680b",
-  "generatedAt": "2026-11-28T01:47:35.284Z"
+  "fingerprint": "d7b56ae60624fbe1373388af882ed9deab1727637398d6f0ce7d89a0f05802de",
+  "generatedAt": "2026-11-28T02:22:29.663Z"
 }
