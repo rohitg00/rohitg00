@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132548,
+    "ownedStars": 132550,
     "commits": 7156,
     "pullRequests": 1896,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80883,
+      "measuredValue": 80885,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80883,
+      "stars": 80885,
       "forks": 14507,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17750,
+      "ecosystemStars": 17752,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17750,
+          "stars": 17752,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -490,7 +490,7 @@
       "nameWithOwner": "docker/mcp-registry",
       "url": "https://github.com/docker/mcp-registry",
       "stars": 590,
-      "forks": 3592,
+      "forks": 3594,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "729a548b1d006c128ea541a703bdf947673da36031ba48699b9e9333b0953a92",
-  "generatedAt": "2026-11-28T00:53:28.467Z"
+  "fingerprint": "3c0ce8d24632afbc5d624b0ebc7ea5ca65f8df7de35b632c4ce3d14c4722680b",
+  "generatedAt": "2026-11-28T01:47:35.284Z"
 }
