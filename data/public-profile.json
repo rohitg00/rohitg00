@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7828,
+    "followers": 7827,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132577,
+    "ownedStars": 132581,
     "commits": 7156,
     "pullRequests": 1896,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 534,
-      "measuredValue": 7828,
+      "measuredValue": 7827,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 229,
-      "measuredValue": 80907,
+      "measuredValue": 80910,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80907,
+      "stars": 80910,
       "forks": 14511,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -188,7 +188,7 @@
       "name": "agentmemory",
       "nameWithOwner": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 30639,
+      "stars": 30640,
       "forks": 2730,
       "updatedAt": "2026-11-27T17:32:09Z",
       "createdAt": "2026-02-25T07:32:52Z",
@@ -261,7 +261,7 @@
       "nameWithOwner": "rohitg00/awesome-claude-code-toolkit",
       "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
       "stars": 2877,
-      "forks": 1142,
+      "forks": 1143,
       "updatedAt": "2026-05-12T07:18:34Z",
       "createdAt": "2026-02-04T21:09:33Z",
       "languages": [
@@ -299,12 +299,12 @@
       "url": "https://github.com/microsoft",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 17752,
+      "ecosystemStars": 17753,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "microsoft/mcp-for-beginners",
-          "stars": 17752,
+          "stars": 17753,
           "url": "https://github.com/microsoft/mcp-for-beginners"
         }
       ],
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "0d8a59fa3db4a998de79300c4ac331d4df1391d897b25410f331bf02e76444e2",
-  "generatedAt": "2026-11-28T05:48:14.439Z"
+  "fingerprint": "36de3290dc14abb79d001381a968d26ce0b30d19f3dceabcd34b6a75b5e7d44c",
+  "generatedAt": "2026-11-28T06:25:39.167Z"
 }
