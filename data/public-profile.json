@@ -3,11 +3,11 @@
   "profile": {
     "login": "rohitg00",
     "name": "Rohit Ghumare",
-    "followers": 7831,
+    "followers": 7832,
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132662,
+    "ownedStars": 132665,
     "commits": 7187,
     "pullRequests": 1904,
     "issues": 298,
@@ -19,13 +19,13 @@
   "ranking": {
     "followerWorld": {
       "position": 534,
-      "measuredValue": 7831,
+      "measuredValue": 7832,
       "source": "GitHub Search",
       "method": "users with more followers plus one"
     },
     "topProjectWorld": {
       "position": 228,
-      "measuredValue": 80980,
+      "measuredValue": 80983,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80980,
+      "stars": 80983,
       "forks": 14527,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "a5ce0545eca5870a020910d493061cc2b884f98882a2d853637df8dd9cc8b943",
-  "generatedAt": "2026-11-28T17:47:55.808Z"
+  "fingerprint": "6e6a8bf29288e5eb45369f8a0cfebcf8143bea93b1fc9f47dc85ac2ca5c18520",
+  "generatedAt": "2026-11-28T18:19:32.464Z"
 }
