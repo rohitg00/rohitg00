@@ -7,7 +7,7 @@
     "originalRepositoryCount": 104
   },
   "metrics": {
-    "ownedStars": 132652,
+    "ownedStars": 132654,
     "commits": 7187,
     "pullRequests": 1903,
     "issues": 298,
@@ -25,7 +25,7 @@
     },
     "topProjectWorld": {
       "position": 228,
-      "measuredValue": 80969,
+      "measuredValue": 80971,
       "repository": "rohitg00/ai-engineering-from-scratch",
       "source": "GitHub Search",
       "method": "repositories with more stars plus one"
@@ -87,7 +87,7 @@
       "name": "ai-engineering-from-scratch",
       "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 80969,
+      "stars": 80971,
       "forks": 14526,
       "updatedAt": "2026-11-27T14:19:38Z",
       "createdAt": "2026-03-18T18:38:02Z",
@@ -190,7 +190,7 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "stars": 30653,
       "forks": 2731,
-      "updatedAt": "2026-11-28T15:00:01Z",
+      "updatedAt": "2026-11-28T16:43:23Z",
       "createdAt": "2026-02-25T07:32:52Z",
       "languages": [
         {
@@ -377,12 +377,12 @@
       "url": "https://github.com/modelcontextprotocol",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "mergedPullRequests": 1,
-      "ecosystemStars": 4157,
+      "ecosystemStars": 4158,
       "repositoryCount": 1,
       "repositories": [
         {
           "nameWithOwner": "modelcontextprotocol/rust-sdk",
-          "stars": 4157,
+          "stars": 4158,
           "url": "https://github.com/modelcontextprotocol/rust-sdk"
         }
       ],
@@ -474,7 +474,7 @@
     {
       "nameWithOwner": "modelcontextprotocol/rust-sdk",
       "url": "https://github.com/modelcontextprotocol/rust-sdk",
-      "stars": 4157,
+      "stars": 4158,
       "forks": 734,
       "language": {
         "name": "Rust",
@@ -556,6 +556,6 @@
     "titlesAndCommitMessagesIncluded": false,
     "policy": "Every contribution row must belong to a repository whose GitHub visibility is PUBLIC."
   },
-  "fingerprint": "18eddb8b1093e39a45abf5c2408912f1968d615fdb7a71707a69623dac0af6b0",
-  "generatedAt": "2026-11-28T16:18:18.711Z"
+  "fingerprint": "6e4a78a5c6dd6a7febe150ba7c316863bfe11472bf807ace2a68d6a42308f14c",
+  "generatedAt": "2026-11-28T16:48:11.818Z"
 }
